@@ -1,0 +1,481 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    color: #111;
+}
+
+/*_______________ Header _________________ */
+.header {
+    background: #ffffff;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(16, 24, 40, 0.06);
+    position: relative;
+    z-index: 20;
+}
+
+.header-inner {
+    width: 96%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.header-inner-left,
+.header-inner-center,
+.header-inner-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-inner-left {
+    gap: 12px;
+    flex: 0 0 auto;
+}
+
+.header-inner-center {
+    flex: 1 1 480px;
+    justify-content: center;
+}
+
+.header-inner-right {
+    gap: 8px;
+    flex: 0 0 auto;
+}
+
+/* Logo */
+.logo {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #1a90ff, #1a99ee);
+    color: #fff;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.site-title {
+    margin-left: 10px;
+    font-weight: 700;
+    color: #111;
+    font-size: 15px;
+}
+
+/* Search */
+.search-wrapper {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    max-width: 720px;
+    background: #fff;
+    border-radius: 999px;
+    padding: 8px 12px;
+    border: 1px solid #eef0f2;
+    box-shadow: 0 4px 18px rgba(16, 24, 40, 0.04);
+}
+
+.search input[type="search"] {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 8px 10px;
+    flex: 1;
+    background: transparent;
+}
+
+.search-btn {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    padding: 6px 8px;
+    cursor: pointer;
+    color: #6b7280;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 9px 14px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.btn-ghost {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    color: #111827;
+}
+
+.btn-primary {
+    background: linear-gradient(180deg, #3d98ff, #6c80ff);
+    color: #fff;
+    box-shadow: 0 6px 18px rgba(255, 106, 0, 0.12);
+    border: none;
+}
+
+/*_______________ Main _________________ */
+main {
+    display: flex;
+    min-height: calc(70vh - 80px);
+    padding: 24px 0;
+}
+
+.banner {
+    width: 100%;
+    height: 180px;
+    /* Chiều cao cố định */
+    background: linear-gradient(90deg, #1a90ff, #005db2);
+    /* Gradient xanh thương hiệu */
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    /* Cách xa phần khóa học bên dưới */
+    box-shadow: 0 8px 20px rgba(26, 144, 255, 0.2);
+}
+
+/* Main left */
+.main-left {
+    width: 5%;
+    /* Bạn có thể cân nhắc tăng lên 7-8% nếu nút bị bé */
+    min-width: 90px;
+    /* Đảm bảo nút không bị bóp quá nhỏ trên màn hình vừa */
+    height: 100%;
+    position: sticky;
+    top: 100px;
+    /* Cách header xa hơn chút cho thoáng */
+    /* Màu nền trong suốt nhẹ */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Tạo bóng mờ xung quanh */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    height: fit-content;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 15px;
+    z-index: 10;
+}
+
+.main-left-btn button {
+    position: sticky;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+
+}
+
+.main-left-btn .btn-home {
+    background-color: #ffffff;
+    color: #1a90ff;
+    /* Chữ màu xanh */
+    font-weight: 600;
+    /* Tạo điểm nhấn riêng cho nút đang chọn */
+    border: 1px solid rgba(26, 144, 255, 0.3);
+    /* Viền xanh nhạt */
+    box-shadow: 0 4px 12px rgba(26, 144, 255, 0.15);
+    /* Bóng xanh nhẹ */
+}
+
+.main-left-btn button:hover {
+    transform: translateY(-5px);
+    /* Nút bay lên 5px */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    /* Bóng đậm hơn */
+    color: #1a90ff;
+    /* Đổi màu chữ và icon sang xanh thương hiệu */
+}
+
+.main-left-btn button i {
+    font-size: 22px;
+    margin-bottom: 6px;
+    transition: transform 0.3s ease;
+}
+
+.main-left-btn button p {
+    font-weight: 500;
+    margin: 0;
+    font-size: 13px;
+}
+
+/* Hiệu ứng phụ: Khi hover thì icon rung nhẹ */
+.main-left-btn button:hover i {
+    transform: scale(1.1);
+}
+
+/* Main right */
+.main-right {
+    width: 90%;
+    margin: 0 auto;
+    /* Đổi nền thành màu xám xanh rất nhạt hiện đại (thay vì gradient cũ) */
+    background-color: #f3f6f9;
+    padding: 30px;
+    border-radius: 24px;
+    /* Bo góc mềm mại hơn */
+    /* Loại bỏ viền đen mờ cũ, giữ lại sự sạch sẽ */
+    box-shadow: none;
+    border: none;
+}
+
+/* Danh sách khóa học */
+.list_khoa_hoc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    /* Tăng khoảng cách giữa các thẻ cho thoáng */
+    justify-content: flex-start;
+    /* Căn trái đẹp hơn */
+}
+
+/* Từng thẻ khóa học */
+.card_box {
+    /* Tính toán chiều rộng để chia đều 3 hoặc 4 cột tùy màn hình */
+    width: 100%;
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #ffffff;
+    /* Nền trắng tuyệt đối */
+    border-radius: 16px;
+    /* Bo góc mượt */
+
+    /* Bóng đổ rất nhẹ lúc bình thường */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.02);
+
+    overflow: hidden;
+    /* Để ảnh không bị trêm ra ngoài góc bo */
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    margin: 0;
+    /* Bỏ margin cũ vì đã dùng gap ở cha */
+}
+
+/* Hiệu ứng khi di chuột vào thẻ */
+.card_box:hover {
+    transform: translateY(-8px);
+    /* Bay lên cao hơn */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+    /* Bóng đậm tạo chiều sâu */
+}
+
+
+.info a {
+    text-decoration: none;
+    color: #292929;
+    font-size: 17px !important;
+    /* Ghi đè size cũ */
+    font-weight: 700;
+    line-height: 1.4;
+
+    /* Giới hạn tiêu đề 2 dòng, dài quá hiện dấu ... */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: left;
+    /* Căn trái dễ đọc hơn căn giữa */
+    justify-content: flex-start;
+}
+
+.info {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info a:hover {
+    color: #1a90ff;
+    /* Hover vào tên thì đổi màu xanh */
+}
+
+.btoom {
+    display: flex;
+    justify-content: space-between;
+    /* Đẩy 2 icon ra 2 bên */
+    color: #757575;
+    font-size: 13px;
+    margin-top: 8px;
+    padding-top: 12px;
+    border-top: 1px solid #f0f0f0;
+    /* Đường gạch ngang mờ ngăn cách */
+}
+
+.btoom p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    /* Khoảng cách giữa icon và số */
+}
+
+.c1 h2 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-left: 4px solid #1a90ff;
+    /* Thêm gạch xanh bên trái tiêu đề */
+    padding-left: 12px;
+    line-height: 1;
+}
+
+.c1 {
+    margin-bottom: 50px;
+    /* Các hàng cách xa nhau ra */
+}
+
+/* Ảnh khóa học */
+.img_card {
+    width: 100%;
+    height: 160px;
+    /* Tăng chiều cao ảnh một chút */
+    object-fit: cover;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    /* Thêm hiệu ứng zoom nhẹ ảnh khi hover */
+    transition: transform 0.5s ease;
+}
+
+.card_box:hover .img_card {
+    transform: scale(1.05);
+}
+
+
+/*_______________Footer____________________ */
+.footer {
+    background-color: #0f1114;
+    /* deep dark */
+    color: #cbd5db;
+    padding: 48px 0 24px;
+    font-size: 15px;
+}
+
+.footer-inner {
+    width: 96%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 320px 1fr 1fr 1fr 1fr;
+    gap: 36px;
+    align-items: start;
+}
+
+.footer-inner h4 {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0 0 14px 0;
+    letter-spacing: 0.2px;
+}
+
+.footer-inner p {
+    color: #99a0a6;
+    line-height: 1.6;
+    margin: 0 0 10px 0;
+}
+
+.footer-inner ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-inner ul li {
+    margin: 8px 0;
+}
+
+.footer-inner a {
+    color: #bfc8cd;
+    text-decoration: none;
+}
+
+.footer-inner a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer-inner>div:first-child .logo-badge {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 8px
+}
+
+.footer-inner .social {
+    display: flex;
+    gap: 12px;
+    align-items: center
+}
+
+.footer-inner .social a {
+    display: inline-flex;
+    width: 38px;
+    height: 38px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: #151617;
+    color: #fff;
+    text-decoration: none
+}
+
+.footer-bottom {
+    width: 96%;
+    margin: 18px auto 0;
+    padding-top: 18px;
+    border-top: 1px solid rgba(255, 255, 255, 0.04);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #8f98a0;
+    font-size: 14px;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
