@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     elseif ($password !== $repass) $errors[] = 'Mật khẩu nhập lại không khớp';
 
     if (!empty($errors)) {
-        $error = implode(' | ', $errors);
+        $error = implode(' & ', $errors);
     } else {
         // kiểm tra trùng
         $sql = "SELECT id FROM users WHERE username = '$username' OR email = '$email' LIMIT 1";
@@ -64,30 +64,60 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link rel="stylesheet" href="../css/login-module.css">
 </head>
 <body>
-    <form id="register-form" method="POST" autocomplete="off" onsubmit="handleRegister(event)">
+    <form id="register-form"
+          method="POST"
+          autocomplete="off"
+          onsubmit="handleRegister(event)"
+          class="auth-form auth-form--register">
+
         <div class="logo">
-        <img width="75px" height="75px" src="../image/logo36Tech.png" />
-    </div>
+            <img width="75" height="75" src="../image/logo36Tech.png" alt="36Tech" />
+        </div>
+
         <h3>Đăng ký tài khoản mới</h3>
-        <label for="fullname">Họ và tên</label>
-        <input id="fullname" name="fullname" placeholder="Họ và tên" type="text">
 
-        <label for="email">Email</label>
-        <input id="email" name="email" placeholder="Email" type="email">
+        <!-- Họ tên + Email: 2 cột -->
+        <div class="form-row">
+            <div class="form-field">
+                <label for="fullname">Họ và tên</label>
+                <input id="fullname" name="fullname"
+                       placeholder="Họ và tên" type="text">
+            </div>
 
+            <div class="form-field">
+                <label for="email">Email</label>
+                <input id="email" name="email"
+                       placeholder="Email" type="email">
+            </div>
+        </div>
+
+        <!-- Tên tài khoản: 1 hàng full -->
         <label for="username">Tên tài khoản</label>
-        <input id="username" name="username" placeholder="Tên tài khoản" type="text">
+        <input id="username" name="username"
+               placeholder="Tên tài khoản" type="text">
 
-        <label for="password">Mật khẩu</label>
-        <input id="password" name="password" placeholder="Mật khẩu" type="password">
+        <!-- Mật khẩu + Nhập lại: 2 cột -->
+        <div class="form-row">
+            <div class="form-field">
+                <label for="password">Mật khẩu</label>
+                <input id="password" name="password"
+                       placeholder="Mật khẩu" type="password">
+            </div>
 
-        <label for="repass">Nhập lại mật khẩu</label>
-        <input id="repass" name="repass" placeholder="Nhập lại mật khẩu" type="password">
+            <div class="form-field">
+                <label for="repass">Nhập lại mật khẩu</label>
+                <input id="repass" name="repass"
+                       placeholder="Nhập lại mật khẩu" type="password">
+            </div>
+        </div>
 
-        <button type="submit" id="registerBtn" class="login-button" onclick="handleRegister(event)">Đăng ký</button>
-        <p style="margin-top:18px; text-align:center;">
+        <button type="submit" id="registerBtn" class="login-button">
+            Đăng ký
+        </button>
+
+        <div class="form-footer">
             Đã có tài khoản? <a href="login.php">Đăng nhập</a>
-        </p>
+        </div>
     </form>
     <script src="../js/register.js"></script>
     <script>

@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 session_start();
 require 'connect.php';
 
@@ -49,9 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $redirect = true;
             }
         }
-        $find->close();
     }
-    $conn->close();
 }
 ?>
 <!DOCTYPE html>
@@ -63,27 +63,35 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <link rel="stylesheet" href="../css/login-module.css">
 </head>
 <body>
-  <form id="loginForm" method="POST" onsubmit="handleLogin(event)">
-    <div class="logo">
-        <img width="75px" height="75px" src="../image/logo36Tech.png" />
-    </div>
-    <h3>Đăng nhập vào 36Tech</h3>
-    <p class="warn">Mỗi người nên sử dụng riêng một tài khoản, tài khoản nhiều người sử dụng chung sẽ bị khoá !</p>
-    <label for="username">Tên đăng nhập</label>
-    <input id="username" name="username" type="text" placeholder="Email, SĐT hoặc username">
-    <label for="password">Mật khẩu</label>
-    <input id="password" name="password" type="password" placeholder="Mật khẩu">
-    <button type="submit" id="loginBtn" class="login-button">Đăng nhập</button>
-    <p style="margin-top:18px; text-align:center;">
-      Chưa có tài khoản? <a href="register.php">Đăng ký</a>
-    </p>
-    <p style="margin-top:5px; text-align:center;">
-      <a href="forgot.php">Quên mật khẩu</a>
-    </p>
-    <div>
-        <p class="terms">Việc bạn tiếp tục sử dụng trang web này đồng nghĩa bạn đồng ý với <a href="#">điều khoản sử dụng</a> của chúng tôi. </p>
-    </div>
-  </form>
+    <form id="login-form" method="POST" autocomplete="off" onsubmit="handleLogin(event)" class="auth-form auth-form--login">
+        <div class="logo">
+            <img width="75" height="75" src="../image/logo36Tech.png" alt="36Tech" />
+        </div>
+
+        <h3>Đăng nhập vào 36Tech</h3>
+        <p class="warn">
+            Mỗi người nên sử dụng riêng một tài khoản, tài khoản nhiều người sử dụng chung sẽ bị khoá!
+        </p>
+
+        <label for="username">Tên đăng nhập</label>
+        <input id="username" name="username" placeholder="Email, SĐT hoặc username" type="text">
+        <label for="password">Mật khẩu</label>
+        <input id="password" name="password" placeholder="Mật khẩu" type="password">
+        <button type="submit" class="login-button" id="loginBtn">
+            Đăng nhập
+        </button>
+
+        <div class="form-footer">
+            <a href="forgot.php">Quên mật khẩu?</a>
+            <span> · </span>
+            <span>Chưa có tài khoản? <a href="register.php">Đăng ký</a></span>
+        </div>
+
+        <p class="terms">
+            Việc bạn tiếp tục sử dụng trang web này đồng nghĩa bạn đồng ý với
+            <a href="#">điều khoản sử dụng</a> của chúng tôi.
+        </p>
+    </form>
     <script src="../js/login.js"></script>
     <script>
         // Hiển thị notification nếu có lỗi từ PHP

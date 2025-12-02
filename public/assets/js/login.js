@@ -23,7 +23,7 @@ function handleLogin(e) {
     return showToast("error", msg.join(" "));
   }
 
-  document.getElementById("loginForm").submit();
+  document.getElementById("login-form").submit();
 }
 
 function showToast(type, msg) {

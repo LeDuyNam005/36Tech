@@ -1,5 +1,6 @@
 /* Import Font */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
 *,
 :before,
 :after {
@@ -11,128 +12,193 @@
 
 body {
   font-family: "Quicksand", sans-serif;
-  background-color: #242424;
+  background: linear-gradient(135deg, #f0f9fb 0%, #e8f4f8 100%);
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  color: #222;
 }
 
 form {
-  width: 450px;
-  background-color: rgba(255, 255, 255, 0.13);
-  border-radius: 17px;
-  backdrop-filter: blur(5px);
-  border: 5px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 40px rgba(129, 236, 174, 0.6);
-  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #85daff;
+  box-shadow: 0 8px 32px rgba(33, 128, 141, 0.12);
+  padding: 0px 20px;
+  margin: auto;
 }
 
 form p {
-  color: rgb(255, 81, 81);
+  color: #ff5555;
   text-align: center;
   padding: 5px 10px;
+  font-size: 14px;
 }
 
 form * {
-  font-family: "Quicksand", sans-serif;
-  color: #ffffff;
-  letter-spacing: 1px;
+  color: #333;
+  letter-spacing: 0.5px;
   outline: none;
   border: none;
 }
+
 .logo {
   padding: 10px;
+  text-align: center;
 }
+
 .logo img {
   border-radius: 10px;
-  display: flex;
-  justify-self: center;
 }
+
 .warn {
-  color: rgb(255, 81, 81);
-  text-align: center;
+  color: #ff5555;
   font-size: 14px;
+  text-align: center;
+  margin: 0 0 18px;
+  line-height: 1.5;
 }
+
 .terms {
-  color: white;
+  color: #666;
   text-align: center;
   font-size: 12px;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 15px;
+  line-height: 1.6;
 }
+
 form h3 {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 600;
-  line-height: 50px;
+  line-height: 40px;
   text-align: center;
+  color: #218080;
+  margin-bottom: 16px;
 }
 
 label {
   display: block;
-  margin-top: 30px;
-  font-size: 15px;
-  font-weight: 800;
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
 }
 
 input {
-  margin-top: 10px;
-  padding: 11px 15px;
+  margin-top: 8px;
+  padding: 12px 14px;
   font-size: 14px;
-  font-weight: 300;
-  background: rgba(0, 0, 0, 0.22);
-  border: none;
-  border-radius: 5px;
+  font-weight: 400;
+  background: #f5f9fb;
+  border: 1.5px solid #86dbff;
+  border-radius: 8px;
   width: 100%;
+  color: #333;
+  transition: all 0.3s ease;
 }
 
-::placeholder {
-  color: #e5e5e5;
-}
-
-.social-text {
-  font-size: 18px;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  color: white;
+input::placeholder {
+  color: #999;
 }
 
 input:hover {
-  background: #434343;
-  transition: all 0.5s ease;
+  background: #f0f7fa;
+  border-color: #a8dce6;
 }
 
 input:focus {
-  box-shadow: 0px 2px 2px #0000002b, 0px 5px 10px #00000036;
-  background: #434343;
+  background: #ffffff;
+  border-color: #218080;
+  box-shadow: 0 0 0 3px rgba(33, 128, 141, 0.1);
 }
 
 .login-button {
-  margin-top: 40px;
+  margin-top: 30px;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 button {
-  background: rgba(0, 0, 0, 0.22);
+  background: linear-gradient(135deg, #218080 0%, #2a9a96 100%);
   border: none;
-  color: #e1e1e1;
-  padding: 11px 15px;
-  font-size: 18px;
+  color: #ffffff;
+  padding: 12px 16px;
+  font-size: 16px;
   font-weight: 600;
   cursor: pointer;
+  border-radius: 8px;
+  width: 100%;
+  transition: all 0.3s ease;
 }
 
 button:hover {
-  background: #629677;
-  transition: all 0.5s ease;
+  background: linear-gradient(135deg, #1a6b6a 0%, #218080 100%);
+  box-shadow: 0 4px 12px rgba(33, 128, 141, 0.3);
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(0);
 }
 
 button:focus {
-  box-shadow: 0px 0px 0px 2px rgba(103, 110, 103, 0.71);
-  background: #629677;
+  box-shadow: 0 0 0 3px rgba(33, 128, 141, 0.2);
+}
+
+.auth-form {
+  width: min(480px, 90%);
+  padding: 24px 24px 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.form-field {
+  flex: 1;
+}
+
+.form-footer {
+  margin-top: 18px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.form-footer a {
+  color: #218080;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.form-footer a:hover {
+  text-decoration: underline;
+}
+
+.help-text {
+  font-size: 13px;
+  color: #666;
+  margin-top: 8px;
+  text-align: center;
+}
+
+/* mobile */
+@media (max-width: 576px) {
+  .auth-form,
+  .auth-form--register,
+  .auth-form--forgot {
+    width: 92%;
+    padding: 20px 16px 18px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 0;
+  }
 }
 
 /* ==== NOTIFICATION ==== */
@@ -141,15 +207,15 @@ button:focus {
   top: 20px;
   right: 20px;
   max-width: 320px;
-  padding: 10px 14px;
-  border-radius: 6px;
+  padding: 12px 16px;
+  border-radius: 8px;
   font-family: "Quicksand", sans-serif;
   font-size: 14px;
   font-weight: 500;
   color: #ffffff;
-  background: rgba(0, 0, 0, 0.85);
-  border: 1px solid rgba(255, 255, 255, 0.6);
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+  background: rgba(33, 33, 33, 0.9);
+  border: 1px solid rgba(33, 128, 141, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   opacity: 0;
   transform: translateY(-10px);
   transition: all 0.25s ease;
@@ -162,26 +228,35 @@ button:focus {
 }
 
 .simple-toast.success {
-  border-color: #81ecae;
-  background: rgba(129, 236, 174, 0.15);
+  border-color: #218080;
+  background: rgba(33, 128, 141, 0.95);
 }
 
 .simple-toast.error {
-  border-color: rgb(255, 81, 81);
-  background: rgba(255, 81, 81, 0.15);
+  border-color: #ff5555;
+  background: rgba(255, 85, 85, 0.95);
 }
 
 .simple-toast.info {
   border-color: #4da6ff;
-  background: rgba(77, 166, 255, 0.15);
+  background: rgba(77, 166, 255, 0.95);
 }
 
 .simple-toast.warning {
   border-color: #f5a623;
-  background: rgba(245, 166, 35, 0.15);
+  background: rgba(245, 166, 35, 0.95);
 }
 
 @media (max-width: 480px) {
+  form {
+    width: 90%;
+    padding: 30px 20px;
+  }
+
+  form h3 {
+    font-size: 24px;
+  }
+
   .simple-toast {
     right: 5%;
     left: 5%;

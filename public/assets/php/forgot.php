@@ -62,25 +62,29 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 
 <body>
-    <form id="forgot-form" method="POST" autocomplete="off" onsubmit="handleForgot(event)">
+    <form id="forgot-form" method="POST" autocomplete="off" onsubmit="handleForgot(event)" class="auth-form auth-form--forgot">
         <div class="logo">
-        <img width="75px" height="75px" src="../image/logo36Tech.png" />
-    </div>
+            <img width="75" height="75" src="../image/logo36Tech.png" alt="36Tech" />
+        </div>
         <h3>Quên mật khẩu</h3>
         <label for="username">Tên đăng nhập</label>
         <input id="username" name="username" type="text" placeholder="Tên đăng nhập">
-        
         <label for="email">Email đăng ký</label>
         <input id="email" name="email" type="email" placeholder="Email đã đăng ký">
-        
         <label for="newpw">Mật khẩu mới</label>
         <input id="newpw" name="newpw" type="password" placeholder="Mật khẩu mới">
-        
-        <button type="button" id="forgotBtn" class="login-button" onclick="handleForgot(event)">Đổi mật khẩu</button>
-        <p style="margin-top:18px; text-align:center;">
-            <a href="login.php">Đăng nhập</a> <a>|</a> <a href="register.php" style="color:lightgreen;">Đăng ký</a>
-        </p>
+        <button type="button" id="forgotBtn" class="login-button" onclick="handleForgot(event)"> Đổi mật khẩu
+        </button>
+
+        <div class="form-footer">
+            <a href="login.php">Đăng nhập</a>
+            <span> · </span>
+            <a href="register.php">Đăng ký</a>
+        </div>
+
     </form>
+</body>
+
     <script src="../js/forgot.js"></script>
     <script>
         // có lỗi -> hiển thị thông báo
