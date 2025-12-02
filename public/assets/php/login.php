@@ -1,6 +1,4 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
 session_start();
 require 'connect.php';
 
@@ -14,46 +12,49 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Validation
     $errors = [];
 
-    if (empty($username)) 
+    if (empty($username))
         $errors[] = 'Nhập tên tài khoản';
-    if (empty($password)) 
+    if (empty($password))
         $errors[] = 'Nhập mật khẩu';
-    if (!empty($errors)) {
-        $error = implode(' | ', $errors);
-    } else {
-        // Tìm user
-        $find = $conn->prepare("SELECT id, fullname, email, password FROM users WHERE username = ? LIMIT 1");
-        $find->bind_param("s", $username);
-        $find->execute();
-        $result = $find->get_result();
 
-        if ($result->num_rows === 0) {
+    if (!empty($errors)) {
+        $error = implode(' & ', $errors);
+    } else {
+        $sql = "SELECT id, fullname, email, password FROM users WHERE username = '$username' LIMIT 1";
+        $result = mysqli_query($conn, $sql);
+
+        if (!$result || mysqli_num_rows($result) === 0) {
             $error = 'Tên đăng nhập hoặc mật khẩu không đúng!';
         } else {
-            $user = $result->fetch_assoc();
+            $user = mysqli_fetch_assoc($result);
 
-            // kiểm tra pw
+            // kiểm tra pw đã hash
             if (!password_verify($password, $user['password'])) {
                 $error = 'Tên đăng nhập hoặc mật khẩu không đúng!';
             } else {
-                // đăng nhập thành công -> lưu session
-                $_SESSION['user_id'] = $user['id'];
-                $_SESSION['username'] = $username;
-                $_SESSION['fullname'] = $user['fullname'];
-                $_SESSION['email'] = $user['email'];
+                // lưu session
+                $_SESSION['user_id']    = $user['id'];
+                $_SESSION['username']   = $username;
+                $_SESSION['fullname']   = $user['fullname'];
+                $_SESSION['email']      = $user['email'];
                 $_SESSION['login_time'] = date('d/m/Y H:i:s');
 
                 // lưu cookie 5 phút
                 $token = bin2hex(random_bytes(16));
-                setcookie('auth_token', $token, time() + 5*60, '/', '', false, true);
-                setcookie('username', $username, time() + 5*60, '/', '', false, false);
-                $success = 'Đăng nhập thành công!';
+                setcookie('auth_token', $token, time() + 5 * 60, '/', '', false, true);
+                setcookie('username', $username, time() + 5 * 60, '/', '', false, false);
+                $success  = 'Đăng nhập thành công!';
                 $redirect = true;
             }
+        }
+
+        if ($result) {
+            mysqli_free_result($result);
         }
     }
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -74,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </p>
 
         <label for="username">Tên đăng nhập</label>
-        <input id="username" name="username" placeholder="Email, SĐT hoặc username" type="text">
+        <input id="username" name="username" placeholder="Username mà bạn đăng ký" type="text">
         <label for="password">Mật khẩu</label>
         <input id="password" name="password" placeholder="Mật khẩu" type="password">
         <button type="submit" class="login-button" id="loginBtn">

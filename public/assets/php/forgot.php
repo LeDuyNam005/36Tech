@@ -18,38 +18,38 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) $errors[] = 'Email không hợp lệ';
 
     if (empty($newpw)) $errors[] = 'Nhập mật khẩu mới';
-    else if (strlen($newpw) < 6) $errors[] = 'Mật khẩu mới ít nhất 6 ký tự';
+    else if (strlen($newpw) < 6)  $errors[] = 'Mật khẩu mới ít nhất 6 ký tự';
 
     if (!empty($errors)) {
-        $error = implode(' | ', $errors);
+        $error = implode(' & ', $errors);
     } else {
-        // tìm user
-        $find = $conn->prepare("SELECT id FROM users WHERE username = ? AND email = ? LIMIT 1");
-        $find->bind_param("ss", $username, $email);
-        $find->execute();
-        $result = $find->get_result();
+        // 1. Tìm user theo username + email
+        $sql = "SELECT id FROM users WHERE username = '$username' AND email = '$email'LIMIT 1";
+        $result = mysqli_query($conn, $sql);
 
-        if ($result->num_rows === 0) {
+        if (!$result || mysqli_num_rows($result) === 0) {
             $error = 'Tên đăng nhập hoặc email không đúng!';
         } else {
-            $user = $result->fetch_assoc();
-            // hash
+            $user = mysqli_fetch_assoc($result);
+            // hash pw mới
             $hashedPassword = password_hash($newpw, PASSWORD_BCRYPT);
-            // update pass
-            $update = $conn->prepare("UPDATE users SET password = ? WHERE id = ?");
-            $update->bind_param("si", $hashedPassword, $user['id']);
-            if ($update->execute()) {
-                $success = 'Đã đổi mật khẩu thành công! Vui lòng đăng nhập lại.';
+            // update pw
+            $sql_update = "UPDATE users SET password = '$hashedPassword' WHERE id = " . $user['id'] . "LIMIT 1";
+
+            if (mysqli_query($conn, $sql_update)) {
+                $success  = 'Đã đổi mật khẩu thành công! Vui lòng đăng nhập lại.';
                 $redirect = true;
             } else {
                 $error = 'Lỗi cập nhật mật khẩu!';
             }
-            $update->close();
         }
-        $find->close();
+
+        if ($result) {
+            mysqli_free_result($result);
+        }
     }
-    $conn->close();
 }
+?>
 ?>
 <!DOCTYPE html>
 <html lang="vi">
