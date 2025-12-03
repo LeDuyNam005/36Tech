@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap');
+
+.container_content_inside_card {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+}
+
+/* --- CỘT TRÁI: NỘI DUNG --- */
+.left_content_inside {
+    flex: 1;
+    min-width: 0;
+}
+
+.course-header {
+    margin-bottom: 30px;
+}
+
+.course-header h1 {
+    font-family: 'Poppins', sans-serif;
+    /* Font tiêu đề đậm */
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: #242424;
+    line-height: 1.4;
+}
+
+.course-desc {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.what-you-learn-box {
+    border: 1px solid #eef0f2;
+    padding: 24px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+.what-you-learn-box h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+
+.learn-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Chia 2 cột */
+    gap: 15px 30px;
+}
+
+.list_gt {
+    margin: 0;
+    padding: 0;
+}
+
+.list_gt li {
+    list-style: none;
+    font-size: 14px;
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 25px;
+    color: #444;
+}
+
+.list_gt li::before {
+    content: "✔";
+    color: #1a90ff;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Nội dung bài học  */
+.curriculum-section {
+    margin-bottom: 40px;
+}
+
+.course-stats {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #666;
+    font-weight: 500;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    background: #fff;
+    border: 1px solid #eef0f2;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+
+.accordion-item:hover {
+    border-color: #dbe0e6;
+}
+
+.list_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+    background-color: #fcfcfc;
+    cursor: pointer;
+    user-select: none;
+}
+
+.title-text {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Icon cộng/trừ màu XANH */
+.icon-toggle {
+    color: #1a90ff;
+    font-size: 14px;
+    width: 15px;
+}
+
+.lesson-count {
+    font-size: 13px;
+    color: #888;
+}
+
+.dropdown {
+    display: none;
+    /* Mặc định ẩn */
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+.dropdown li {
+    list-style: none;
+    padding: 12px 20px 12px 48px;
+    /* Thụt đầu dòng để so le với title */
+    border-top: 1px solid #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #444;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.dropdown li:hover {
+    background-color: #f9f9f9;
+    color: #1a90ff;
+    /* Hover chữ đổi màu xanh */
+}
+
+.dropdown li i {
+    color: #1a90ff;
+    /* Icon play màu xanh */
+    margin-right: 8px;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.dropdown li .time {
+    color: #999;
+    font-size: 12px;
+}
+
+/* Requirements */
+.requirements-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.list_req {
+    padding: 0;
+}
+
+.list_req li {
+    list-style: none;
+    margin-bottom: 10px;
+    color: #444;
+    font-size: 14px;
+}
+
+.list_req i {
+    color: #1a90ff;
+    /* Icon tích xanh */
+    margin-right: 10px;
+}
+
+/* --- CỘT PHẢI - khoá học --- */
+.right_content_wrapper {
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.course-card {
+    background: white;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    overflow: hidden;
+    position: sticky;
+    top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.course-img-wrapper {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    height: 170px;
+}
+
+.course-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.course-img-wrapper:hover img {
+    transform: scale(1.05);
+}
+
+.play-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.course-img-wrapper:hover .play-overlay {
+    opacity: 1;
+}
+
+.play-overlay i {
+    color: white;
+    font-size: 40px;
+    background: rgba(26, 144, 255, 0.9);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.price-tag {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a90ff;
+    margin-bottom: 16px;
+}
+
+.btn_buy {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 99px;
+    background: linear-gradient(180deg, #3d98ff, #6c80ff);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 4px 12px rgba(61, 152, 255, 0.3);
+    margin-bottom: 20px;
+}
+
+.btn_buy:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(61, 152, 255, 0.4);
+    filter: brightness(1.05);
+}
+
+.course-features {
+    padding: 0;
+    text-align: left;
+    margin-top: 10px;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 15px;
+}
+
+.course-features li {
+    list-style: none;
+    margin-bottom: 12px;
+    font-size: 13px;
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+.course-features li i {
+    width: 24px;
+    color: #333;
+    font-size: 14px;
+}
