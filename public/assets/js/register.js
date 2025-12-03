@@ -25,25 +25,21 @@ function validateRegisterForm() {
 
 function handleRegister(e) {
   if (e) e.preventDefault();
-
   const { valid, errors } = validateRegisterForm();
-
   if (!valid) {
     return showToast("error", errors.join(" | "));
   }
-
   document.getElementById("register-form").submit();
 }
 
 function showToast(type, msg) {
   const oldToast = document.querySelector(".simple-toast");
   if (oldToast) oldToast.remove();
-
   const t = document.createElement("div");
   t.className = `simple-toast ${type}`;
   t.textContent = msg;
   document.body.appendChild(t);
-
+  // timeout hiện/xoá thông báo
   setTimeout(() => {
     t.classList.add("show");
   }, 10);

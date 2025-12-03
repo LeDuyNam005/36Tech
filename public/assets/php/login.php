@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $token = bin2hex(random_bytes(16));
                 setcookie('auth_token', $token, time() + 5 * 60, '/', '', false, true);
                 setcookie('username', $username, time() + 5 * 60, '/', '', false, false);
-                $success  = 'Đăng nhập thành công!';
+                $success  = "Đăng nhập thành công! Xin chào " . $username;
                 $redirect = true;
             }
         }

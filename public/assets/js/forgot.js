@@ -11,7 +11,6 @@ function validateForgotForm() {
 
   if (!newpw) errors.push("Nhập mật khẩu mới");
   else if (newpw.length < 6) errors.push("Mật khẩu mới ít nhất 6 ký tự");
-
   return { valid: errors.length === 0, errors };
 }
 
@@ -35,7 +34,7 @@ function showToast(type, msg) {
   t.className = `simple-toast ${type}`;
   t.textContent = msg;
   document.body.appendChild(t);
-
+  // timeout chờ hiện/xoá thông báo
   setTimeout(() => {
     t.classList.add("show");
   }, 10);

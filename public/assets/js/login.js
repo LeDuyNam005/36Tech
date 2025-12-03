@@ -16,25 +16,22 @@ function validateForm() {
 
 function handleLogin(e) {
   e.preventDefault();
-
   const { user, pw, valid, msg } = validateForm();
-
   if (!valid) {
     return showToast("error", msg.join(" "));
   }
-
   document.getElementById("login-form").submit();
 }
 
 function showToast(type, msg) {
   const oldToast = document.querySelector(".simple-toast");
   if (oldToast) oldToast.remove();
-
+  // tạo thông báo
   const t = document.createElement("div");
   t.className = `simple-toast ${type}`;
   t.textContent = msg;
   document.body.appendChild(t);
-
+  // timeout chờ hiện/xoá thông báo
   setTimeout(() => {
     t.classList.add("show");
   }, 10);
