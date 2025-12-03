@@ -11,7 +11,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Validation
     $errors = [];
-
     if (empty($username))
         $errors[] = 'Nhập tên tài khoản';
     if (empty($password))
@@ -90,7 +89,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <p class="terms">
             Việc bạn tiếp tục sử dụng trang web này đồng nghĩa bạn đồng ý với
-            <a href="#">điều khoản sử dụng</a> của chúng tôi.
+            <a href="https://fullstack.edu.vn/terms">điều khoản sử dụng</a> của chúng tôi.
         </p>
     </form>
     <script src="../js/login.js"></script>
@@ -108,7 +107,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             window.addEventListener('DOMContentLoaded', function() {
                 showToast('success', '<?php echo addslashes($success); ?>');
                 setTimeout(() => {
-                    window.location.href = 'dashboard.php';
+                    window.location.href = '#';
                 }, 1500);
             });
         <?php endif; ?>

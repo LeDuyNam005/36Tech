@@ -20,7 +20,7 @@ function handleForgot(e) {
   }
   const { valid, errors } = validateForgotForm();
   if (!valid) {
-    return showToast("error", errors.join(" | "));
+    return showToast("error", errors.join(" & "));
   }
   document.getElementById("forgot-form").submit();
 }

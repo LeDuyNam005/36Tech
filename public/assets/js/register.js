@@ -27,7 +27,7 @@ function handleRegister(e) {
   if (e) e.preventDefault();
   const { valid, errors } = validateRegisterForm();
   if (!valid) {
-    return showToast("error", errors.join(" | "));
+    return showToast("error", errors.join(" & "));
   }
   document.getElementById("register-form").submit();
 }

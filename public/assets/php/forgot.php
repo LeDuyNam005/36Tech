@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $error = implode(' & ', $errors);
     } else {
         // 1. Tìm user theo username + email
-        $sql = "SELECT id FROM users WHERE username = '$username' AND email = '$email'LIMIT 1";
+        $sql = "SELECT id FROM users WHERE username = '$username' AND email = '$email' LIMIT 1";
         $result = mysqli_query($conn, $sql);
 
         if (!$result || mysqli_num_rows($result) === 0) {

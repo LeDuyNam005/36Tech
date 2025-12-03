@@ -64,50 +64,36 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link rel="stylesheet" href="../css/login-module.css">
 </head>
 <body>
-    <form id="register-form"
-          method="POST"
-          autocomplete="off"
-          onsubmit="handleRegister(event)"
-          class="auth-form auth-form--register">
-
+    <form id="register-form" method="POST" autocomplete="off" onsubmit="handleRegister(event)" class="auth-form auth-form--register">
         <div class="logo">
             <img width="75" height="75" src="../image/logo36Tech.png" alt="36Tech" />
         </div>
-
         <h3>Đăng ký tài khoản mới</h3>
-
-        <!-- Họ tên + Email: 2 cột -->
+        <!-- họ tên + email -->
         <div class="form-row">
             <div class="form-field">
                 <label for="fullname">Họ và tên</label>
-                <input id="fullname" name="fullname"
-                       placeholder="Họ và tên" type="text">
+                <input id="fullname" name="fullname" placeholder="Họ và tên" type="text">
             </div>
-
             <div class="form-field">
-                <label for="email">Email</label>
-                <input id="email" name="email"
-                       placeholder="Email" type="email">
+        <label for="username">Tên tài khoản</label>
+        <input id="username" name="username" placeholder="Tên tài khoản" type="text">
             </div>
         </div>
 
-        <!-- Tên tài khoản: 1 hàng full -->
-        <label for="username">Tên tài khoản</label>
-        <input id="username" name="username"
-               placeholder="Tên tài khoản" type="text">
+        <!-- tên tài khoản -->
+        <label for="email">Email</label>
+        <input id="email" name="email" placeholder="Email" type="email">
 
-        <!-- Mật khẩu + Nhập lại: 2 cột -->
+        <!-- pass + repass -->
         <div class="form-row">
             <div class="form-field">
                 <label for="password">Mật khẩu</label>
-                <input id="password" name="password"
-                       placeholder="Mật khẩu" type="password">
+                <input id="password" name="password" placeholder="Mật khẩu" type="password">
             </div>
-
             <div class="form-field">
                 <label for="repass">Nhập lại mật khẩu</label>
-                <input id="repass" name="repass"
-                       placeholder="Nhập lại mật khẩu" type="password">
+                <input id="repass" name="repass" placeholder="Nhập lại mật khẩu" type="password">
             </div>
         </div>
 

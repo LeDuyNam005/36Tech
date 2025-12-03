@@ -18,7 +18,7 @@ function handleLogin(e) {
   e.preventDefault();
   const { user, pw, valid, msg } = validateForm();
   if (!valid) {
-    return showToast("error", msg.join(" "));
+    return showToast("error", msg.join(" & "));
   }
   document.getElementById("login-form").submit();
 }
