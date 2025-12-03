@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết khóa học Lập trình C</title>
+
+    <link rel="stylesheet" href="../../assets/css/index.css">
+
+    <link rel="stylesheet" href="style_inside.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="page">
+
+        <header class="header">
+            <div class="header-inner">
+                <div class="header-inner-left">
+                    <a href="index.html" class="logo" aria-label="F8 - Home">
+                        <span class="logo-badge">36Tech</span>
+                        <span class="site-title">Học Lập Trình </span>
+                    </a>
+                </div>
+                <div class="header-inner-center">
+                    <form class="search" role="search" action="#" method="get">
+                        <div class="search-wrapper">
+                            <input id="search-input" name="q" type="search" placeholder="Tìm kiếm khóa học..."
+                                autocomplete="off">
+                            <button type="submit" class="search-btn">🔍</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="header-inner-right">
+                    <nav class="auth">
+                        <a class="btn btn-ghost" href="#">Đăng ký</a>
+                        <a class="btn btn-primary" href="#">Đăng nhập</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+
+            <div class="main-left">
+                <div class="main-left-btn">
+                    <a href="index.html" style="text-decoration: none; color: inherit;">
+                        <button class="btn-home">
+                            <i style="font-size: 20px;" class="fa-solid fa-house"></i>
+                            <p style="font-weight: 500;margin-top: 6px;">Trang chủ</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="main-left-btn">
+                    <button class="btn-road">
+                        <i style="font-size: 20px;" class="fa-solid fa-road"></i>
+                        <p style="font-weight: 500;margin-top: 6px;">Lộ trình</p>
+                    </button>
+                </div>
+            </div>
+
+            <div class="main-right">
+
+                <div class="container_content_inside_card">
+                    <div class="left_content_inside">
+                        <div class="course-header">
+                            <h1>Lập trình C++ cho người mới bắt đầu</h1>
+                            <p class="course-desc">Khóa học cung cấp kiến thức nền tảng vững chắc, giúp bạn tư duy logic
+                                và sẵn sàng cho con đường lập trình chuyên nghiệp.</p>
+                        </div>
+
+                        <div class="what-you-learn-box">
+                            <h3><i class="fa-solid fa-check-double"></i> Bạn sẽ học được gì?</h3>
+                            <div class="learn-grid">
+                                <ul class="list_gt">
+                                    <li>Hiểu rõ cú pháp và cách khai báo biến trong C.</li>
+                                    <li>Thành thạo nhập xuất dữ liệu (stdio).</li>
+                                    <li>Tư duy giải thuật với vòng lặp (for, while).</li>
+                                </ul>
+                                <ul class="list_gt">
+                                    <li>Làm chủ cấu trúc dữ liệu mảng và chuỗi.</li>
+                                    <li>Kỹ thuật viết hàm (Function) tối ưu code.</li>
+                                    <li>Luyện tập tư duy qua các bài toán thực tế.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="curriculum-section">
+                            <h3>Nội dung khóa học</h3>
+                            <div class="course-stats">
+                                <span><strong>85</strong> bài học</span>
+                                <span>•</span>
+                                <span><strong>24 giờ 05 phút</strong> thời lượng</span>
+                            </div>
+
+                            <div class="list_dropdown">
+                                <div class="accordion-item">
+                                    <div class="list_title" onclick="toggleDropdown(this)">
+                                        <div class="title-text">
+                                            <i class="fa-solid fa-plus icon-toggle"></i>
+                                            <strong>1. Giới thiệu</strong>
+                                        </div>
+                                        <span class="lesson-count">2 bài học</span>
+                                    </div>
+                                    <ul class="dropdown">
+                                        <li>
+                                            <span><i class="fa-regular fa-circle-play"></i> 1. Giới thiệu ngôn ngữ
+                                                C</span>
+                                            <span class="time">10:41</span>
+                                        </li>
+                                        <li>
+                                            <span><i class="fa-regular fa-circle-play"></i> 2. Cài đặt môi trường
+                                                (IDE)</span>
+                                            <span class="time">22:20</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <div class="list_title" onclick="toggleDropdown(this)">
+                                        <div class="title-text">
+                                            <i class="fa-solid fa-plus icon-toggle"></i>
+                                            <strong>2. Biến và Kiểu dữ liệu</strong>
+                                        </div>
+                                        <span class="lesson-count">5 bài học</span>
+                                    </div>
+                                    <ul class="dropdown">
+                                        <li>
+                                            <span><i class="fa-regular fa-circle-play"></i> 3. Khái niệm biến</span>
+                                            <span class="time">08:37</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="requirements-section">
+                            <h3>Yêu cầu</h3>
+                            <ul class="list_req">
+                                <li><i class="fa-solid fa-circle-check"></i> Máy tính kết nối Internet.</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Không cần kiến thức lập trình trước.</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Tinh thần kiên trì và chịu khó thực hành.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="right_content_wrapper">
+                        <div class="course-card">
+                            <div class="course-img-wrapper">
+                                <img src="../img/c++.jpg" alt="Khóa học C++">
+                                <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="price-tag">Miễn phí</div>
+                                <button class="btn_buy">Đăng ký học ngay</button>
+
+                                <ul class="course-features">
+                                    <li><i class="fa-solid fa-gauge-high"></i> Trình độ cơ bản</li>
+                                    <li><i class="fa-solid fa-film"></i> Tổng số 85 bài học</li>
+                                    <li><i class="fa-solid fa-clock"></i> Thời lượng 24h 05p</li>
+                                    <li><i class="fa-solid fa-battery-full"></i> Học mọi lúc, mọi nơi</li>
+                                    <li><i class="fa-solid fa-certificate"></i> Cấp chứng chỉ khi hoàn thành</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-inner">
+                <div class="footer-col contact">
+                    <a href="/" class="logo" aria-label="36Tech - Home">
+                        <img style="border-radius: 10px;" src="../../assets/img/logo36Tech.png" alt="" width="50px"
+                            height="50px">
+
+                    </a>
+                    <p>Điện thoại: 09 6148 0702<br>
+                        Email: contact@36Tech.edu.vn<br>
+                        Địa chỉ: Số 18, phố Viên, Đức Thắng, Bắc Từ Liêm, Hà Nội</p>
+                    <img src="../../assets/img/DCMA.png" alt="DMCA Protected"
+                        style="width:120px; margin-top:12px; display:block">
+                </div>
+
+                <div class="footer-col">
+                    <h4>VỀ 36Tech</h4>
+                    <ul>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                        <li><a href="#">Điều khoản</a></li>
+                        <li><a href="#">Bảo mật</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>SẢN PHẨM</h4>
+                    <ul>
+                        <li><a href="#">Khóa học CSS</a></li>
+                        <li><a href="#">Khóa học javascript</a></li>
+                        <li><a href="#">Khóa học nhập môn cntt </a></li>
+                        <li><a href="#">Khóa học C++</a></li>
+                        <li><a href="#">Khóa học Java</a></li>
+                        <li><a href="#">Khóa học python</a></li>
+                    </ul>
+                </div>
+
+
+
+                <div class="footer-col">
+                    <h4>CÔNG TY CỔ PHẦN CÔNG NGHỆ GIÁO DỤC F8</h4>
+                    <ul>
+                        <li><strong>Mã số thuế:</strong> 0000000000</li>
+                        <li><strong>Ngày thành lập:</strong> 01/09/2025</li>
+                        <li><strong>Lĩnh vực hoạt động:</strong> Giáo dục, công nghệ - lập trình.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2025 36Tech. Nền tảng học lập trình hàng đầu Việt Nam</span>
+                <div class="social" style="display:flex; gap:12px">
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="dropdown.js"></script>
+</body>
+
+</html>
