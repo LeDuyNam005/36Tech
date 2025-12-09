@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết khóa học Lập trình C</title>
+
+    <link rel="stylesheet" href="../../assets/css/index.css">
+    <link rel="stylesheet" href="style_video.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="header-inner">
+                <div class="header-inner-left">
+                    <a href="index.html" class="logo">
+                        <span class="logo-badge">36Tech</span>
+                        <span class="site-title">Học Lập Trình </span>
+                    </a>
+                </div>
+                <div class="header-inner-center">
+                    <form class="search" action="#" method="get">
+                        <div class="search-wrapper">
+                            <input id="search-input" name="q" type="search" placeholder="Tìm kiếm khóa học..."
+                                autocomplete="off">
+                            <button type="submit" class="search-btn">🔍</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="header-inner-right">
+                    <nav class="auth">
+                        <a class="btn btn-ghost" href="#">Đăng ký</a>
+                        <a class="btn btn-primary" href="#">Đăng nhập</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="main-left">
+                <div class="main-left-btn">
+                    <a href="index.html" style="text-decoration: none; color: inherit;">
+                        <button class="btn-home">
+                            <i style="font-size: 20px;" class="fa-solid fa-house"></i>
+                            <p style="font-weight: 500;margin-top: 6px;">Trang chủ</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="main-left-btn">
+                    <button class="btn-road">
+                        <i style="font-size: 20px;" class="fa-solid fa-road"></i>
+                        <p style="font-weight: 500;margin-top: 6px;">Lộ trình</p>
+                    </button>
+                </div>
+            </div>
+
+            <div class="main-right">
+                <div class="video-column">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/sjPq66rg1Kc?si=cDfMlI38jrQRt2Hc"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h1 class="video-title">1. Giới thiệu ngôn ngữ C</h1>
+                        <p class="video-desc">Cập nhật tháng 12 năm 2025</p>
+                    </div>
+                </div>
+
+                <div class="playlist-column">
+                    <div class="curriculum-header">
+                        <h3>Nội dung khóa học</h3>
+                        <div class="course-stats">
+                            <span><strong>85</strong> bài học</span> • <span><strong>24h 05m</strong></span>
+                        </div>
+                    </div>
+
+                    <div class="curriculum-list scroll-bar">
+                        <div class="accordion-item">
+                            <div class="list_title active-chapter" onclick="toggleDropdown(this)">
+                                <div class="title-text">
+                                    <strong class="chapter-name">1. Giới thiệu</strong>
+                                    <span class="lesson-count">2/2 | 33:01</span>
+                                </div>
+                                <i class="fa-solid fa-chevron-down icon-toggle"></i>
+                            </div>
+                            <ul class="dropdown" style="display: block;">
+
+                                <li class="lesson-item active"
+                                    onclick="changeVideo(this, 'sjPq66rg1Kc', '1. Giới thiệu ngôn ngữ C')">
+                                    <div class="lesson-info">
+                                        <i class="fa-solid fa-circle-play status-icon"></i>
+                                        <div class="lesson-text">
+                                            <span class="lesson-name">1. Giới thiệu ngôn ngữ C</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 10:41</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="lesson-item"
+                                    onclick="changeVideo(this, 'zHgI0gWk7yE', '2. Cài đặt môi trường (IDE)')">
+                                    <div class="lesson-info">
+                                        <i class="fa-regular fa-circle-play status-icon"></i>
+                                        <div class="lesson-text">
+                                            <span class="lesson-name">2. Cài đặt môi trường (IDE)</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 22:20</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="list_title" onclick="toggleDropdown(this)">
+                                <div class="title-text">
+                                    <strong class="chapter-name">2. Biến & Kiểu dữ liệu</strong>
+                                    <span class="lesson-count">0/5 | 45:00</span>
+                                </div>
+                                <i class="fa-solid fa-chevron-up icon-toggle"></i>
+                            </div>
+                            <ul class="dropdown">
+                                <li class="lesson-item" onclick="changeVideo(this, 'kH123abcXYZ', '3. Khái niệm biến')">
+                                    <div class="lesson-info">
+                                        <i class="fa-regular fa-circle-play status-icon"></i>
+                                        <div class="lesson-text">
+                                            <span class="lesson-name">3. Khái niệm biến</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-inner">
+            </div>
+            <div class="footer-bottom">
+                <span>© 2025 36Tech.</span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="scrip.js"></script>
+</body>
+
+</html>
