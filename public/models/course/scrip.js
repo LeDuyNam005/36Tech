@@ -1,6 +1,6 @@
 // scrip.js
 
-// 1. Hàm đóng mở danh sách chương (Giữ nguyên logic cũ của bạn)
+// 1. Hàm đóng mở danh sách chương 
 function toggleDropdown(element) {
     const dropdown = element.nextElementSibling;
     const icon = element.querySelector('.icon-toggle');
