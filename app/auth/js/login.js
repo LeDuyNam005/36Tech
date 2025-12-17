@@ -1,45 +1,32 @@
-function validateForm() {
-  let user = document.getElementById("username").value.trim();
-  let pw = document.getElementById("password").value.trim();
-  let msg = [];
-  // Validation
-  if (!user) msg.push("Bạn chưa nhập tài khoản!");
-  if (!pw) msg.push("Bạn chưa nhập mật khẩu!");
+// Hàm này sẽ đổi chữ trong thẻ <p class="warn">
+function showMessage(text, isError = true) {
+  // Lấy thẻ p có class là warn
+  var msgTag = document.querySelector(".warn");
 
-  return {
-    user: user,
-    pw: pw,
-    valid: msg.length === 0,
-    msg: msg,
-  };
+  // 1. Thay đổi nội dung cũ bằng thông báo mới
+  msgTag.innerHTML = text;
+
+  // 2. Đổi màu chữ (Đỏ = Lỗi, Xanh = Thành công)
+  msgTag.style.color = isError ? "red" : "green";
+  msgTag.style.fontWeight = "bold";
 }
 
 function handleLogin(e) {
   e.preventDefault();
-  const { user, pw, valid, msg } = validateForm();
-  if (!valid) {
-    return showToast("error", msg.join(" & "));
+  var user = document.getElementById("username").value.trim();
+  var pass = document.getElementById("password").value.trim();
+
+  // Validate
+  if (user == "") {
+    showMessage("Vui lòng nhập tài khoản!");
+    return;
   }
+
+  if (pass == "") {
+    showMessage("Vui lòng nhập mật khẩu!");
+    return;
+  }
+
+  // Submit form
   document.getElementById("login-form").submit();
-}
-
-function showToast(type, msg) {
-  const oldToast = document.querySelector(".simple-toast");
-  if (oldToast) oldToast.remove();
-  // tạo thông báo
-  const t = document.createElement("div");
-  t.className = `simple-toast ${type}`;
-  t.textContent = msg;
-  document.body.appendChild(t);
-  // timeout chờ hiện/xoá thông báo
-  setTimeout(() => {
-    t.classList.add("show");
-  }, 10);
-
-  setTimeout(() => {
-    t.classList.remove("show");
-    setTimeout(() => {
-      t.remove();
-    }, 350);
-  }, 2000);
 }

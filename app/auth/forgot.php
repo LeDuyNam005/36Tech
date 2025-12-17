@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = isset($_POST['email']) ? trim($_POST['email']) : '';
     $newpw = isset($_POST['newpw']) ? trim($_POST['newpw']) : '';
 
-    // Validation
+    // Validation PHP
     $errors = [];
     if (empty($username)) $errors[] = 'Nhập tên tài khoản';
     if (empty($email)) $errors[] = 'Nhập email';
@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (!empty($errors)) {
         $error = implode(' & ', $errors);
     } else {
-        // 1. Tìm user theo username + email
+        // 1. Tìm user
         $sql = "SELECT id FROM users WHERE username = '$username' AND email = '$email' LIMIT 1";
         $result = mysqli_query($conn, $sql);
 
@@ -65,14 +65,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="logo">
             <img width="75" height="75" src="../../public/assets/image/logo36Tech.png" alt="36Tech" />
         </div>
+
         <h3>Quên mật khẩu</h3>
+
+        <p class="warn">
+            Nhập thông tin để thiết lập lại mật khẩu mới.
+        </p>
+
         <label for="username">Tên đăng nhập</label>
-        <input id="username" name="username" type="text" placeholder="Tên đăng nhập">
+        <input id="username" name="username" type="text" placeholder="Tên đăng nhập" value="<?php echo htmlspecialchars($username ?? ''); ?>">
+
         <label for="email">Email đăng ký</label>
-        <input id="email" name="email" type="email" placeholder="Email đã đăng ký">
+        <input id="email" name="email" type="text" placeholder="Email đã đăng ký" value="<?php echo htmlspecialchars($email ?? ''); ?>">
+
         <label for="newpw">Mật khẩu mới</label>
         <input id="newpw" name="newpw" type="password" placeholder="Mật khẩu mới">
-        <button type="button" id="forgotBtn" class="login-button" onclick="handleForgot(event)"> Đổi mật khẩu
+
+        <button type="submit" id="forgotBtn" class="login-button">
+            Đổi mật khẩu
         </button>
 
         <div class="form-footer">
@@ -82,28 +92,25 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
         <br>
     </form>
-</body>
 
-<script src="./js/forgot.js"></script>
-<script>
-    // có lỗi -> hiển thị thông báo
-    <?php
-    if ($error): ?>
-        window.addEventListener('DOMContentLoaded', function() {
-            showToast('error', '<?php echo addslashes($error); ?>');
-        });
-    <?php endif; ?>
+    <script src="./js/forgot.js"></script>
 
-    // nếu hiển thị thông báo thành công -> chuyển hướng
-    <?php if ($success && isset($redirect)): ?>
-        window.addEventListener('DOMContentLoaded', function() {
-            showToast('success', '<?php echo addslashes($success); ?>');
-            setTimeout(() => {
+    <script>
+        // Nếu PHP trả về lỗi
+        <?php if (!empty($error)): ?>
+            showMessage("<?php echo $error; ?>", true);
+        <?php endif; ?>
+
+        // Nếu thành công
+        <?php if (!empty($success)): ?>
+            showMessage("<?php echo $success; ?>", false);
+
+            // Chuyển về trang login sau 1.36 giây
+            setTimeout(function() {
                 window.location.href = 'login.php';
-            }, 1500);
-        });
-    <?php endif; ?>
-</script>
+            }, 1360);
+        <?php endif; ?>
+    </script>
 </body>
 
 </html>

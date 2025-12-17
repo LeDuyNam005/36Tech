@@ -72,6 +72,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <img width="75" height="75" src="../../public/assets/image/logo36Tech.png" alt="36Tech" />
         </div>
         <h3>Đăng ký tài khoản mới</h3>
+        <p class="warn">
+            Vui lòng điền đầy đủ thông tin bên dưới để tạo tài khoản.
+        </p>
         <!-- họ tên + email -->
         <div class="form-row">
             <div class="form-field">
@@ -86,7 +89,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <!-- tên tài khoản -->
         <label for="email">Email</label>
-        <input id="email" name="email" placeholder="Email" type="email">
+        <input id="email" name="email" placeholder="Email" type="text">
 
         <!-- pass + repass -->
         <div class="form-row">
@@ -111,21 +114,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </form>
     <script src="./js/register.js"></script>
     <script>
-        // Hiển thị notification nếu có lỗi từ PHP
-        <?php if ($error): ?>
-            window.addEventListener('DOMContentLoaded', function() {
-                showToast('error', '<?php echo addslashes($error); ?>');
-            });
+        // Nếu PHP trả về lỗi
+        <?php if (!empty($error)): ?>
+            showMessage("<?php echo $error; ?>", true);
         <?php endif; ?>
 
-        // Hiển thị notification thành công rồi redirect
-        <?php if ($success && isset($redirect)): ?>
-            window.addEventListener('DOMContentLoaded', function() {
-                showToast('success', '<?php echo addslashes($success); ?>');
-                setTimeout(() => {
-                    window.location.href = 'login.php';
-                }, 1500);
-            });
+        // Nếu thành công
+        <?php if (!empty($success)): ?>
+            showMessage("<?php echo $success; ?>", false);
+
+            // Chuyển sang trang login sau 1.36 giây
+            setTimeout(function() {
+                window.location.href = 'login.php';
+            }, 1360);
         <?php endif; ?>
     </script>
 </body>

@@ -100,22 +100,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </form>
     <script src="./js/login.js"></script>
     <script>
-        // Hiển thị notification nếu có lỗi từ PHP
-        <?php
-        if ($error): ?>
-            window.addEventListener('DOMContentLoaded', function() {
-                showToast('error', '<?php echo addslashes($error); ?>');
-            });
+        // Nếu PHP trả về lỗi
+        <?php if (!empty($error)): ?>
+            showMessage("<?php echo $error; ?>", true); // true -> Chữ màu đỏ
         <?php endif; ?>
-        // Hiển thị notification thành công rồi redirect
-        <?php
-        if ($success && isset($redirect)): ?>
-            window.addEventListener('DOMContentLoaded', function() {
-                showToast('success', '<?php echo addslashes($success); ?>');
-                setTimeout(() => {
-                    window.location.href = '../../public/index.php';
-                }, 1500);
-            });
+
+        // Nếu PHP trả về thành công
+        <?php if (!empty($success)): ?>
+            showMessage("<?php echo $success; ?>", false); // false -> Chữ màu xanh
+
+            // Chuyển trang sau 1.36 giây
+            setTimeout(function() {
+                window.location.href = '../../public/index.php';
+            }, 1360);
         <?php endif; ?>
     </script>
 </body>
