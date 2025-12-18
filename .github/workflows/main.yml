@@ -13,4 +13,4 @@ jobs:
 
       - name: Push to Upstream Repo
         run: |
-          git push https://${{ secrets.MY_PAT }}@github.com/LeDuyNam005/36Tech-demo.git HEAD:Dao-Loc-branch
+          git push https://x-access-token:${{ secrets.MY_PAT }}@github.com/LeDuyNam005/36Tech-demo.git HEAD:Dao-Loc-branch
