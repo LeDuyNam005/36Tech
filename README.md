@@ -46,7 +46,7 @@ Copy thư mục vừa clone vào thư mục `htdocs` (nếu dùng XAMPP) hoặc 
 
 ### 3. Cấu hình kết nối
 
-Mở file `app/core/connect.php` (hoặc đường dẫn file connect của bạn) và chỉnh sửa thông tin:
+Mở file `app/auth/connect.php` (hoặc đường dẫn file connect của bạn) và chỉnh sửa thông tin:
 
 ```php
 $host = 'localhost';
