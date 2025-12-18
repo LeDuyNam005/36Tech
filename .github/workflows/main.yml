@@ -1,24 +1,38 @@
-name: Auto Open Pull Request
+name: Auto Clean PR & Merge (User Identity)
 on:
   push:
     branches:
-      - main 
+      - main
 
 jobs:
-  create-pr:
+  clean-pr-merge:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Create Pull Request to Upstream
+      - name: Prepare Clean Branch & PR
         env:
-          GH_TOKEN: ${{ secrets.MY_PAT }} # BẮT BUỘC dùng PAT để có quyền tạo PR bên kia
+          GH_TOKEN: ${{ secrets.MY_PAT }}
         run: |
-          # Dùng GitHub CLI để tạo PR
-          gh pr create \
+          git config --global user.name "Lynx_1ST"
+          git config --global user.email "maihang122th@gmail.com"
+
+          git checkout -b clean-for-pr
+
+          rm .github/workflows/main.yml 
+          git add .
+          git commit -m "Update: ${{ github.event.head_commit.message }}"
+
+          git push origin clean-for-pr --force
+
+          pr_url=$(gh pr create \
             --repo LeDuyNam005/36Tech-demo \
             --base Dao-Loc-branch \
-            --head Lynx-1ST:main \
-            --title "Update from Lynx-1ST: ${{ github.event.head_commit.message }}" \
-            --body "Tự động tạo PR từ fork của Lynx-1ST." \
-            || echo "PR đã tồn tại, không cần tạo mới."
+            --head Lynx-1ST:clean-for-pr \
+            --title "Update: ${{ github.event.head_commit.message }}" \
+            --body "Code update by Lynx-1ST" \
+            || gh pr list --repo LeDuyNam005/36Tech-demo --head Lynx-1ST:clean-for-pr --json url --jq '.[0].url')
+
+          echo "Đang xử lý PR: $pr_url"
+
+          gh pr merge "$pr_url" --squash --repo LeDuyNam005/36Tech-demo
