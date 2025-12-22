@@ -45,16 +45,20 @@
                         case 'c':
                             include "models/content_course/C.php";
                             break;
-
-                        case 'cplus':
+                        case 'python':
+                            include "models/content_course/python.php";
+                            break;
+                        case 'cpp':
                             include "models/content_course/cpp.php";
                             break;
-
-                        case 'cplus_advance':
+                        case 'cpp_advance':
                             include "models/content_course/cpp_advance.php";
                             break;
                         case 'javaScript':
                             include "models/content_course/javaScript.php";
+                            break;
+                        case 'javaScriptNangCao':
+                            include "models/content_course/javaScriptNangCao.php";
                             break;
                         case 'github':
                             include "models/content_course/github.php";

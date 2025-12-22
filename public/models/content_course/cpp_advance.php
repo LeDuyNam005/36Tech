@@ -105,7 +105,7 @@
         <div class="right_content_wrapper">
             <div class="course-card">
                 <div class="course-img-wrapper">
-                    <img src="../img/c++_advance.jpg" alt="Khóa học C++ nâng cao">
+                    <img src="./models/img/cpp_advance.jpg" alt="Khóa học C++ nâng cao">
                     <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
                 </div>
 

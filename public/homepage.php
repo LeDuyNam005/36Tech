@@ -92,7 +92,7 @@
                     </div>
 
                     <div class="card_box">
-                        <div><img src="./models/img/c++.jpg" class="img_card"> </div>
+                        <div><img src="./models/img/cpp.jpg" class="img_card"> </div>
                         <div class="info">
                             <a href="./index.php?page_layout=cpp" style="font-size: 20px;">Khoá học C++ cơ bản</a>
                             <div class="btoom">
@@ -143,7 +143,7 @@
                 <h2>Khóa học nổi bật</h2>
                 <div class="list_khoa_hoc">
                     <div class="card_box">
-                        <div><img src="./models/img/c++_advance.jpg" class="img_card"> </div>
+                        <div><img src="./models/img/cpp_advance.jpg" class="img_card"> </div>
                         <div class="info">
                             <a href="index.php?page_layout=cpp_advance" style="font-size: 20px;">C++ nâng cao</a>
                             <div class="btoom">

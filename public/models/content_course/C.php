@@ -293,7 +293,7 @@
 
                 <div class="card-body">
                     <div class="price-tag">Khoá học C</div>
-                    <a class="btn_buy" href="../course/c_video.php">Xem ngay</a>
+                    <a class="btn_buy" href="./models/course/c_video.php">Xem ngay</a>
                     <ul class="course-features">
                         <li><i class="fa-solid fa-gauge-high"></i> Trình độ cơ bản</li>
                         <li><i class="fa-solid fa-film"></i> Tổng số 22 bài học</li>
