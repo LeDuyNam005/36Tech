@@ -52,6 +52,7 @@
                             break;
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     <div class="container_khoa_hoc">
                         <div class="c1"> <!--  hàng 1 -->
                             <h2>Khóa học cơ bản</h2>
@@ -177,6 +178,8 @@
                     </div>
                 </div>
 =======
+=======
+>>>>>>> Stashed changes
                         case 'c++_advance':
                             include "models/content_course/c++_advance.php";
                             break;
@@ -186,6 +189,9 @@
                 }
                 ?>
             </div>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         </main>
         <!-- Footer -->
