@@ -50,6 +50,7 @@
                         case 'cplus':
                             include "models/content_course/c++.php";
                             break;
+
                         case 'cplus_advance':
                             include "models/content_course/c++_advance.php";
                             break;
