@@ -47,10 +47,10 @@
                             include "models/content_course/C.php";
                             break;
 
-                        case 'c++':
+                        case 'cplus':
                             include "models/content_course/c++.php";
                             break;
-                        case 'c++_advance':
+                        case 'cplus_advance':
                             include "models/content_course/c++_advance.php";
                             break;
                     }

@@ -94,7 +94,7 @@
                     <div class="card_box">
                         <div><img src="./models/img/c++.jpg" class="img_card"> </div>
                         <div class="info">
-                            <a href="./index.php?page_layout=c++" style="font-size: 20px;">Khoá học C++ cơ bản</a>
+                            <a href="./index.php?page_layout=cplus" style="font-size: 20px;">Khoá học C++ cơ bản</a>
                             <div class="btoom">
                                 <p><i class="fa-regular fa-circle-play"></i>9</p>
                                 <p><i class="fa-regular fa-clock"></i>3h12p</p>
@@ -145,7 +145,7 @@
                     <div class="card_box">
                         <div><img src="./models/img/c++_advance.jpg" class="img_card"> </div>
                         <div class="info">
-                            <a href="#" style="font-size: 20px;">C++ nâng cao</a>
+                            <a href="index.php?page_layout=cplus_advance" style="font-size: 20px;">C++ nâng cao</a>
                             <div class="btoom">
                                 <p><i class="fa-regular fa-circle-play"></i>9</p>
                                 <p><i class="fa-regular fa-clock"></i>3h12p</p>
