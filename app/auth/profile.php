@@ -1,7 +1,6 @@
 <?php
 require_once 'connect.php';
 require_once 'auth.php';
-require_once '../../public/config.php';
 requireLogin();
 
 $mess = '';
@@ -106,9 +105,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hồ sơ cá nhân</title>
-    <link rel="stylesheet" href="./app/auth/css/login-module.css">
+    <link rel="stylesheet" href="<?= AUTH ?>/auth/css/login-module.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="./app/auth/css/profile.css">
+    <link rel="stylesheet" href="<?= AUTH ?>/auth/css/profile.css">
     <style>
 
     </style>
