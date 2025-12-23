@@ -1,0 +1,175 @@
+/* 1. Cấu hình chung */
+body {
+  font-family: Arial, sans-serif; /* Font mặc định máy nào cũng có */
+  background-color: #f4f4f4; /* Màu nền xám nhẹ cho nổi nội dung */
+  margin: 0;
+}
+
+.main-right {
+  padding: 20px;
+  width: 100%;
+}
+.highlight {
+  color: #3498db; /* Màu xanh nổi bật */
+}
+/* 2. Phần giới thiệu ảnh */
+.intro-section {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 8px; /* Bo góc nhẹ */
+  border: 1px solid #ddd; /* Viền xám mờ */
+}
+.intro {
+  color: #666;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.roadmap-img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+/* 3. Phần chia cột (Quan trọng nhất) */
+.grid-container {
+  display: grid;
+  /* Chia làm 3 cột bằng nhau, khoảng cách 20px */
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* 4. Style cho từng thẻ Card */
+.card {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc; /* Viền cơ bản */
+  border-radius: 8px;
+  text-align: center; /* Căn giữa nội dung */
+}
+
+/* Hiệu ứng nhẹ khi di chuột vào (Tùy chọn, có thể bỏ) */
+.card:hover {
+  border-color: #007bff; /* Đổi màu viền sang xanh */
+}
+
+/* Style cho Icon */
+.card i {
+  font-size: 40px; /* Icon to ra */
+  color: #007bff; /* Màu xanh dương chuẩn web */
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.card p {
+  color: #666;
+  font-size: 14px;
+}
+
+/* 5. Responsive (Cho điện thoại) */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Trên điện thoại thì về 1 cột */
+  }
+} /* --- Cấu trúc Grid --- */
+.grid-container {
+  display: grid;
+  /* Tự động chia cột: Card nhỏ nhất là 280px, còn lại tự giãn đều */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px; /* Khoảng cách giữa các card */
+  margin-top: 20px;
+  padding: 10px;
+}
+
+/* --- Style cho Thẻ Card (Giống hình mẫu) --- */
+.card {
+  background: #ffffff;
+  padding: 30px 20px; /* Padding trên dưới nhiều hơn 1 chút cho thoáng */
+  border-radius: 12px; /* Bo góc mềm mại */
+  text-align: center;
+
+  /* Hiệu ứng đổ bóng nhẹ (Shadow) */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
+
+  /* Hiệu ứng mượt mà khi hover */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #eee; /* Viền rất mờ */
+}
+
+/* Hiệu ứng khi di chuột vào card */
+.card:hover {
+  transform: translateY(-5px); /* Bay lên nhẹ */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Bóng đậm hơn */
+}
+
+/* --- Style chung cho Icon --- */
+.icon-box {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* Làm tròn thành hình tròn */
+  display: flex; /* Để căn giữa icon bên trong */
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px auto; /* Căn giữa box và đẩy chữ xuống dưới */
+  font-size: 24px; /* Kích thước icon bên trong */
+}
+
+/* --- Màu sắc riêng cho từng Icon (Giống hình mẫu) --- */
+
+/* 1. Màu Hồng (Frontend) */
+.icon-box.pink {
+  background-color: #ffeef2; /* Nền nhạt */
+  color: #e83e8c; /* Icon đậm */
+}
+
+/* 2. Màu Tím (Backend) */
+.icon-box.purple {
+  background-color: #f3e5f5;
+  color: #8e44ad;
+}
+
+/* 3. Màu Xanh Ngọc (Database) */
+.icon-box.green {
+  background-color: #e0f2f1;
+  color: #009688;
+}
+
+/* 4. Màu Cam (Mobile) */
+.icon-box.orange {
+  background-color: #fff3e0;
+  color: #f57c00;
+}
+
+/* 5. Màu Xanh Dương (Cloud) */
+.icon-box.blue {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+
+/* 6. Màu Xanh Lam (DevOps) */
+.icon-box.cyan {
+  background-color: #e0f7fa;
+  color: #00bcd4;
+}
+
+/* --- Typography (Chữ nghĩa) --- */
+.card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #333; /* Màu đen xám */
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.6; /* Khoảng cách dòng thoáng */
+  color: #666; /* Màu xám nhạt */
+  margin: 0;
+}

@@ -1,0 +1,237 @@
+/* Layout chung cho phần main bên phải */
+.main-right {
+    display: grid;
+    grid-template-columns: 2.8fr 1.2fr;
+    gap: 24px;
+    width: 94%;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+/* ============ CỘT TRÁI: VIDEO ============ */
+.video-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Kỹ thuật responsive video 16:9 */
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    /* Tỉ lệ 16:9 */
+    background: #000;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.video-info {
+    padding: 0 10px;
+}
+
+.video-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+    color: #1a1a1a;
+}
+
+.video-desc {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+/* ============ CỘT PHẢI: PLAYLIST ============ */
+.playlist-column {
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    max-height: 600px;
+    overflow: hidden;
+
+    top: 100px;
+}
+
+.curriculum-header {
+    padding: 16px 20px;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #fff;
+}
+
+.curriculum-header h3 {
+    margin: 0 0 4px 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.course-stats {
+    font-size: 12px;
+    color: #666;
+}
+
+.curriculum-list {
+    overflow-y: auto;
+    flex: 1;
+}
+
+.curriculum-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.curriculum-list::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+.curriculum-list::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+/* Style cho từng chương (Accordion) */
+.accordion-item {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.list_title {
+    padding: 14px 20px;
+    background: #f7f8fa;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.2s;
+}
+
+.list_title:hover {
+    background: #eff1f4;
+}
+
+.title-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.chapter-name {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.list_title .lesson-count {
+    font-size: 11px;
+    color: #666;
+    font-weight: 400;
+}
+
+.icon-toggle {
+    font-size: 12px;
+    color: #1a90ff;
+    transition: transform 0.3s;
+}
+
+/* Style cho danh sách bài học */
+.dropdown {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    background: #fff;
+}
+
+.lesson-item {
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+    border-left: 3px solid transparent;
+}
+
+.lesson-item:hover {
+    background-color: #f0f8ff;
+}
+
+/* Trạng thái bài đang học (Active) */
+.lesson-item.active {
+    background-color: #e6f3ff;
+    /* Xanh đậm hơn chút */
+    border-left: 3px solid #1a90ff;
+    /* Viền xanh bên trái */
+}
+
+.lesson-item.active .lesson-name {
+    color: #1a90ff;
+    font-weight: 600;
+}
+
+.lesson-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.status-icon {
+    font-size: 14px;
+    margin-top: 4px;
+    color: #888;
+    width: 16px;
+    /* Cố định chiều rộng icon */
+}
+
+.lesson-item.active .status-icon {
+    color: #1a90ff;
+    /* Icon xanh khi active */
+}
+
+/* Bài học bị khóa */
+.lesson-item.locked {
+    background: #f9f9f9;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.lesson-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.lesson-name {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 4px;
+    color: #333;
+}
+
+.lesson-time {
+    font-size: 11px;
+    color: #888;
+}
+
+/* RESPONSIVE: Khi màn hình nhỏ (Mobile/Tablet) */
+@media (max-width: 992px) {
+    .main-right-video-layout {
+        grid-template-columns: 1fr;
+        /* Chuyển về 1 cột */
+    }
+
+    .playlist-column {
+        height: auto;
+        max-height: 500px;
+        /* Giới hạn chiều cao danh sách trên mobile */
+    }
+}
