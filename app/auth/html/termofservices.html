@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Điều khoản sử dụng dịch vụ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+            color: #111;
+            background: #fff;
+            line-height: 1.6;
+        }
+
+        .header {
+            background: #ffffff;
+            width: 100%;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(16, 24, 40, 0.06);
+            position: relative;
+            z-index: 20;
+        }
+
+        .header-inner {
+            width: 96%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 75%;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: inherit;
+            gap: 10px;
+        }
+
+        .logo-badge {
+            width: 44px;
+            height: 44px;
+            border-radius: 10px;
+            background: linear-gradient(180deg, #1a90ff, #1a99ee);
+            color: #fff;
+            font-weight: 800;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .site-title {
+            font-weight: 700;
+            color: #111;
+            font-size: 15px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #111;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover {
+            color: #1a90ff;
+        }
+
+        main {
+            width: 96%;
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 30px;
+            background: #f3f6f9;
+            border-radius: 24px;
+        }
+
+        .terms-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .terms-header h1 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .terms-header p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .terms-content {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+        }
+
+        .terms-section {
+            margin-bottom: 30px;
+        }
+
+        .terms-section h2 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 15px;
+            padding-left: 12px;
+            border-left: 4px solid #1a90ff;
+            font-weight: 700;
+        }
+
+        .terms-section h3 {
+            font-size: 16px;
+            color: #555;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .terms-section p {
+            color: #666;
+            margin-bottom: 12px;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        .terms-section ul {
+            margin: 15px 0 15px 20px;
+            padding-left: 20px;
+        }
+
+        .terms-section ul li {
+            color: #666;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .toc {
+            background: #f9fbfc;
+            border-left: 4px solid #1a90ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .toc h3 {
+            margin-top: 0;
+            color: #1a90ff;
+            margin-bottom: 15px;
+        }
+
+        .toc ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .toc li {
+            margin-bottom: 8px;
+        }
+
+        .toc a {
+            color: #1a90ff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .toc a:hover {
+            text-decoration: underline;
+        }
+
+        /*_______________Footer____________________ */
+        .footer {
+            background-color: #0f1114;
+            /* deep dark */
+            color: #cbd5db;
+            padding: 48px 0 24px;
+            font-size: 15px;
+        }
+
+        .footer-inner {
+            width: 96%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 320px 1fr 1fr 1fr 1fr;
+            gap: 36px;
+            align-items: start;
+        }
+
+        .footer-inner h4 {
+            color: #ffffff;
+            font-size: 16px;
+            margin: 0 0 14px 0;
+            letter-spacing: 0.2px;
+        }
+
+        .footer-inner p {
+            color: #99a0a6;
+            line-height: 1.6;
+            margin: 0 0 10px 0;
+        }
+
+        .footer-inner ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .footer-inner ul li {
+            margin: 8px 0;
+        }
+
+        .footer-inner a {
+            color: #bfc8cd;
+            text-decoration: none;
+        }
+
+        .footer-inner a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        .footer-inner>div:first-child .logo-badge {
+            width: 40px;
+            height: 40px;
+            font-size: 14px;
+            border-radius: 8px;
+        }
+
+        .footer-inner .social {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .footer-inner .social a {
+            display: inline-flex;
+            width: 38px;
+            height: 38px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            background: #151617;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer-bottom {
+            width: 96%;
+            margin: 18px auto 0;
+            padding-top: 18px;
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #8f98a0;
+            font-size: 14px;
+        }
+
+        .footer-bottom a {
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+        }
+
+        .logo-badge img {
+            border-radius: 10px;
+        }
+
+        @media (max-width: 768px) {
+            main {
+                padding: 20px;
+            }
+
+            .terms-content {
+                padding: 20px;
+            }
+
+            .terms-header h1 {
+                font-size: 24px;
+            }
+
+            .header-inner {
+                width: 90%;
+            }
+
+            .nav-links {
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <a href="/" class="logo">
+                <div class="logo-badge">
+                    <img src="./assets/image/logo36Tech.png" alt="" width="50px" height="50px">
+                </div>
+                <div class="site-title">36Tech</div>
+            </a>
+            <nav class="nav-links">
+                <a href="./index.php">Trang chủ</a>
+                <a href="#about">Về chúng tôi</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="terms-header">
+            <h1>Điều Khoản Sử Dụng Dịch Vụ</h1>
+            <p>Ngày cập nhật: 05 tháng 12, 2025</p>
+        </div>
+
+        <div class="terms-content">
+            <!-- Table of Contents -->
+            <div class="toc">
+                <h3>📋 Mục Lục</h3>
+                <ul>
+                    <li><a href="#section1">1. Giới Thiệu</a></li>
+                    <li><a href="#section2">2. Quyền và Trách Vụ Người Dùng</a></li>
+                    <li><a href="#section3">3. Bảo Vệ Bản Quyền</a></li>
+                    <li><a href="#section4">4. Miễn Trừ Trách Nhiệm</a></li>
+                    <li><a href="#section5">5. Giới Hạn Trách Nhiệm</a></li>
+                    <li><a href="#section6">6. Quy Tắc Hành Vi</a></li>
+                    <li><a href="#section7">7. Thanh Toán và Hoàn Tiền</a></li>
+                    <li><a href="#section8">8. Chính Sách Bảo Mật</a></li>
+                    <li><a href="#section9">9. Thay Đổi Dịch Vụ</a></li>
+                    <li><a href="#section10">10. Liên Hệ</a></li>
+                </ul>
+            </div>
+
+            <!-- Section 1 -->
+            <div class="terms-section" id="section1">
+                <h2>1. Giới Thiệu</h2>
+                <p>Chào mừng bạn đến với 36Tech - nền tảng học lập trình hàng đầu tại Việt Nam. Các điều khoản sử
+                    dụng này (&quot;Điều Khoản&quot;) quản lý việc sử dụng trang web, ứng dụng di động và các dịch vụ
+                    liên quan của chúng tôi (&quot;Dịch Vụ&quot;).</p>
+                <p>Bằng cách truy cập hoặc sử dụng Dịch Vụ của chúng tôi, bạn đồng ý bị ràng buộc bởi các Điều Khoản
+                    này. Nếu bạn không đồng ý với bất kỳ phần nào của các Điều Khoản này, vui lòng không sử dụng Dịch Vụ
+                    của chúng tôi.</p>
+            </div>
+
+            <!-- Section 2 -->
+            <div class="terms-section" id="section2">
+                <h2>2. Quyền và Trách Vụ Người Dùng</h2>
+                <h3>2.1 Tài Khoản Người Dùng</h3>
+                <p>Khi tạo tài khoản trên 36Tech, bạn đồng ý:</p>
+                <ul>
+                    <li>Cung cấp thông tin chính xác, đầy đủ và cập nhật</li>
+                    <li>Bảo mật mật khẩu tài khoản của bạn</li>
+                    <li>Chịu trách nhiệm cho tất cả hoạt động dưới tài khoản của bạn</li>
+                    <li>Thông báo ngay cho chúng tôi nếu phát hiện truy cập trái phép</li>
+                </ul>
+                <h3>2.2 Sử Dụng Hợp Pháp</h3>
+                <p>Bạn cam kết sử dụng Dịch Vụ chỉ cho các mục đích hợp pháp và không vi phạm bất kỳ luật pháp nào. Bạn
+                    không được:</p>
+                <ul>
+                    <li>Sử dụng Dịch Vụ để truyền bá bất kỳ nội dung phản cảm, xúc phạm hoặc bất hợp pháp</li>
+                    <li>Cố gắng truy cập trái phép vào hệ thống của chúng tôi</li>
+                    <li>Can thiệp vào các dịch vụ hoặc máy chủ của chúng tôi</li>
+                    <li>Thực hiện bất kỳ hoạt động spam hoặc phishing</li>
+                </ul>
+            </div>
+
+            <!-- Section 3 -->
+            <div class="terms-section" id="section3">
+                <h2>3. Bảo Vệ Bản Quyền</h2>
+                <p>Tất cả nội dung, bao gồm các khóa học, video, bài viết, hình ảnh và tài liệu khác trên 36Tech được
+                    bảo vệ bởi luật bản quyền quốc tế.</p>
+                <p>Bạn được phép:</p>
+                <ul>
+                    <li>Xem và tải xuống nội dung cho mục đích cá nhân, không thương mại</li>
+                    <li>In các tài liệu cho mục đích học tập</li>
+                </ul>
+                <p>Bạn KHÔNG được phép:</p>
+                <ul>
+                    <li>Sao chép, sửa đổi hoặc phân phối nội dung mà không có phép</li>
+                    <li>Bán lại hoặc cho thuê bất kỳ nội dung nào</li>
+                    <li>Xóa bất kỳ thông báo bản quyền hoặc nhãn hiệu</li>
+                </ul>
+            </div>
+
+            <!-- Section 4 -->
+            <div class="terms-section" id="section4">
+                <h2>4. Miễn Trừ Trách Nhiệm</h2>
+                <p>36Tech cung cấp Dịch Vụ &quot;NHƯ CÓ&quot; mà không có bất kỳ bảo đảm nào, dù là rõ ràng hay ngụ
+                    ý. Chúng tôi không bảo đảm rằng:</p>
+                <ul>
+                    <li>Dịch Vụ sẽ luôn có sẵn hoặc không bị gián đoạn</li>
+                    <li>Nội dung được cung cấp là hoàn toàn chính xác hoặc cập nhật</li>
+                    <li>Dịch Vụ sẽ không có lỗi hoặc mất dữ liệu</li>
+                    <li>Các sản phẩm hoặc dịch vụ được cung cấp sẽ đáp ứng nhu cầu của bạn</li>
+                </ul>
+            </div>
+
+            <!-- Section 5 -->
+            <div class="terms-section" id="section5">
+                <h2>5. Giới Hạn Trách Nhiệm</h2>
+                <p>Trong phạm vi tối đa được phép bởi luật pháp, 36Tech không chịu trách nhiệm về:</p>
+                <ul>
+                    <li>Thiệt hại gián tiếp, ngẫu nhiên hoặc hậu quả</li>
+                    <li>Mất dữ liệu hoặc thiệt hại thương mại</li>
+                    <li>Bất kỳ tổn thất nào phát sinh từ việc sử dụng hoặc không thể sử dụng Dịch Vụ</li>
+                </ul>
+                <p>Trách nhiệm toàn bộ của 36Tech sẽ không vượt quá số tiền bạn đã trả cho Dịch Vụ trong vòng 12
+                    tháng qua.</p>
+            </div>
+
+            <!-- Section 6 -->
+            <div class="terms-section" id="section6">
+                <h2>6. Quy Tắc Hành Vi</h2>
+                <p>Khi sử dụng Dịch Vụ của chúng tôi, bạn cam kết:</p>
+                <ul>
+                    <li>Tôn trọng các quyền và sự riêng tư của những người dùng khác</li>
+                    <li>Không quấy rối, đe dọa hoặc làm bất cứ hành vi bất thích hợp nào đối với người khác</li>
+                    <li>Không đăng bình luận hoặc nội dung gây tranh cãi, bạo lực hoặc phân biệt</li>
+                    <li>Hợp tác với chúng tôi trong việc duy trì cộng đồng lành mạnh</li>
+                </ul>
+            </div>
+
+            <!-- Section 7 -->
+            <div class="terms-section" id="section7">
+                <h2>7. Thanh Toán và Hoàn Tiền</h2>
+                <h3>7.1 Phương Thức Thanh Toán</h3>
+                <p>36Tech chấp nhận các phương thức thanh toán bao gồm: thẻ tín dụng, chuyển khoản ngân hàng, ví điện
+                    tử và các phương thức khác.</p>
+                <h3>7.2 Chính Sách Hoàn Tiền</h3>
+                <p>Bạn có thể yêu cầu hoàn tiền trong vòng 30 ngày kể từ ngày mua nếu bạn không hài lòng với khóa học.
+                    Sau 30 ngày, không có hoàn tiền.</p>
+                <h3>7.3 Giá Cả</h3>
+                <p>Tất cả giá được hiển thị bằng đồng Việt (VND) và đã bao gồm các khoản thuế áp dụng.</p>
+            </div>
+
+            <!-- Section 8 -->
+            <div class="terms-section" id="section8">
+                <h2>8. Chính Sách Bảo Mật</h2>
+                <p>36Tech cam kết bảo vệ dữ liệu cá nhân của bạn. Chúng tôi:</p>
+                <ul>
+                    <li>Không bao giờ chia sẻ thông tin cá nhân của bạn với các bên thứ ba mà không có sự đồng ý</li>
+                    <li>Sử dụng mã hóa để bảo vệ thông tin thanh toán</li>
+                    <li>Tuân thủ các quy định bảo vệ dữ liệu quốc tế</li>
+                    <li>Cho phép bạn quản lý và kiểm soát dữ liệu của mình</li>
+                </ul>
+                <p>Để biết thêm chi tiết, vui lòng xem Chính Sách Bảo Mật đầy đủ của chúng tôi.</p>
+            </div>
+
+            <!-- Section 9 -->
+            <div class="terms-section" id="section9">
+                <h2>9. Thay Đổi Dịch Vụ</h2>
+                <p>36Tech có quyền thay đổi, sửa đổi hoặc ngừng cung cấp Dịch Vụ bất kỳ lúc nào, có hoặc không có
+                    thông báo trước. Chúng tôi cũng có quyền thay đổi các Điều Khoản này bất kỳ lúc nào bằng cách đăng
+                    các Điều Khoản được sửa đổi trên trang web.</p>
+                <p>Việc tiếp tục sử dụng Dịch Vụ sau các thay đổi được coi là chấp nhận các Điều Khoản được sửa đổi.</p>
+            </div>
+
+            <!-- Section 10 -->
+            <div class="terms-section" id="section10">
+                <h2>10. Liên Hệ</h2>
+                <p>Nếu bạn có bất kỳ câu hỏi, lo lắng hoặc phàn nàn về các Điều Khoản này, vui lòng liên hệ với chúng
+                    tôi:</p>
+                <ul>
+                    <li><strong>Email:</strong> support@36Tech.edu.vn</li>
+                    <li><strong>Địa chỉ:</strong> Hà Nội, Việt Nam</li>
+                    <li><strong>Điện thoại:</strong> +84 (0) 24 7777 7777</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-col contact">
+                <a href="/" class="logo" aria-label="36Tech - Home">
+                    <img style="border-radius: 10px;" src="./assets/image/logo36Tech.png" alt="" width="50px"
+                        height="50px">
+
+                </a>
+                <p>Điện thoại: 09 6148 0702<br>
+                    Email: contact@36Tech.edu.vn<br>
+                    Địa chỉ: Số 18, phố Viên, Đức Thắng, Bắc Từ Liêm, Hà Nội</p>
+                <img src="./assets/image/DCMA.png" alt="DMCA Protected"
+                    style="width:120px; margin-top:12px; display:block">
+            </div>
+
+            <div class="footer-col">
+                <h4>VỀ 36Tech</h4>
+                <ul>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                    <li><a href="#">Điều khoản</a></li>
+                    <li><a href="#">Bảo mật</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>SẢN PHẨM</h4>
+                <ul>
+                    <li><a href="#">Khóa học CSS</a></li>
+                    <li><a href="#">Khóa học javascript</a></li>
+                    <li><a href="#">Khóa học nhập môn cntt </a></li>
+                    <li><a href="#">Khóa học C++</a></li>
+                    <li><a href="#">Khóa học Java</a></li>
+                    <li><a href="#">Khóa học python</a></li>
+                </ul>
+            </div>
+
+
+
+            <div class="footer-col">
+                <h4>CÔNG TY CỔ PHẦN CÔNG NGHỆ GIÁO DỤC F8</h4>
+                <ul>
+                    <li><strong>Mã số thuế:</strong> 0000000000</li>
+                    <li><strong>Ngày thành lập:</strong> 01/09/2025</li>
+                    <li><strong>Lĩnh vực hoạt động:</strong> Giáo dục, công nghệ - lập trình.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2025 36Tech. Nền tảng học lập trình hàng đầu Việt Nam</span>
+            <div class="social" style="display:flex; gap:12px">
+                <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
