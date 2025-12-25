@@ -85,8 +85,8 @@
                         <div class="info">
                             <a href="./index.php?page_layout=c" style="font-size: 20px;">Lập trình C cho người mới bắt đầu</a>
                             <div class="btoom">
-                                <p><i class="fa-regular fa-circle-play"></i>25</p>
-                                <p><i class="fa-regular fa-clock"></i>11h</p>
+                                <p><i class="fa-solid fa-film"></i> 25 bài học</p>
+                                <p><i class="fa-solid fa-clock"></i> 11h 02p</p>
                             </div>
                         </div>
                     </div>
@@ -96,8 +96,8 @@
                         <div class="info">
                             <a href="./index.php?page_layout=cpp" style="font-size: 20px;">Khoá học C++ cơ bản</a>
                             <div class="btoom">
-                                <p><i class="fa-regular fa-circle-play"></i>9</p>
-                                <p><i class="fa-regular fa-clock"></i>3h12p</p>
+                                <p><i class="fa-solid fa-film"></i> 39 bài học</p>
+                                <p><i class="fa-solid fa-clock"></i> 08h 57p</p>
                             </div>
                         </div>
                     </div>
@@ -107,8 +107,8 @@
                         <div class="info">
                             <a href="index.php?page_layout=javaScript" style="font-size: 20px;">Javascript cơ bản</a>
                             <div class="btoom">
-                                <p><i class="fa-regular fa-circle-play"></i>9</p>
-                                <p><i class="fa-regular fa-clock"></i>3h12p</p>
+                                <p><i class="fa-solid fa-film"></i> 112 bài học</p>
+                                <p><i class="fa-solid fa-clock"></i> 23h 54p</p>
                             </div>
                         </div>
                     </div>
@@ -118,8 +118,8 @@
                         <div class="info">
                             <a href="index.php?page_layout=reactJS" style="font-size: 20px;">ReactJS cơ bản</a>
                             <div class="btoom">
-                                <p><i class="fa-regular fa-circle-play"></i>9</p>
-                                <p><i class="fa-regular fa-clock"></i>3h12p</p>
+                                <p><i class="fa-solid fa-film"></i> 84 bài học</p>
+                                <p><i class="fa-solid fa-clock"></i> 27h 41p</p>
                             </div>
                         </div>
                     </div>
@@ -129,8 +129,8 @@
                         <div class="info">
                             <a href="index.php?page_layout=python" style="font-size: 20px;">Python cơ bản</a>
                             <div class="btoom">
-                                <p><i class="fa-regular fa-circle-play"></i>9</p>
-                                <p><i class="fa-regular fa-clock"></i>3h12p</p>
+                                <p><i class="fa-solid fa-film"></i> 35 bài học</p>
+                                <p><i class="fa-solid fa-clock"></i> 12h 33p</p>
                             </div>
                         </div>
                     </div>
@@ -147,8 +147,8 @@
                         <div class="info">
                             <a href="index.php?page_layout=cpp_advance" style="font-size: 20px;">C++ nâng cao</a>
                             <div class="btoom">
-                                <p><i class="fa-regular fa-circle-play"></i>9</p>
-                                <p><i class="fa-regular fa-clock"></i>3h12p</p>
+                                <p><i class="fa-solid fa-film"></i> 85 bài học</p>
+                                <p><i class="fa-solid fa-clock"></i> 24h 05p</p>
                             </div>
                         </div>
                     </div>
@@ -158,8 +158,8 @@
                         <div class="info">
                             <a href="index.php?page_layout=javaScriptNangCao" style="font-size: 20px;">Javascript nâng cao</a>
                             <div class="btoom">
-                                <p><i class="fa-regular fa-circle-play"></i>9</p>
-                                <p><i class="fa-regular fa-clock"></i>3h12p</p>
+                                <p><i class="fa-solid fa-film"></i> 19 bài học</p>
+                                <p><i class="fa-solid fa-clock"></i> 8h 41p</p>
                             </div>
                         </div>
                     </div>
@@ -169,8 +169,8 @@
                         <div class="info">
                             <a href="index.php?page_layout=github" style="font-size: 20px;">Ứng dụng Git và GitHub</a>
                             <div class="btoom">
-                                <p><i class="fa-regular fa-circle-play"></i>9</p>
-                                <p><i class="fa-regular fa-clock"></i>3h12p</p>
+                                <p><i class="fa-solid fa-film"></i> 8 bài học</p>
+                                <p><i class="fa-solid fa-clock"></i> 02h 29p</p>
                             </div>
                         </div>
                     </div>
@@ -180,8 +180,8 @@
                         <div class="info">
                             <a href="index.php?page_layout=dont_touch_yface" style="font-size: 20px;">Don't Touch YFace</a>
                             <div class="btoom">
-                                <p><i class="fa-regular fa-circle-play"></i>9</p>
-                                <p><i class="fa-regular fa-clock"></i>3h12p</p>
+                                <p><i class="fa-solid fa-film"></i> 13 bài học</p>
+                                <p><i class="fa-solid fa-clock"></i> 02h 03p</p>
                             </div>
                         </div>
                     </div>
@@ -191,8 +191,8 @@
                         <div class="info">
                             <a href="index.php?page_layout=reponsive" style="font-size: 20px;">Responsive @web design</a>
                             <div class="btoom">
-                                <p><i class="fa-regular fa-circle-play"></i>9</p>
-                                <p><i class="fa-regular fa-clock"></i>3h12p</p>
+                                <p><i class="fa-solid fa-film"></i> 22 bài học</p>
+                                <p><i class="fa-solid fa-clock"></i> 03h 56p</p>
                             </div>
                         </div>
                     </div>
@@ -207,8 +207,8 @@
                     <div class="info">
                         <a href="index.php?page_layout=html_css" style="font-size: 20px;">HTML & CSS</a>
                         <div class="btoom">
-                            <p><i class="fa-regular fa-circle-play"></i>9</p>
-                            <p><i class="fa-regular fa-clock"></i>3h12p</p>
+                            <p><i class="fa-solid fa-film"></i> 43 bài học</p>
+                            <p><i class="fa-solid fa-clock"></i> 10h 45p</p>
                         </div>
                     </div>
                 </div>
@@ -218,8 +218,8 @@
                     <div class="info">
                         <a href="index.php?page_layout=node_js" style="font-size: 20px;">Học NodeJS</a>
                         <div class="btoom">
-                            <p><i class="fa-regular fa-circle-play"></i>9</p>
-                            <p><i class="fa-regular fa-clock"></i>3h12p</p>
+                            <p><i class="fa-solid fa-film"></i> 36 bài học</p>
+                            <p><i class="fa-solid fa-clock"></i> 11h 58p</p>
                         </div>
                     </div>
                 </div>

@@ -300,7 +300,6 @@
                         <li><i class="fa-solid fa-film"></i> Tổng số 25 bài học</li>
                         <li><i class="fa-solid fa-clock"></i> Thời lượng 11h 02p</li>
                         <li><i class="fa-solid fa-battery-full"></i> Học mọi lúc, mọi nơi</li>
-                        <li><i class="fa-solid fa-certificate"></i> Cấp chứng chỉ khi hoàn thành</li>
                     </ul>
                 </div>
             </div>
