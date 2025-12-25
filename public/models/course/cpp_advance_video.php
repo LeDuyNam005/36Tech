@@ -35,7 +35,7 @@
                             allowfullscreen></iframe>
                     </div>
                     <div class="video-info">
-                        <h1 class="video-title">1. Giới thiệu ngôn ngữ C</h1>
+                        <h1 class="video-title">1. Giới thiệu ngôn ngữ C++</h1>
                         <p class="video-desc">Cập nhật tháng 12 năm 2025</p>
                     </div>
                 </div>

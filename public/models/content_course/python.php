@@ -286,8 +286,8 @@
                 </div>
 
                 <div class="card-body">
-                    <div class="price-tag">Miễn phí</div>
-                    <button class="btn_buy">Đăng ký học ngay</button>
+                    <div class="price-tag">Khoá học Python</div>
+                    <a class="btn_buy" href="./models/course/python_video.php">Xem ngay</a>
 
                     <ul class="course-features">
                         <li><i class="fa-solid fa-gauge-high"></i> Trình độ cơ bản</li>

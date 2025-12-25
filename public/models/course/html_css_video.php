@@ -1,4 +1,3 @@
-@ -1,642 +0,0 @@
 <!DOCTYPE html>
 <html lang="vi">
 
@@ -29,7 +28,7 @@
             <div class="main-right">
                 <div class="video-column">
                     <div class="video-wrapper">
-                        <iframe id="main-video" src="https://www.youtube.com/embed/r6GWbQL-qwA?si=G94zsTHlXy1GcNtG"
+                        <iframe id="main-video" src="https://www.youtube.com/embed/R6plN3FvzFY?si=HqW2lwNsYdVDTCNi"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen></iframe>

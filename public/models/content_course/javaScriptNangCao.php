@@ -154,8 +154,8 @@
                 </div>
 
                 <div class="card-body">
-                    <div class="price-tag">Miễn phí</div>
-                    <button class="btn_buy">Đăng ký học ngay</button>
+                    <div class="price-tag">Khoá học JavaScript Nâng Cao</div>
+                    <a class="btn_buy" href="./models/course/javaScript_nang_cao_video.php">Xem ngay</a>
 
                     <ul class="course-features">
                         <li><i class="fa-solid fa-gauge-high"></i> Trình độ nâng cao</li>
