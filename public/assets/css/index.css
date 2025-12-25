@@ -294,17 +294,17 @@ main {
 button.prev,
 button.next {
   position: absolute;
-  /* Trôi nổi trên bề mặt slider */
   top: 50%;
   transform: translateY(-50%);
   background-color: rgba(255, 255, 255, 0.3);
   color: white;
   border: none;
   font-size: 30px;
-  padding: 10px 15px;
+  padding: 10px 13px;
+  padding-bottom: 14px;
   cursor: pointer;
   z-index: 10;
-  border-radius: 50%;
+  border-radius: 9999px;
   transition: 0.3s;
 }
 
