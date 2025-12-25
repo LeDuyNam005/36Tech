@@ -13,7 +13,7 @@
                             <h2><a href="#">Học HTML CSS cho người mới 👑</a></h2>
                             <p>Thực hành dự án với Figma, hàng trăm bài tập, hướng dẫn 100%,
                                 v.v.</p>
-                            <button class="cta">ĐĂNG KÍ NGAY</button>
+                            <a class="cta" href="#">ĐĂNG KÍ NGAY</a>
                         </div>
                         <div class="image">
                             <a href="#"><img src="./assets/image/html_css.png" alt="" style="height: 250px; width: 450px;"></a>
@@ -25,7 +25,7 @@
                             <p>Khóa học ReactJS từ cơ bản tới nâng cao. Kết quả của khóa học này là bạn có thể làm hầu hết các
                                 dự
                                 án thường gặp với ReactJS.</p>
-                            <button class="cta">ĐĂNG KÍ NGAY</button>
+                            <a class="cta" href="#">ĐĂNG KÍ NGAY</a>
                         </div>
                         <div class="image">
                             <a href="#"><img src="./assets/image/Banner_web_ReactJS.png" alt=""
@@ -38,7 +38,7 @@
                             <p>Để đạt được kết quả tốt trong mọi việc ta cần xác định mục tiêu rõ ràng cho việc đó. Học lập
                                 trình
                                 cũng không là ngoại lệ.</p>
-                            <button class="cta" onclick="window.location.href='<?php echo BASE_URL; ?>lotrinh.php'">XEM LỘ TRÌNH</button>
+                            <a class="cta" onclick="window.location.href='<?php echo BASE_URL; ?>lotrinh.php'">XEM LỘ TRÌNH</a>
                         </div>
                         <div class="image">
                             <a href="#"><img src="./assets/image/Banner_01_2.png" alt=""
@@ -51,7 +51,7 @@
                             <p>Học online trực tiếp qua Zoom, phù hợp nếu bạn muốn được review code, chấm bài trực tiếp bởi
                                 giảng
                                 viên và trợ giảng giàu kinh nghiệm. Giờ học linh hoạt, phù hợp cả sinh viên và người đi làm.</p>
-                            <button class="cta">TƯ VẤN MIỄN PHÍ</button>
+                            <a class="cta" href="#">TƯ VẤN MIỄN PHÍ</a>
                         </div>
                         <div class="image">
                             <a href="#"><img src="./assets/image/banner-fs.png" alt="" style="height: 250px; width: 450px;"></a>
@@ -63,7 +63,7 @@
                             <p>36Tech được nhắc tới ở mọi nơi, ở đâu có cơ hội việc làm cho nghề IT và có những con người yêu
                                 thích
                                 lập trình 36Tech sẽ ở đó.</p>
-                            <button class="cta">ĐĂNG KÍ KÊNH</button>
+                            <a class="cta" href="#">ĐĂNG KÍ KÊNH</a>
                         </div>
                         <div class="image">
                             <a href="#"><img src="./assets/image/Banner_03_youtube.png" alt=""
