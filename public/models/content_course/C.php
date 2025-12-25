@@ -292,7 +292,7 @@
                 </div>
 
                 <div class="card-body">
-                    <div class="price-tag">Khoá học C</div>
+                    <div class="price-tag">Khoá học C beginner</div>
                     <a class="btn_buy" href="./models/course/c_video.php">Xem ngay</a>
 
                     <ul class="course-features">
