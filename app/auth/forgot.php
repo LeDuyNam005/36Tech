@@ -25,7 +25,6 @@ if (isset($_POST['req_otp'])) {
 
         if ($user) {
             $otp = rand(100000, 999999);
-
             // Gửi OTP
             if (sendOTP($email, $otp)) {
                 $_SESSION['reset_otp'] = $otp;
@@ -42,7 +41,7 @@ if (isset($_POST['req_otp'])) {
 }
 
 // --- 2. XỬ LÝ ĐỔI PASS ---
-elseif (isset($_POST['confirm_reset'])) {
+elseif (isset($_POST['confirm'])) {
     $ok = true;
     $otp_input = trim($_POST['otp_code']);
     $newpw = trim($_POST['newpw']);
@@ -119,14 +118,16 @@ if (!empty($error)) {
 
             <button type="submit" name="req_otp" class="login-button">Gửi mã OTP</button>
 
-        <?php } else { ?>
+        <?php
+        } else {
+        ?>
             <label>Mã OTP (6 số)</label>
             <input name="otp_code" type="text" placeholder="Nhập mã OTP" style="text-align: center; font-weight: bold;">
 
             <label>Mật khẩu mới</label>
             <input name="newpw" type="password" placeholder="Nhập mật khẩu mới">
 
-            <button type="submit" name="confirm_reset" class="login-button">Lưu mật khẩu</button>
+            <button type="submit" name="confirm" class="login-button">Lưu mật khẩu</button>
 
         <?php } ?>
 

@@ -1,4 +1,3 @@
-// Hàm hiển thị thông báo
 function showMessage(text, isError = true) {
   var msgTag = document.querySelector(".warn");
   if (!msgTag) return;
