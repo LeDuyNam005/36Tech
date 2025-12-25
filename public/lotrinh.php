@@ -39,7 +39,6 @@ requireLogin();
         <h2 style="text-align: center; color: #2c3e50; margin-bottom: 30px;">Các kỹ năng cốt lõi</h2>
 
         <div class="grid-container">
-
           <div class="card">
             <div class="icon-box pink">
               <i class="fa-solid fa-code"></i>

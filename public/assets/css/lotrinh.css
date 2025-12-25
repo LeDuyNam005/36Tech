@@ -1,24 +1,21 @@
-/* 1. Cấu hình chung */
 body {
-  font-family: Arial, sans-serif; /* Font mặc định máy nào cũng có */
-  background-color: #f4f4f4; /* Màu nền xám nhẹ cho nổi nội dung */
+  background-color: #f4f4f4;
   margin: 0;
 }
-
 .main-right {
   padding: 20px;
   width: 100%;
 }
 .highlight {
-  color: #3498db; /* Màu xanh nổi bật */
+  color: #3498db;
 }
 /* 2. Phần giới thiệu ảnh */
 .intro-section {
   text-align: center;
   background: white;
   padding: 20px;
-  border-radius: 8px; /* Bo góc nhẹ */
-  border: 1px solid #ddd; /* Viền xám mờ */
+  border-radius: 8px;
+  border: 1px solid #ddd;
 }
 .intro {
   color: #666;
@@ -46,20 +43,18 @@ body {
 .card {
   background: white;
   padding: 20px;
-  border: 1px solid #ccc; /* Viền cơ bản */
+  border: 1px solid #ccc;
   border-radius: 8px;
-  text-align: center; /* Căn giữa nội dung */
+  text-align: center;
 }
 
-/* Hiệu ứng nhẹ khi di chuột vào (Tùy chọn, có thể bỏ) */
 .card:hover {
-  border-color: #007bff; /* Đổi màu viền sang xanh */
+  border-color: #007bff;
 }
 
-/* Style cho Icon */
 .card i {
-  font-size: 40px; /* Icon to ra */
-  color: #007bff; /* Màu xanh dương chuẩn web */
+  font-size: 40px;
+  color: #007bff;
   margin-bottom: 10px;
 }
 
@@ -73,60 +68,52 @@ body {
   font-size: 14px;
 }
 
-/* 5. Responsive (Cho điện thoại) */
 @media (max-width: 768px) {
   .grid-container {
-    grid-template-columns: 1fr; /* Trên điện thoại thì về 1 cột */
+    grid-template-columns: 1fr;
   }
-} /* --- Cấu trúc Grid --- */
+}
+/* --- Cấu trúc Grid --- */
 .grid-container {
   display: grid;
-  /* Tự động chia cột: Card nhỏ nhất là 280px, còn lại tự giãn đều */
+
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px; /* Khoảng cách giữa các card */
   margin-top: 20px;
   padding: 10px;
 }
 
-/* --- Style cho Thẻ Card (Giống hình mẫu) --- */
 .card {
   background: #ffffff;
-  padding: 30px 20px; /* Padding trên dưới nhiều hơn 1 chút cho thoáng */
-  border-radius: 12px; /* Bo góc mềm mại */
+  padding: 30px 20px;
+  border-radius: 12px;
   text-align: center;
 
-  /* Hiệu ứng đổ bóng nhẹ (Shadow) */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
 
-  /* Hiệu ứng mượt mà khi hover */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: 1px solid #eee; /* Viền rất mờ */
+  border: 1px solid #eee;
 }
 
-/* Hiệu ứng khi di chuột vào card */
 .card:hover {
-  transform: translateY(-5px); /* Bay lên nhẹ */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Bóng đậm hơn */
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* --- Style chung cho Icon --- */
 .icon-box {
   width: 60px;
   height: 60px;
-  border-radius: 50%; /* Làm tròn thành hình tròn */
-  display: flex; /* Để căn giữa icon bên trong */
+  border-radius: 50%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto 20px auto; /* Căn giữa box và đẩy chữ xuống dưới */
-  font-size: 24px; /* Kích thước icon bên trong */
+  margin: 0 auto 20px auto;
+  font-size: 24px;
 }
 
-/* --- Màu sắc riêng cho từng Icon (Giống hình mẫu) --- */
-
-/* 1. Màu Hồng (Frontend) */
 .icon-box.pink {
-  background-color: #ffeef2; /* Nền nhạt */
-  color: #e83e8c; /* Icon đậm */
+  background-color: #ffeef2;
+  color: #e83e8c;
 }
 
 /* 2. Màu Tím (Backend) */
@@ -164,12 +151,12 @@ body {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 15px;
-  color: #333; /* Màu đen xám */
+  color: #333;
 }
 
 .card p {
   font-size: 14px;
-  line-height: 1.6; /* Khoảng cách dòng thoáng */
-  color: #666; /* Màu xám nhạt */
+  line-height: 1.6;
+  color: #666;
   margin: 0;
 }

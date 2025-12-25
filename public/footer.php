@@ -24,25 +24,25 @@ requireLogin();
             <ul>
                 <li><a href="#">Giới thiệu</a></li>
                 <li><a href="#">Liên hệ</a></li>
-                <li><a href="#">Điều khoản</a></li>
-                <li><a href="#">Bảo mật</a></li>
+                <li><a href="../app/auth/html/termofservices.html">Điều khoản</a></li>
+                <li><a href="../app/auth/html/termofservices.html">Bảo mật</a></li>
             </ul>
         </div>
 
         <div class="footer-col">
             <h4>SẢN PHẨM</h4>
             <ul>
-                <li><a href="#">Khóa học CSS</a></li>
-                <li><a href="#">Khóa học javascript</a></li>
-                <li><a href="#">Khóa học nhập môn cntt </a></li>
-                <li><a href="#">Khóa học C++</a></li>
-                <li><a href="#">Khóa học Java</a></li>
-                <li><a href="#">Khóa học python</a></li>
+                <li><a href="index.php?page_layout=html_css">Khóa học CSS</a></li>
+                <li><a href="index.php?page_layout=javaScript">Khóa học Javascript</a></li>
+                <li><a href="index.php?page_layout=github">Khóa học ứng dụng Git và Github </a></li>
+                <li><a href="index.php?page_layout=cpp_advance">Khóa học C++</a></li>
+                <li><a href="index.php?page_layout=node_js">Khóa học NodeJS</a></li>
+                <li><a href="index.php?page_layout=python">Khóa học Python cơ bản</a></li>
             </ul>
         </div>
 
         <div class="footer-col">
-            <h4>CÔNG TY CỔ PHẦN CÔNG NGHỆ GIÁO DỤC F8</h4>
+            <h4>CÔNG TY CỔ PHẦN CÔNG NGHỆ GIÁO DỤC 36TECH</h4>
             <ul>
                 <li><strong>Mã số thuế:</strong> 0000000000</li>
                 <li><strong>Ngày thành lập:</strong> 01/09/2025</li>

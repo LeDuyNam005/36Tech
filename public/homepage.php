@@ -13,10 +13,10 @@
                             <h2><a href="#">Học HTML CSS cho người mới 👑</a></h2>
                             <p>Thực hành dự án với Figma, hàng trăm bài tập, hướng dẫn 100%,
                                 v.v.</p>
-                            <a class="cta" href="#">ĐĂNG KÍ NGAY</a>
+                            <a class="cta" href="index.php?page_layout=html_css">ĐĂNG KÍ NGAY</a>
                         </div>
                         <div class="image">
-                            <a href="#"><img src="./assets/image/html_css.png" alt="" style="height: 250px; width: 450px;"></a>
+                            <a href=""><img src="./assets/image/html_css.png" alt=""></a>
                         </div>
                     </div>
                     <div class="slide">
@@ -25,11 +25,10 @@
                             <p>Khóa học ReactJS từ cơ bản tới nâng cao. Kết quả của khóa học này là bạn có thể làm hầu hết các
                                 dự
                                 án thường gặp với ReactJS.</p>
-                            <a class="cta" href="#">ĐĂNG KÍ NGAY</a>
+                            <a class="cta" href="index.php?page_layout=reactJS">ĐĂNG KÍ NGAY</a>
                         </div>
                         <div class="image">
-                            <a href="#"><img src="./assets/image/Banner_web_ReactJS.png" alt=""
-                                    style="height: 250px; width: 450px;"></a>
+                            <a href="#"><img src="./assets/image/Banner_web_ReactJS.png" alt=""></a>
                         </div>
                     </div>
                     <div class="slide">
@@ -41,8 +40,7 @@
                             <a class="cta" onclick="window.location.href='<?php echo BASE_URL; ?>lotrinh.php'">XEM LỘ TRÌNH</a>
                         </div>
                         <div class="image">
-                            <a href="#"><img src="./assets/image/Banner_01_2.png" alt=""
-                                    style="height: 250px; width: 450px;"></a>
+                            <a href="#"><img src="./assets/image/Banner_01_2.png" alt=""></a>
                         </div>
                     </div>
                     <div class="slide">
@@ -54,7 +52,7 @@
                             <a class="cta" href="#">TƯ VẤN MIỄN PHÍ</a>
                         </div>
                         <div class="image">
-                            <a href="#"><img src="./assets/image/banner-fs.png" alt="" style="height: 250px; width: 450px;"></a>
+                            <a href="#"><img src="./assets/image/banner-fs.png" alt=""></a>
                         </div>
                     </div>
                     <div class="slide">
@@ -66,8 +64,7 @@
                             <a class="cta" href="#">ĐĂNG KÍ KÊNH</a>
                         </div>
                         <div class="image">
-                            <a href="#"><img src="./assets/image/Banner_03_youtube.png" alt=""
-                                    style="height: 250px; width: 450px;"></a>
+                            <a href="#"><img src="./assets/image/Banner_03_youtube.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -178,7 +175,7 @@
                     <div class="card_box">
                         <div><img src="./models/img/dont_touch.png" class="img_card"> </div>
                         <div class="info">
-                            <a href="index.php?page_layout=dont_touch_yface" style="font-size: 20px;">Don't Touch YFace</a>
+                            <a href="index.php?page_layout=dont_touch_yface" style="font-size: 20px;">Don't Touch Your Face</a>
                             <div class="btoom">
                                 <p><i class="fa-regular fa-circle-play"></i>9</p>
                                 <p><i class="fa-regular fa-clock"></i>3h12p</p>
@@ -226,7 +223,7 @@
             </div>
         </div>
     </div>
-    </div>
+
 
 </body>
 
