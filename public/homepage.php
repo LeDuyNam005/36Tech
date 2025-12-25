@@ -175,7 +175,7 @@
                     <div class="card_box">
                         <div><img src="./models/img/dont_touch.png" class="img_card"> </div>
                         <div class="info">
-                            <a href="index.php?page_layout=dont_touch_yface" style="font-size: 20px;">Don't Touch YFace</a>
+                            <a href="index.php?page_layout=dont_touch_yface" style="font-size: 20px;">Don't Touch Your Face</a>
                             <div class="btoom">
                                 <p><i class="fa-regular fa-circle-play"></i>9</p>
                                 <p><i class="fa-regular fa-clock"></i>3h12p</p>
