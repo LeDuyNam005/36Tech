@@ -19,12 +19,17 @@ requireLogin();
         </div>
 
         <div class="header-inner-center">
-            <form class="search" role="search" action="#" method="get">
+             <form class="search" role="search" autocomplete="off">
                 <div class="search-wrapper">
-                    <input id="search-input" name="q" type="search" placeholder="Tìm kiếm khóa học, bài viết, video, ..." autocomplete="off">
-                    <button type="submit" class="search-btn" aria-label="Tìm kiếm"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </div>
-            </form>
+                   <input id="search-input" type="search" placeholder="Tìm kiếm khóa học, bài viết, video, ..."
+                       autocomplete="off">
+
+                   <button type="submit" class="search-btn">🔍</button>
+
+                   <!-- dropdown kết quả -->
+                   <div class="search-result" id="search-result"></div>
+               </div>
+           </form>
         </div>
 
         <div class="header-inner-right">
