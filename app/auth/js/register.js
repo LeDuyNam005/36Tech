@@ -1,4 +1,3 @@
-// Hàm hiển thị thông báo (Dùng chung cho cả Validate và PHP trả về)
 function showMessage(text, isError = true) {
   var msgTag = document.querySelector(".warn");
   if (!msgTag) return;
@@ -23,7 +22,6 @@ function handleRegister(e) {
   if (fullname === "") {
     return showMessage("Vui lòng nhập họ và tên!", true);
   }
-
   // 2. Kiểm tra Tài khoản
   if (user === "") {
     return showMessage("Vui lòng nhập tên tài khoản!", true);
@@ -35,11 +33,6 @@ function handleRegister(e) {
   // 3. Kiểm tra Email
   if (email === "") {
     return showMessage("Vui lòng nhập Email!", true);
-  }
-  // Regex đơn giản kiểm tra email
-  var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if (!emailRegex.test(email)) {
-    return showMessage("Email không hợp lệ!", true);
   }
 
   // 4. Kiểm tra Mật khẩu
