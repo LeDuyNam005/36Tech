@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-// Hàm hiển thị thông báo (Dùng chung cho cả Validate và PHP trả về)
-=======
->>>>>>> 085d1e26c0c71eb3db2a69bee11047eba323f677
 function showMessage(text, isError = true) {
   var msgTag = document.querySelector(".warn");
   if (!msgTag) return;
@@ -26,10 +22,6 @@ function handleRegister(e) {
   if (fullname === "") {
     return showMessage("Vui lòng nhập họ và tên!", true);
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> 085d1e26c0c71eb3db2a69bee11047eba323f677
   // 2. Kiểm tra Tài khoản
   if (user === "") {
     return showMessage("Vui lòng nhập tên tài khoản!", true);
@@ -42,11 +34,7 @@ function handleRegister(e) {
   if (email === "") {
     return showMessage("Vui lòng nhập Email!", true);
   }
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> 085d1e26c0c71eb3db2a69bee11047eba323f677
   // 4. Kiểm tra Mật khẩu
   if (pass === "") {
     return showMessage("Vui lòng nhập mật khẩu!", true);

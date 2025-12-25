@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-// Hàm hiển thị thông báo
-=======
->>>>>>> 085d1e26c0c71eb3db2a69bee11047eba323f677
 function showMessage(text, isError = true) {
   var msgTag = document.querySelector(".warn");
   if (!msgTag) return;

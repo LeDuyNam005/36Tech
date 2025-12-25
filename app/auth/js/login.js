@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-// Hàm này sẽ đổi chữ trong thẻ <p class="warn">
-=======
->>>>>>> 085d1e26c0c71eb3db2a69bee11047eba323f677
 function showMessage(text, isError = true) {
   // Lấy thẻ p có class là warn
   var msgTag = document.querySelector(".warn");
