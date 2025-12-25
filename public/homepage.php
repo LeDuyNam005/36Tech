@@ -16,7 +16,7 @@
                             <button class="cta">ĐĂNG KÍ NGAY</button>
                         </div>
                         <div class="image">
-                            <a href="#"><img src="./assets/image/html.png" alt="" style="height: 250px; width: 450px;"></a>
+                            <a href="#"><img src="./assets/image/html_css.png" alt="" style="height: 250px; width: 450px;"></a>
                         </div>
                     </div>
                     <div class="slide">

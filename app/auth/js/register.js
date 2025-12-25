@@ -36,12 +36,7 @@ function handleRegister(e) {
   if (email === "") {
     return showMessage("Vui lòng nhập Email!", true);
   }
-  // Regex đơn giản kiểm tra email
-  var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if (!emailRegex.test(email)) {
-    return showMessage("Email không hợp lệ!", true);
-  }
-
+  
   // 4. Kiểm tra Mật khẩu
   if (pass === "") {
     return showMessage("Vui lòng nhập mật khẩu!", true);

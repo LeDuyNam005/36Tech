@@ -7,10 +7,11 @@ $error = '';
 $success = '';
 $ok = false;
 
-// --- 1. XỬ LÝ GỬI OTP  ---
+// --- 1. XỬ LÝ GỬI OTP ---
 if (isset($_POST['req_otp'])) {
     $username = trim($_POST['username']);
     $email = trim($_POST['email']);
+
     if (empty($username) && (empty($email))) {
         $error = 'Vui lòng nhập tên đăng nhập và email !';
     } else if (empty($username)) {
@@ -18,18 +19,24 @@ if (isset($_POST['req_otp'])) {
     } else if (empty($email)) {
         $error = 'Vui lòng nhập email !';
     } else {
-        $sql = "SELECT id FROM users WHERE username = '$username' AND email = '$email' LIMIT 1";
+        $sql = "SELECT id, email FROM users WHERE username = '$username' AND email = '$email' LIMIT 1";
         $result = mysqli_query($conn, $sql);
         $user = mysqli_fetch_assoc($result);
 
-        $otp = rand(100000, 999999);
-        if (sendOTP($email, $otp)) {
-            $_SESSION['reset_otp'] = $otp;
-            $_SESSION['user_id'] = $user['id'];
-            $ok = true;
-            $success = "Đã gửi mã OTP. Vui lòng kiểm tra email !";
+        if ($user) {
+            $otp = rand(100000, 999999);
+
+            // Gửi OTP
+            if (sendOTP($email, $otp)) {
+                $_SESSION['reset_otp'] = $otp;
+                $_SESSION['user_id'] = $user['id'];
+                $ok = true;
+                $success = "Đã gửi mã OTP. Vui lòng kiểm tra email !";
+            } else {
+                $error = "Lỗi gửi mail. Hãy thử lại !";
+            }
         } else {
-            $error = "Lỗi gửi mail. Hãy thử lại !";
+            $error = "Tên đăng nhập hoặc Email không chính xác !";
         }
     }
 }
@@ -71,7 +78,6 @@ if (!empty($error)) {
     $mess = $success;
     $style = "color: #28a745; font-weight: bold;";
 } else {
-    // Hướng dẫn mặc định
     if (!$ok) {
         $mess = "Nhập tài khoản và email để nhận mã xác thực.";
     } else {

@@ -278,7 +278,7 @@
 
 .btn_buy {
     width: 100%;
-    padding: 12px;
+    padding: 12px 0px 12px 0px;
     border: none;
     border-radius: 99px;
     background: linear-gradient(180deg, #3d98ff, #6c80ff);
@@ -289,6 +289,12 @@
     transition: all 0.2s;
     box-shadow: 0 4px 12px rgba(61, 152, 255, 0.3);
     margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    line-height: normal;
 }
 
 .btn_buy:hover {
