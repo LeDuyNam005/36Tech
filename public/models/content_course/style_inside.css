@@ -296,6 +296,12 @@ a {
   line-height: normal;
 }
 
+a {
+    text-decoration: none;
+    display: inline-block;
+    line-height: normal;
+}
+
 .btn_buy:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(61, 152, 255, 0.4);
