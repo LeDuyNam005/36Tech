@@ -25,7 +25,7 @@ requireLogin();
                    <input id="search-input" type="search" placeholder="Tìm kiếm khóa học, bài viết, video, ..."
                        autocomplete="off">
 
-                   <button type="submit" class="search-btn">🔍</button>
+                   <button type="submit" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
 
                    <!-- dropdown kết quả -->
                    <div class="search-result" id="search-result"></div>
