@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if ($del_id == $_SESSION['user_id']) {
             $mess = "<div class='alert error'>Không thể tự xóa tài khoản đang đăng nhập!</div>";
         } else {
-            $sql = "DELETE FROM users WHERE id = $id";
+            $sql = "DELETE FROM users WHERE id = $del_id";
 
             if (mysqli_query($conn, $sql)) {
                 $mess = "<div class='alert success'>Đã xóa thành viên thành công!</div>";

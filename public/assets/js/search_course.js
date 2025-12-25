@@ -28,7 +28,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // shibaaaaaa
   function xuLyTiengViet(str) {
     return str
-      .normalize('NFD')             // normallize dùng để tách dấu : vd : kiên => k i e ^ n 
+      .normalize('NFC') //Quy chuẩn các kiểu gõ dấu (khoá vs khóa -> về cùng 1 kiểu)
+      .normalize('NFD')             // normallize dùng để tách dấu : vd : kiên => chở 
       .replace(/[\u0300-\u036f]/g, '') // xóa dấu :  k i e ^ n => k i e n
       .replace(/đ/g, 'd')   // xử lý đ sang d       
       .replace(/Đ/g, 'D')   // xủ lý Đ sàn D        

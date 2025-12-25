@@ -2,7 +2,7 @@
 $db_server   = "localhost";
 $db_username = "root";
 $db_password = "";
-$db_name     = "test";
+$db_name     = "cgv";
 $db_port     = 3306;
 
 // Create connection
