@@ -26,7 +26,7 @@
             <div class="main-right">
                 <div class="video-column">
                     <div class="video-wrapper">
-                        <iframe src="https://www.youtube.com/embed/sjPq66rg1Kc?si=cDfMlI38jrQRt2Hc"
+                        <iframe src="https://www.youtube.com/embed/x0fSBAgBrOQ"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen></iframe>

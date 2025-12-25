@@ -105,13 +105,13 @@
         <div class="right_content_wrapper">
             <div class="course-card">
                 <div class="course-img-wrapper">
-                    <img src="../img/c++.jpg" alt="Khóa học C++">
+                    <img src="./models/img/cpp.jpg" alt="Khóa học C++">
                     <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
                 </div>
 
                 <div class="card-body">
-                    <div class="price-tag">Miễn phí</div>
-                    <button class="btn_buy">Đăng ký học ngay</button>
+                    <div class="price-tag">Khoá học C++</div>
+                    <a class="btn_buy" href="./models/course/cpp_video.php">Xem ngay</a>
 
                     <ul class="course-features">
                         <li><i class="fa-solid fa-gauge-high"></i> Trình độ cơ bản</li>

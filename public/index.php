@@ -42,17 +42,44 @@
                         case 'homepage':
                             include "homepage.php";
                             break;
-
                         case 'c':
                             include "models/content_course/C.php";
                             break;
-
-                        case 'cplus':
-                            include "models/content_course/c++.php";
+                        case 'python':
+                            include "models/content_course/python.php";
                             break;
-
-                        case 'cplus_advance':
-                            include "models/content_course/c++_advance.php";
+                        case 'cpp':
+                            include "models/content_course/cpp.php";
+                            break;
+                        case 'cpp_advance':
+                            include "models/content_course/cpp_advance.php";
+                            break;
+                        case 'javaScript':
+                            include "models/content_course/javaScript.php";
+                            break;
+                        case 'javaScriptNangCao':
+                            include "models/content_course/javaScriptNangCao.php";
+                            break;
+                        case 'github':
+                            include "models/content_course/github.php";
+                            break;
+                        case 'dont_touch_yface':
+                            include "models/content_course/dont_touch_yface.php";
+                            break;
+                        case 'node_js':
+                            include "models/content_course/node_js.php";
+                            break;
+                        case 'reactJS':
+                            include "models/content_course/reactJS.php";
+                            break;
+                        case 'reponsive':
+                            include "models/content_course/reponsive.php";
+                            break;
+                        case 'html_css':
+                            include "models/content_course/html_css.php";
+                            break;
+                        default:
+                            include "homepage.php";
                             break;
                     }
                 } else {
