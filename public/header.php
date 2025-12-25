@@ -14,6 +14,7 @@ requireLogin();
             <a href="<?php echo BASE_URL; ?>index.php" class="logo" aria-label="36Tech - Home">
                 <img style="border-radius: 10px;" src="<?php echo BASE_URL; ?>assets/image/logo36Tech.png" alt="" width="50px" height="50px">
                 <span class="site-title">Công cụ học lập trình</span>
+                <link rel="icon" href="assets/image/logo36Tech.png" type="image/png">
             </a>
         </div>
 
