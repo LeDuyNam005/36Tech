@@ -13,7 +13,7 @@
                             <h2><a href="#">Học HTML CSS cho người mới 👑</a></h2>
                             <p>Thực hành dự án với Figma, hàng trăm bài tập, hướng dẫn 100%,
                                 v.v.</p>
-                            <a class="cta" href="index.php?page_layout=html_css">ĐĂNG KÍ NGAY</a>
+                            <a class="cta" href="index.php?page_layout=html_css">HỌC NGAY</a>
                         </div>
                         <div class="image">
                             <a href=""><img src="./assets/image/html_css.png" alt=""></a>
@@ -26,7 +26,7 @@
                                 hết các
                                 dự
                                 án thường gặp với ReactJS.</p>
-                            <a class="cta" href="index.php?page_layout=reactJS">ĐĂNG KÍ NGAY</a>
+                            <a class="cta" href="index.php?page_layout=reactJS">HỌC NGAY</a>
                         </div>
                         <div class="image">
                             <a href="#"><img src="./assets/image/Banner_web_ReactJS.png" alt=""></a>
