@@ -93,7 +93,7 @@ Mở trình duyệt và truy cập:
 
 - [Lê Duy Nam](https://github.com/LeDuyNam005)
 - [Đào Quang Lộc](https://github.com/Lynx-1ST)
-- [Lê Trung Kiên](https://github.com/ForgetK05)
+- [Đỗ Trung Kiên](https://github.com/ForgetK05)
 - [Đào Thế Huy](https://github.com/HarryWill05)
 - [Nguyễn Văn Mạnh](https://github.com/M4NH693)
 
