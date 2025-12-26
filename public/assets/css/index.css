@@ -688,82 +688,84 @@ button.next:hover {
 }
 
 .footer-inner {
-    width: 96%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 320px 1fr 1fr 1fr 1fr;
-    gap: 36px;
-    align-items: start;
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 320px 1fr 1fr 1fr 1fr;
+  gap: 36px;
+  align-items: start;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-inner h4 {
-    color: #ffffff;
-    font-size: 16px;
-    margin: 0 0 14px 0;
-    letter-spacing: 0.2px;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0 0 14px 0;
+  letter-spacing: 0.2px;
 }
 
 .footer-inner p {
-    color: #99a0a6;
-    line-height: 1.6;
-    margin: 0 0 10px 0;
+  color: #99a0a6;
+  line-height: 1.6;
+  margin: 0 0 10px 0;
 }
 
 .footer-inner ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .footer-inner ul li {
-    margin: 8px 0;
+  margin: 8px 0;
 }
 
 .footer-inner a {
-    color: #bfc8cd;
-    text-decoration: none;
+  color: #bfc8cd;
+  text-decoration: none;
 }
 
 .footer-inner a:hover {
-    color: #ffffff;
-    text-decoration: underline;
+  color: #ffffff;
+  text-decoration: underline;
 }
 
-.footer-inner>div:first-child .logo-badge {
-    width: 40px;
-    height: 40px;
-    font-size: 14px;
-    border-radius: 8px
+.footer-inner > div:first-child .logo-badge {
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 8px;
 }
 
 .footer-inner .social {
-    display: flex;
-    gap: 12px;
-    align-items: center
+  display: flex;
+  gap: 12px;
+  align-items: center;
 }
 
 .footer-inner .social a {
-    display: inline-flex;
-    width: 38px;
-    height: 38px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    background: #151617;
-    color: #fff;
-    text-decoration: none
+  display: inline-flex;
+  width: 38px;
+  height: 38px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: #151617;
+  color: #fff;
+  text-decoration: none;
 }
 
 .footer-bottom {
-    width: 96%;
-    margin: 18px auto 0;
-    padding-top: 18px;
-    border-top: 1px solid rgba(255, 255, 255, 0.04);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #8f98a0;
-    font-size: 14px;
+  width: 95%;
+  margin: 18px auto 0;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #8f98a0;
+  font-size: 14px;
 }
 
 .footer-bottom a {
