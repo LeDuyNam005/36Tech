@@ -4,24 +4,22 @@
 
 ## 🚀 Tính năng chính
 
-- **Hệ thống xác thực (Authentication):**
+**Hệ thống xác thực (Authentication):**
+
 - Đăng ký / Đăng nhập / Đăng xuất.
-- Xác thực tài khoản qua **Email OTP** (sử dụng PHPMailer).
+- Xác thực tài khoản qua **Email OTP** (PHPMailer).
 - Quên mật khẩu & Đặt lại mật khẩu an toàn.
 
-- **Quản lý người dùng:**
+**Quản lý người dùng:**
+
 - Cập nhật thông tin cá nhân.
 - Thay đổi Avatar (Upload & xử lý ảnh).
 - Đổi mật khẩu (Hash password với Bcrypt).
 
-- **Giao diện:**
-- Responsive Design (tương thích mobile/desktop).
-- Sticky Form (giữ lại dữ liệu khi reload).
-
 ## 🛠️ Công nghệ sử dụng
 
-- **Backend:** PHP (Native), MySQLi.
-- **Frontend:** HTML5, CSS3, JavaScript (Vanilla).
+- **Backend:** PHP, MySQLi.
+- **Frontend:** HTML5, CSS3, JavaScript.
 - **Thư viện:** PHPMailer (Gửi email SMTP).
 - **Database:** MySQL.
 
@@ -93,7 +91,11 @@ Mở trình duyệt và truy cập:
 
 ## 👨‍💻 Tác giả
 
-- **Dự án đang được hoàn thiện, sẽ cập nhật sau ** -
+- [Lê Duy Nam](https://github.com/LeDuyNam005)
+- [Đào Quang Lộc](https://github.com/Lynx-1ST)
+- [Đỗ Trung Kiên](https://github.com/ForgetK05)
+- [Đào Thế Huy](https://github.com/HarryWill05)
+- [Nguyễn Văn Mạnh](https://github.com/M4NH693)
 
 ---
 

@@ -679,77 +679,79 @@ button.next:hover {
   font-size: 30px;
 }
 
+
 .search-wrapper {
-  position: relative;
+    position: relative;
 }
 
 /* Box kết quả */
 .search-result {
-  position: absolute;
-  top: calc(100% + 8px);
-  left: 0;
-  right: 0;
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    right: 0;
 
-  background: #ffffff;
-  border-radius: 16px;
+    background: #ffffff;
+    border-radius: 16px;
 
-  box-shadow: 0 12px 32px rgba(16, 24, 40, 0.12);
-  border: 1px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0 12px 32px rgba(16, 24, 40, 0.12);
+    border: 1px solid rgba(0, 0, 0, 0.04);
 
-  overflow: hidden;
-  display: none;
-  z-index: 999;
+    overflow: hidden;
+    display: none;
+    z-index: 999;
 }
 
 /* Item */
 .search-result-item {
-  padding: 14px 18px;
-  font-size: 15px;
-  font-weight: 600;
-  color: #292929;
+    padding: 14px 18px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #292929;
 
-  cursor: pointer;
-  transition: all 0.2s ease;
+    cursor: pointer;
+    transition: all 0.2s ease;
 }
 
 /* Hover giống card */
 .search-result-item:hover {
-  background-color: #f3f6f9;
-  color: #1a90ff;
+    background-color: #f3f6f9;
+    color: #1a90ff;
 }
 
 /* Không tìm thấy */
 .search-empty {
-  padding: 16px;
-  text-align: center;
-  font-size: 14px;
-  color: #6b7280;
+    padding: 16px;
+    text-align: center;
+    font-size: 14px;
+    color: #6b7280;
 }
+
 
 /* Search item có ảnh */
 .search-result-item {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
 }
 
 /* Ảnh khóa học trong search */
 .search-result-item img {
-  width: 48px;
-  height: 32px;
-  object-fit: cover;
-  border-radius: 6px;
-  flex-shrink: 0;
+    width: 48px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 6px;
+    flex-shrink: 0;
 }
 
 /* Text */
 .search-result-item span {
-  font-size: 15px;
-  font-weight: 600;
-  color: #292929;
+    font-size: 15px;
+    font-weight: 600;
+    color: #292929;
 }
 
 .search-result-item:hover span {
-  color: #1a90ff;
+    color: #1a90ff;
 }

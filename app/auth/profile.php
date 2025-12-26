@@ -4,7 +4,7 @@ require_once 'auth.php';
 require_once '../../public/config.php';
 requireLogin();
 
-$mess = '';
+$mess = [];
 $user_id = $_SESSION['user_id'];
 $error = false;
 
@@ -21,19 +21,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $newpw    = trim($_POST['newpw']);
 
     if (empty($fullname)) {
-        $mess .= "Họ tên thay đổi không được để trống!<br>";
+        $mess[] = "Họ tên thay đổi không được để trống!<br>";
         $error = true;
     }
     if (empty($email)) {
-        $mess .= "Email thay đổi không được để trống!<br>";
+        $mess[] = "Email thay đổi không được để trống!<br>";
         $error = true;
     } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $mess .= "Email thay đổi không hợp lệ!<br>";
+        $mess[] = "Email thay đổi không hợp lệ!<br>";
         $error = true;
     } else if ($email != $user['email']) {
         $check_sql = "SELECT id FROM users WHERE email = '$email' AND id != $user_id";
         if (mysqli_num_rows(mysqli_query($conn, $check_sql)) > 0) {
-            $mess .= "Email này đã có người sử dụng!<br>";
+            $mess[] = "Email này đã có người sử dụng!<br>";
             $error = true;
         }
     }
@@ -41,15 +41,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Xử lí mật khẩu nếu nhập
     if (!empty($newpw)) {
         if (strlen($newpw) < 6) {
-            $mess .= 'Mật khẩu mới có ít nhất 6 kí tự ! <br> ';
+            $mess[] = 'Mật khẩu mới có ít nhất 6 kí tự ! <br> ';
             $error = true;
         } else {
             $hashedPassword = password_hash($newpw, PASSWORD_BCRYPT);
             $sql_update = "UPDATE users SET password = '$hashedPassword' WHERE id = " . $user['id'] . " LIMIT 1";
             if (mysqli_query($conn, $sql_update)) {
-                $mess  .= "<span style='color:green'>Cập nhật mật khẩu thành công!</span><br>";
+                $mess[] = "<span style='color:green'>Cập nhật mật khẩu thành công!</span><br>";
             } else {
-                $mess = 'Lỗi cập nhật mật khẩu!';
+                $mess[] = 'Lỗi cập nhật mật khẩu!';
                 $error = true;
             }
         }
@@ -67,12 +67,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Kiểm tra file có phải ảnh không
         $check = getimagesize($_FILES["avatar"]["tmp_name"]);
         if ($check === false) {
-            $mess .= "File không phải ảnh hợp lệ";
+            $mess[] = "File không phải ảnh hợp lệ";
             $uploadOk = 0;
         }
         // Kiểm tra kích thước file
         if ($_FILES["avatar"]["size"] > 5000000) {
-            $mess .= "File quá lớn";
+            $mess[] = "File quá lớn";
             $uploadOk = 0;
         }
         // Cho phép các định dạng file ảnh nhất định
@@ -80,7 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $imageFileType != "jpg" && $imageFileType != "png"
             && $imageFileType != "jpeg" && $imageFileType != "gif"
         ) {
-            $mess .= "Chỉ những file JPG, JPEG, PNG & GIF mới được chấp nhận. <br>";
+            $mess[] = "Chỉ những file JPG, JPEG, PNG & GIF mới được chấp nhận.";
             $uploadOk = 0;
         }
         // Upload file nếu hợp lệ
@@ -92,7 +92,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 // Cập nhật lại Session để hiển thị ngay trên Header
                 $_SESSION['avatar'] = $avatar_db;
             } else {
-                $mess .= "Lỗi khi tải file lên ! <br>";
+                $mess[] = "Lỗi khi tải file lên ! <br>";
             }
         }
     }
@@ -104,13 +104,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             // Cập nhật lại Session
             $_SESSION['fullname'] = $fullname;
             $_SESSION['email']    = $email;
-            $mess .= "<span style='color:green'>Cập nhật hồ sơ thành công!</span><br>";
+            $mess[] = "<span style='color:green'>Cập nhật hồ sơ thành công!</span>";
             // Refresh hiển thị ra form đúng dữ liệu mới
             $user['fullname'] = $fullname;
             $user['email']    = $email;
             $user['avatar']   = $avatar_db;
         } else {
-            $mess .= "Lỗi Database: " . mysqli_error($conn) . "<br>";
+            $mess[] = "Lỗi Database: " . mysqli_error($conn) . "<br>";
         }
     }
 }
@@ -176,8 +176,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <a href="../../public/index.php"><i class="fa-solid fa-arrow-left"></i> Quay lại trang chủ</a>
             </div>
             <br>
-            <div class="noti" style="margin: auto; align-self: center; display: flex; justify-content: center; color:red;">
-                <?= $mess ?>
+            <div class="noti" style="margin: auto; align-self: center; justify-self: center; color: red;">
+                <?php
+                if (!empty($mess)) {
+                    echo implode('<br>', $mess);
+                }
+                ?>
             </div>
 
         </form>
