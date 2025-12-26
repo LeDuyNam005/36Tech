@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chi tiết khóa học Lập trình C</title>
+    <title>Chi tiết khóa học Lập trình Python</title>
 
     <link rel="stylesheet" href="../../assets/css/index.css">
 
@@ -18,8 +18,6 @@
 </head>
 
 <body>
-
-
     <div class="container_content_inside_card">
         <div class="left_content_inside">
             <div class="course-header">
@@ -49,7 +47,7 @@
                 <div class="course-stats">
                     <span><strong>35</strong> bài học</span>
                     <span>•</span>
-                    <span><strong>24 giờ 05 phút</strong> thời lượng</span>
+                    <span><strong>12 giờ 33 phút</strong> thời lượng</span>
                 </div>
 
                 <div class="list_dropdown">
@@ -59,27 +57,24 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>1. Giới thiệu</strong>
                             </div>
-                            <span class="lesson-count">4 bài học</span>
+                            <span class="lesson-count">4 bài học | 42:18</span>
                         </div>
                         <ul class="dropdown">
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 1. Giới thiệu ngôn ngữ
-                                    Python</span>
-                                <span class="time">10:41</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 1. Giới thiệu ngôn ngữ Python</span>
+                                <span class="time">12:45</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 2. Cài đặt môi trường
-                                    (IDE)</span>
-                                <span class="time">22:20</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 2. Cài đặt môi trường (IDE)</span>
+                                <span class="time">06:16</span>
                             </li>
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 3. Chạy file python</span>
-                                <span class="time">22:20</span>
+                                <span class="time">13:23</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 4. Comment trong
-                                    Python</span>
-                                <span class="time">08:00</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 4. Comment trong Python</span>
+                                <span class="time">09:54</span>
                             </li>
                         </ul>
                     </div>
@@ -90,79 +85,72 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>2. Biến & Kiểu dữ liệu</strong>
                             </div>
-                            <span class="lesson-count">16 bài học</span>
+                            <span class="lesson-count">16 bài học | 07h 03m</span>
                         </div>
                         <ul class="dropdown">
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 5. Biến</span>
-                                <span class="time">08:00</span>
+                                <span class="time">16:18</span>
                             </li>
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 6. Kiểu số</span>
-                                <span class="time">08:00</span>
+                                <span class="time">38:35</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 7. Kiểu chuỗi (Phần
-                                    1)</span>
-                                <span class="time">08:00</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 7. Kiểu chuỗi (Phần 1)</span>
+                                <span class="time">26:31</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 8. Kiểu chuỗi (Phần
-                                    2)</span>
-                                <span class="time">08:00</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 8. Kiểu chuỗi (Phần 2)</span>
+                                <span class="time">29:36</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 9. Kiểu chuỗi (Phần
-                                    3)</span>
-                                <span class="time">08:00</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 9. Kiểu chuỗi (Phần 3)</span>
+                                <span class="time">40:32</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 10. Kiểu chuỗi (Phần
-                                    4)</span>
-                                <span class="time">08:00</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 10. Kiểu chuỗi (Phần 4)</span>
+                                <span class="time">29:15</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 11. Kiểu chuỗi (Phần
-                                    5)</span>
-                                <span class="time">08:00</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 11. Kiểu chuỗi (Phần 5)</span>
+                                <span class="time">15:52</span>
                             </li>
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 12. List (Phần 1)</span>
-                                <span class="time">08:00</span>
+                                <span class="time">43:16</span>
                             </li>
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 13. List (Phần 2)</span>
-                                <span class="time">08:00</span>
+                                <span class="time">18:39</span>
                             </li>
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 14. Tuple</span>
-                                <span class="time">08:00</span>
+                                <span class="time">20:32</span>
                             </li>
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 15. Hashtable</span>
-                                <span class="time">08:00</span>
+                                <span class="time">24:35</span>
                             </li>
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 16. Set</span>
-                                <span class="time">08:00</span>
+                                <span class="time">31:35</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 17. Dictionary (Phần
-                                    1)</span>
-                                <span class="time">08:00</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 17. Dictionary (Phần 1)</span>
+                                <span class="time">21:53</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 18. Dictionary (Phần
-                                    2)</span>
-                                <span class="time">08:00</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 18. Dictionary (Phần 2)</span>
+                                <span class="time">18:13</span>
                             </li>
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 19. Iteration</span>
-                                <span class="time">08:00</span>
+                                <span class="time">20:56</span>
                             </li>
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 20. Kiểu Boolean</span>
-                                <span class="time">08:00</span>
+                                <span class="time">26:10</span>
                             </li>
                         </ul>
                     </div>
@@ -173,20 +161,20 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>3. Hàm nhập - xuất</strong>
                             </div>
-                            <span class="lesson-count">3 bài học</span>
+                            <span class="lesson-count">3 bài học | 01h 02m</span>
                         </div>
                         <ul class="dropdown">
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 21. Xử lí file</span>
-                                <span class="time">08:00</span>
+                                <span class="time">23:35</span>
                             </li>
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 22. Hàm xuất</span>
-                                <span class="time">08:00</span>
+                                <span class="time">22:12</span>
                             </li>
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 23. Hàm nhập</span>
-                                <span class="time">08:00</span>
+                                <span class="time">16:41</span>
                             </li>
                         </ul>
                     </div>
@@ -197,24 +185,24 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>4. Vòng lặp & Rẽ nhánh</strong>
                             </div>
-                            <span class="lesson-count">4 bài học</span>
+                            <span class="lesson-count">4 bài học | 01h 54m</span>
                         </div>
                         <ul class="dropdown">
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 24. Cấu trúc rẽ nhánh</span>
-                                <span class="time">08:00</span>
+                                <span class="time">22:54</span>
                             </li>
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 25. While Loop</span>
-                                <span class="time">08:00</span>
+                                <span class="time">18:36</span>
                             </li>
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 26. For Loop (Phần 1)</span>
-                                <span class="time">08:00</span>
+                                <span class="time">38:11</span>
                             </li>
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 27. For Loop (Phần 2)</span>
-                                <span class="time">08:00</span>
+                                <span class="time">34:27</span>
                             </li>
                         </ul>
                     </div>
@@ -225,42 +213,40 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>5. Function (Hàm)</strong>
                             </div>
-                            <span class="lesson-count">8 bài học</span>
+                            <span class="lesson-count">8 bài học | 01h 50m</span>
                         </div>
                         <ul class="dropdown">
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 28. Sơ lược về hàm</span>
-                                <span class="time">08:00</span>
+                                <span class="time">22:59</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 29. Positional
-                                    Arguments</span>
-                                <span class="time">08:00</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 29. Positional Arguments</span>
+                                <span class="time">11:01</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 30. Packing và
-                                    Unpacking</span>
-                                <span class="time">08:00</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 30. Packing và Unpacking</span>
+                                <span class="time">14:10</span>
                             </li>
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 31. Globals và Locals</span>
-                                <span class="time">08:00</span>
+                                <span class="time">13:25</span>
                             </li>
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 32. Return</span>
-                                <span class="time">08:00</span>
+                                <span class="time">07:02</span>
                             </li>
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 33. Yield</span>
-                                <span class="time">08:00</span>
+                                <span class="time">14:06</span>
                             </li>
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 34. Lambda</span>
-                                <span class="time">08:00</span>
+                                <span class="time">15:16</span>
                             </li>
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 35. Functional tools</span>
-                                <span class="time">08:00</span>
+                                <span class="time">11:59</span>
                             </li>
                         </ul>
                     </div>
@@ -291,17 +277,14 @@
 
                     <ul class="course-features">
                         <li><i class="fa-solid fa-gauge-high"></i> Trình độ cơ bản</li>
-                        <li><i class="fa-solid fa-film"></i> Tổng số 22 bài học</li>
-                        <li><i class="fa-solid fa-clock"></i> Thời lượng 11h</li>
+                        <li><i class="fa-solid fa-film"></i> Tổng số 35 bài học</li>
+                        <li><i class="fa-solid fa-clock"></i> Thời lượng 12h 33p</li>
                         <li><i class="fa-solid fa-battery-full"></i> Học mọi lúc, mọi nơi</li>
-                        <li><i class="fa-solid fa-certificate"></i> Cấp chứng chỉ khi hoàn thành</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-
-    <script src="dropdown.js"></script>
 </body>
 
 </html>

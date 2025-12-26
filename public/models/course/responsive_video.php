@@ -34,9 +34,8 @@
                             allowfullscreen></iframe>
                     </div>
                     <div class="video-info">
-                        <h1 class="video-title">Responsive Với Grid System</h1>
-                        <p class="video-desc">Trong khóa này chúng ta sẽ học về cách xây dựng giao diện web responsive
-                            với Grid System.</p>
+                        <h1 class="video-title">1. Responsive là gì?</h1>
+                        <p class="video-desc">Cập nhật tháng 12 năm 2025</p>
                     </div>
                 </div>
 
@@ -44,7 +43,7 @@
                     <div class="curriculum-header">
                         <h3>Nội dung khóa học</h3>
                         <div class="course-stats">
-                            <span><strong>22</strong> bài học</span> • <span><strong>6h 44m</strong></span>
+                            <span><strong>22</strong> bài học</span> • <span><strong>03h 56m</strong></span>
                         </div>
                     </div>
 
@@ -53,14 +52,14 @@
                             <div class="list_title active-chapter" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">1. Bắt đầu</strong>
-                                    <span class="lesson-count">3/3 | 13:21</span>
+                                    <span class="lesson-count">3 bài học | 13:21</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-down icon-toggle"></i>
                             </div>
                             <ul class="dropdown" style="display: block;">
 
                                 <li class="lesson-item active"
-                                    onclick="changeVideo(this, 'uz5LIP85J5Y?si=-DSicmZDpjw8Awpb', 'Responsive là gì?')">
+                                    onclick="changeVideo(this, 'uz5LIP85J5Y?si=-DSicmZDpjw8Awpb', '1. Responsive là gì?')">
                                     <div class="lesson-info">
                                         <i class="fa-solid fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
@@ -71,7 +70,7 @@
                                 </li>
 
                                 <li class="lesson-item"
-                                    onclick="changeVideo(this, '5QT0aeovTTY?si=u8NlZADtMBE2YFMk', 'Demo AI hoạt động')">
+                                    onclick="changeVideo(this, '5QT0aeovTTY?si=u8NlZADtMBE2YFMk', '2. Chúng ta sẽ làm gì?')">
                                     <div class="lesson-info">
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
@@ -98,13 +97,13 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">2. Viewport, @media, breakpoint</strong>
-                                    <span class="lesson-count">4/4 | 45:00</span>
+                                    <span class="lesson-count">4 bài học | 35:10</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
                             <ul class="dropdown">
                                 <li class="lesson-item"
-                                    onclick="changeVideo(this, 'XJiq_d0vGCQ?si=I_6UcnTTPZ4ZZYS_', '4. Khái niệm viewport')">
+                                    onclick="changeVideo(this, 'XJiq_d0vGCQ?si=I_6UcnTTPZ4ZZYS_', '4. Khái niệm Viewport')">
                                     <div class="lesson-info">
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
@@ -150,10 +149,10 @@
                         </div>
 
                         <div class="accordion-item">
-                            <div class="list_title active-chapter" onclick="toggleDropdown(this)">
+                            <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">3. Thực hành nhỏ</strong>
-                                    <span class="lesson-count">2/2 | 33:01</span>
+                                    <span class="lesson-count">2 bài học | 50:45</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -165,7 +164,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">8. Học responsive qua thực hành</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i>23:33</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 23:33</span>
                                         </div>
                                     </div>
                                 </li>
@@ -184,10 +183,10 @@
                         </div>
 
                         <div class="accordion-item">
-                            <div class="list_title active-chapter" onclick="toggleDropdown(this)">
+                            <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
-                                    <strong class="chapter-name">4. Grid system</strong>
-                                    <span class="lesson-count">8/8 | 33:01</span>
+                                    <strong class="chapter-name">4. Grid System</strong>
+                                    <span class="lesson-count">8 bài học | 01h 33m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -199,7 +198,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">10. Hệ thống lưới (Grid system)</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i>18:55</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 18:55</span>
                                         </div>
                                     </div>
                                 </li>
@@ -284,10 +283,10 @@
                         </div>
 
                         <div class="accordion-item">
-                            <div class="list_title active-chapter" onclick="toggleDropdown(this)">
+                            <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
-                                    <strong class="chapter-name">5. Áp dụng vào thực tế</strong>
-                                    <span class="lesson-count">5/5 | 33:01</span>
+                                    <strong class="chapter-name">5. Áp dụng thực tế</strong>
+                                    <span class="lesson-count">5 bài học | 43:24</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -299,7 +298,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">18. Giới thiệu chương</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i>03:31</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 03:31</span>
                                         </div>
                                     </div>
                                 </li>

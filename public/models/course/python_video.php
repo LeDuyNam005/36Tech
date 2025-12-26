@@ -41,16 +41,17 @@
                     <div class="curriculum-header">
                         <h3>Nội dung khóa học</h3>
                         <div class="course-stats">
-                            <span><strong>85</strong> bài học</span> • <span><strong>24h 05m</strong></span>
+                            <span><strong>35</strong> bài học</span> • <span><strong>12h 33m</strong></span>
                         </div>
                     </div>
 
                     <div class="curriculum-list scroll-bar">
+
                         <div class="accordion-item">
                             <div class="list_title active-chapter" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">1. Giới thiệu</strong>
-                                    <span class="lesson-count">2/2 | 33:01</span>
+                                    <span class="lesson-count">4 bài học | 42:18</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-down icon-toggle"></i>
                             </div>
@@ -62,7 +63,7 @@
                                         <i class="fa-solid fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">1. Giới thiệu ngôn ngữ Python</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 10:41</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 12:45</span>
                                         </div>
                                     </div>
                                 </li>
@@ -73,7 +74,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">2. Cài đặt môi trường (IDE)</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 22:20</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 6:16</span>
                                         </div>
                                     </div>
                                 </li>
@@ -84,7 +85,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">3. Chạy file python</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 22:20</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 13:23</span>
                                         </div>
                                     </div>
                                 </li>
@@ -94,7 +95,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">4. Comment trong Python</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 9:54</span>
                                         </div>
                                     </div>
                                 </li>
@@ -105,7 +106,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">2. Biến & Kiểu dữ liệu</strong>
-                                    <span class="lesson-count">0/5 | 45:00</span>
+                                    <span class="lesson-count">16 bài học | 07h 03m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -116,7 +117,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">5. Biến</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 16:18</span>
                                         </div>
                                     </div>
                                 </li>
@@ -126,7 +127,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">6. Kiểu số</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 38:35</span>
                                         </div>
                                     </div>
                                 </li>
@@ -136,7 +137,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">7. Kiểu chuỗi part 1</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 26:31</span>
                                         </div>
                                     </div>
                                 </li>
@@ -146,7 +147,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">8. Kiểu chuỗi part 2</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 29:36</span>
                                         </div>
                                     </div>
                                 </li>
@@ -156,7 +157,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">9. Kiểu chuỗi part 3</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 40:32</span>
                                         </div>
                                     </div>
                                 </li>
@@ -166,7 +167,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">10. Kiểu chuỗi part 4</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 29:15</span>
                                         </div>
                                     </div>
                                 </li>
@@ -176,7 +177,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">11. Kiểu chuỗi part 5</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 15:52</span>
                                         </div>
                                     </div>
                                 </li>
@@ -186,7 +187,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">12. List part 1</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 43:16</span>
                                         </div>
                                     </div>
                                 </li>
@@ -196,7 +197,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">13. List part 2</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 18:39</span>
                                         </div>
                                     </div>
                                 </li>
@@ -206,7 +207,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">14. tuple</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 20:32</span>
                                         </div>
                                     </div>
                                 </li>
@@ -216,7 +217,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">15. Hashtable</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 24:35</span>
                                         </div>
                                     </div>
                                 </li>
@@ -226,7 +227,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">16. Set</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 31:35</span>
                                         </div>
                                     </div>
                                 </li>
@@ -236,7 +237,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">17. Dictionary part 1</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 21:53</span>
                                         </div>
                                     </div>
                                 </li>
@@ -246,7 +247,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">18. Dictionary part 2</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 18:13</span>
                                         </div>
                                     </div>
                                 </li>
@@ -256,7 +257,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">19. Iteration</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 20:56</span>
                                         </div>
                                     </div>
                                 </li>
@@ -266,7 +267,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">20. Kiểu Boolean</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 26:10</span>
                                         </div>
                                     </div>
                                 </li>
@@ -276,8 +277,8 @@
                         <div class="accordion-item">
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
-                                    <strong class="chapter-name">4. Hàm nhập - xuất </strong>
-                                    <span class="lesson-count">0/5 | 45:00</span>
+                                    <strong class="chapter-name">3. Hàm nhập - xuất </strong>
+                                    <span class="lesson-count">3 bài học | 01h 02m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -288,7 +289,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">21. Xử lí file</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 23:35</span>
                                         </div>
                                     </div>
                                 </li>
@@ -298,7 +299,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">22. Hàm xuất</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 22:12</span>
                                         </div>
                                     </div>
                                 </li>
@@ -308,7 +309,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">23. Hàm nhập</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 16:41</span>
                                         </div>
                                     </div>
                                 </li>
@@ -318,8 +319,8 @@
                         <div class="accordion-item">
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
-                                    <strong class="chapter-name">5. Vòng lặp</strong>
-                                    <span class="lesson-count">0/5 | 45:00</span>
+                                    <strong class="chapter-name">4. Vòng lặp & Rẽ nhánh</strong>
+                                    <span class="lesson-count">4 bài học | 01h 54m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -330,7 +331,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">24. Cấu trúc rẽ nhánh</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 22:54</span>
                                         </div>
                                     </div>
                                 </li>
@@ -340,7 +341,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">25. While Loop</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 18:36</span>
                                         </div>
                                     </div>
                                 </li>
@@ -350,7 +351,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">26. For Loop part 1</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 38:11</span>
                                         </div>
                                     </div>
                                 </li>
@@ -360,7 +361,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">27. For Loop part 2</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 34:27</span>
                                         </div>
                                     </div>
                                 </li>
@@ -370,8 +371,8 @@
                         <div class="accordion-item">
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
-                                    <strong class="chapter-name">6. Function </strong>
-                                    <span class="lesson-count">0/5 | 45:00</span>
+                                    <strong class="chapter-name">5. Function (Hàm) </strong>
+                                    <span class="lesson-count">8 bài học | 01h 50m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -382,7 +383,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">28. Sơ lược về hàm</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 22:59</span>
                                         </div>
                                     </div>
                                 </li>
@@ -391,8 +392,8 @@
                                     <div class="lesson-info">
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
-                                            <span class="lesson-name">29. Postitional</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-name">29. Positional</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 11:01</span>
                                         </div>
                                     </div>
                                 </li>
@@ -402,7 +403,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">30. Packing và Unpacking</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 14:10</span>
                                         </div>
                                     </div>
                                 </li>
@@ -412,7 +413,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">31. Globals và Locals</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 13:25</span>
                                         </div>
                                     </div>
                                 </li>
@@ -422,7 +423,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">32. Return</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 07:02</span>
                                         </div>
                                     </div>
                                 </li>
@@ -432,18 +433,17 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">33. Yield</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 14:06</span>
                                         </div>
                                     </div>
                                 </li>
-                                <!--  -->
                                 <li class="lesson-item"
                                     onclick="changeVideo(this, '7YTL1u5Ja5A?si=Trqurcecr5NZElVR', '34. Lambda')">
                                     <div class="lesson-info">
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">34. Lambda</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 15:16</span>
                                         </div>
                                     </div>
                                 </li>
@@ -453,7 +453,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">35. Functional tools</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 11:59</span>
                                         </div>
                                     </div>
                                 </li>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chi tiết khóa học Lập trình C</title>
+    <title>Chi tiết khóa học Node & ExpressJS</title>
 
     <link rel="stylesheet" href="../../assets/css/index.css">
     <link rel="stylesheet" href="style_video.css">
@@ -42,7 +42,7 @@
                     <div class="curriculum-header">
                         <h3>Nội dung khóa học</h3>
                         <div class="course-stats">
-                            <span><strong>85</strong> bài học</span> • <span><strong>24h 05m</strong></span>
+                            <span><strong>36</strong> bài học</span> • <span><strong>11h 58m</strong></span>
                         </div>
                     </div>
 
@@ -51,7 +51,7 @@
                             <div class="list_title active-chapter" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">1. Bắt đầu</strong>
-                                    <span class="lesson-count">8/8 | 33:01</span>
+                                    <span class="lesson-count">8 bài học | 01h 15m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-down icon-toggle"></i>
                             </div>
@@ -96,7 +96,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">4. Install Node</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i>01:59</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 01:59</span>
                                         </div>
                                     </div>
                                 </li>
@@ -124,12 +124,12 @@
                                 </li>
 
                                 <li class="lesson-item"
-                                    onclick="changeVideo(this, 'f0C9kTOf6IY?si=33r-cwUQqJENsxD9', '2. Cài đặt môi trường (IDE)')">
+                                    onclick="changeVideo(this, 'f0C9kTOf6IY?si=33r-cwUQqJENsxD9', '7. Add git repo')">
                                     <div class="lesson-info">
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">7. Add git repo</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i>02:40</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 02:40</span>
                                         </div>
                                     </div>
                                 </li>
@@ -151,7 +151,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">2. Kiến thức cốt lõi</strong>
-                                    <span class="lesson-count">0/5 | 45:00</span>
+                                    <span class="lesson-count">8 bài học | 01h 54m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -191,7 +191,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">12. Basic routing</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i>11:38</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 11:38</span>
                                         </div>
                                     </div>
                                 </li>
@@ -201,7 +201,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">13. GET method</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i>02:34</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 02:34</span>
                                         </div>
                                     </div>
                                 </li>
@@ -211,7 +211,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">14. Query parameters</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i>11:07</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 11:07</span>
                                         </div>
                                     </div>
                                 </li>
@@ -221,7 +221,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">15. Form default behavior</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i>13:49</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 13:49</span>
                                         </div>
                                     </div>
                                 </li>
@@ -242,7 +242,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">3. Xây dựng website</strong>
-                                    <span class="lesson-count">20/20 | 45:00</span>
+                                    <span class="lesson-count">20 bài học | 08h 49m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -252,7 +252,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">17. Mô hình MVC</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i>05:28</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 05:28</span>
                                         </div>
                                     </div>
                                 </li>
@@ -272,7 +272,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">19. [Windows] Install MongoDB</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i>07:41</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 07:41</span>
                                         </div>
                                     </div>
                                 </li>
@@ -282,7 +282,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">20. [Ubuntu] Install MongoDB</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i>08:42</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 08:42</span>
                                         </div>
                                     </div>
                                 </li>
@@ -292,7 +292,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">21. [MacOS] Install MongoDB</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i>21:37</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 21:37</span>
                                         </div>
                                     </div>
                                 </li>
@@ -326,8 +326,6 @@
                                         </div>
                                     </div>
                                 </li>
-
-
 
                                 <li class="lesson-item" onclick="changeVideo(this, 'nqLXmpEgU2w?si=hCKIO5TekZhOJ1DZ', '25. [CRUD] Read from DB')">
                                     <div class="lesson-info">
@@ -374,7 +372,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">29. [CRUD] Delete course</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i>37:00</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 37:00</span>
                                         </div>
                                     </div>
                                 </li>
@@ -394,7 +392,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">31. Deleted count documents</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i>15:45</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 15:45</span>
                                         </div>
                                     </div>
                                 </li>
@@ -403,7 +401,7 @@
                                     <div class="lesson-info">
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
-                                            <span class="lesson-name">33. "Select all" with checkbox</span>
+                                            <span class="lesson-name">32. "Select all" with checkbox</span>
                                             <span class="lesson-time"><i class="fa-regular fa-clock"></i> 47:16</span>
                                         </div>
                                     </div>
@@ -434,7 +432,7 @@
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
                                             <span class="lesson-name">35. Sort middleware</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i>44:10</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 44:10</span>
                                         </div>
                                     </div>
                                 </li>
@@ -443,13 +441,11 @@
                                     <div class="lesson-info">
                                         <i class="fa-regular fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
-                                            <span class="lesson-name">37. Autoincrement _id field</span>
-                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i>28:39</span>
+                                            <span class="lesson-name">36. Autoincrement _id field</span>
+                                            <span class="lesson-time"><i class="fa-regular fa-clock"></i> 28:39</span>
                                         </div>
                                     </div>
                                 </li>
-
-
                             </ul>
                         </div>
                     </div>

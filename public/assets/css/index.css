@@ -674,7 +674,176 @@ button.next:hover {
 }
 
 .footer-bottom a {
-  text-decoration: none;
-  color: white;
-  font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.footer {
+    background-color: #0f1114;
+    /* deep dark */
+    color: #cbd5db;
+    padding: 48px 0 24px;
+    font-size: 15px;
+}
+
+.footer-inner {
+    width: 96%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 320px 1fr 1fr 1fr 1fr;
+    gap: 36px;
+    align-items: start;
+}
+
+.footer-inner h4 {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0 0 14px 0;
+    letter-spacing: 0.2px;
+}
+
+.footer-inner p {
+    color: #99a0a6;
+    line-height: 1.6;
+    margin: 0 0 10px 0;
+}
+
+.footer-inner ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-inner ul li {
+    margin: 8px 0;
+}
+
+.footer-inner a {
+    color: #bfc8cd;
+    text-decoration: none;
+}
+
+.footer-inner a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer-inner>div:first-child .logo-badge {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 8px
+}
+
+.footer-inner .social {
+    display: flex;
+    gap: 12px;
+    align-items: center
+}
+
+.footer-inner .social a {
+    display: inline-flex;
+    width: 38px;
+    height: 38px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: #151617;
+    color: #fff;
+    text-decoration: none
+}
+
+.footer-bottom {
+    width: 96%;
+    margin: 18px auto 0;
+    padding-top: 18px;
+    border-top: 1px solid rgba(255, 255, 255, 0.04);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #8f98a0;
+    font-size: 14px;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.search-wrapper {
+    position: relative;
+}
+
+/* Box kết quả */
+.search-result {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    right: 0;
+
+    background: #ffffff;
+    border-radius: 16px;
+
+    box-shadow: 0 12px 32px rgba(16, 24, 40, 0.12);
+    border: 1px solid rgba(0, 0, 0, 0.04);
+
+    overflow: hidden;
+    display: none;
+    z-index: 999;
+}
+
+/* Item */
+.search-result-item {
+    padding: 14px 18px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #292929;
+
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Hover giống card */
+.search-result-item:hover {
+    background-color: #f3f6f9;
+    color: #1a90ff;
+}
+
+/* Không tìm thấy */
+.search-empty {
+    padding: 16px;
+    text-align: center;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+
+/* Search item có ảnh */
+.search-result-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+}
+
+/* Ảnh khóa học trong search */
+.search-result-item img {
+    width: 48px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+/* Text */
+.search-result-item span {
+    font-size: 15px;
+    font-weight: 600;
+    color: #292929;
+}
+
+.search-result-item:hover span {
+    color: #1a90ff;
 }

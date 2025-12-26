@@ -7,46 +7,34 @@
     <title>Chi tiết khóa học ReactJS</title>
 
     <link rel="stylesheet" href="../../assets/css/index.css">
-
     <link rel="stylesheet" href="style_inside.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
-        rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-
     <div class="container_content_inside_card">
         <div class="left_content_inside">
             <div class="course-header">
                 <h1>Xây Dựng Website với ReactJS</h1>
-                <p class="course-desc">Khóa học ReactJS từ cơ bản tới nâng cao, kết quả của khóa học này là bạn có thể làm hầu hết các dự án
-                    thường gặp với ReactJS. Cuối khóa học này bạn sẽ sở hữu một dự án giống Tiktok.com, bạn có thể tự
-                    tin đi xin việc khi nắm chắc các kiến thức được chia sẻ trong khóa học này.</p>
+                <p class="course-desc">Khóa học ReactJS từ cơ bản tới nâng cao. Kết thúc khóa học, bạn sẽ tự tay xây dựng được một dự án TikTok Clone hoàn chỉnh, nắm vững tư duy SPA và sẵn sàng cho công việc Developer.</p>
             </div>
 
             <div class="what-you-learn-box">
                 <h3><i class="fa-solid fa-check-double"></i> Bạn sẽ học được gì?</h3>
                 <div class="learn-grid">
                     <ul class="list_gt">
-                        <li>Hiểu về khái niệm SPA/MPA</li>
-                        <li>Hiểu cách ReactJS hoạt động</li>
-                        <li>Biết cách tối ưu hiệu năng ứng dụng</li>
-                        <li>Hiểu rõ ràng Redux workflow</li>
-                        <li>Biết sử dụng redux-thunk middleware</li>
-                        <li>Triển khai dự án React ra Internet</li>
+                        <li>Hiểu rõ tư duy Single Page Application (SPA).</li>
+                        <li>Nắm vững Components, Props, State, Events.</li>
+                        <li>Làm chủ React Hooks (useState, useEffect, v.v).</li>
+                        <li>Thành thạo React Router V6, CSS Modules.</li>
                     </ul>
                     <ul class="list_gt">
-                        <li>Hiểu về khái niệm hooks</li>
-                        <li>Hiểu về function/class component</li>
-                        <li>Thành thạo làm việc với RESTful API</li>
-                        <li>Thành thạo sử dụng Redux vào dự án</li>
-                        <li>Xây dựng sản phẩm thực tế (clone Tiktok)</li>
-                        <li>Đủ hành trang tự tin apply đi xin việc</li>
+                        <li>Quản lý Global State với Context API & useReducer.</li>
+                        <li>Tự tay xây dựng dự án thực tế (TikTok Clone).</li>
+                        <li>Kỹ năng Call API, xử lý Logic, Debounce.</li>
+                        <li>Biết cách Deploy dự án lên Vercel/Netlify.</li>
                     </ul>
                 </div>
             </div>
@@ -54,9 +42,9 @@
             <div class="curriculum-section">
                 <h3>Nội dung khóa học</h3>
                 <div class="course-stats">
-                    <span><strong>85</strong> bài học</span>
+                    <span><strong>84</strong> bài học</span>
                     <span>•</span>
-                    <span><strong>24 giờ 05 phút</strong> thời lượng</span>
+                    <span><strong>27 giờ 41 phút</strong> thời lượng</span>
                 </div>
 
                 <div class="list_dropdown">
@@ -67,17 +55,11 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>1. Giới thiệu</strong>
                             </div>
-                            <span class="lesson-count">2 bài học</span>
+                            <span class="lesson-count">2 bài học | 33:01</span>
                         </div>
                         <ul class="dropdown">
-                            <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 1. ReactJS là gì? Tại sao nên học ReactJS?</span>
-                                <span class="time">10:41</span>
-                            </li>
-                            <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 2. SPA/MPA là gì?</span>
-                                <span class="time">22:20</span>
-                            </li>
+                            <li><span><i class="fa-regular fa-circle-play"></i> 1. ReactJS là gì? Tại sao nên học ReactJS?</span><span class="time">10:41</span></li>
+                            <li><span><i class="fa-regular fa-circle-play"></i> 2. SPA/MPA là gì?</span><span class="time">22:20</span></li>
                         </ul>
                     </div>
 
@@ -85,9 +67,9 @@
                         <div class="list_title" onclick="toggleDropdown(this)">
                             <div class="title-text">
                                 <i class="fa-solid fa-plus icon-toggle"></i>
-                                <strong>2. Ôn lại ES6+</strong>
+                                <strong>2. Ôn tập ES6+</strong>
                             </div>
-                            <span class="lesson-count">5 bài học</span>
+                            <span class="lesson-count">5 bài học | 55:59</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 3. Arrow function</span><span class="time">08:37</span></li>
@@ -104,7 +86,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>3. React, ReactDOM</strong>
                             </div>
-                            <span class="lesson-count">6 bài học</span>
+                            <span class="lesson-count">6 bài học | 01h 00m</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 8. document.createElement() để làm gì?</span><span class="time">10:02</span></li>
@@ -122,7 +104,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>4. JSX, Components, Props</strong>
                             </div>
-                            <span class="lesson-count">7 bài học</span>
+                            <span class="lesson-count">7 bài học | 02h 11m</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 14. JSX là gì? Tại sao cần JSX?</span><span class="time">15:59</span></li>
@@ -141,11 +123,11 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>5. Create React App</strong>
                             </div>
-                            <span class="lesson-count">7 bài học</span>
+                            <span class="lesson-count">7 bài học | 01h 47m</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 21. NodeJS là gì? Tại sao phải sử dụng NodeJS?</span><span class="time">11:39</span></li>
-                            <li><span><i class="fa-regular fa-circle-play"></i> 22. Lưu ý: Sử dụng React & React-DOM 17 ở bài sau</span><span class="time">02:13</span></li>
+                            <li><span><i class="fa-regular fa-circle-play"></i> 22. Lưu ý: Sử dụng React & React-DOM 17</span><span class="time">02:13</span></li>
                             <li><span><i class="fa-regular fa-circle-play"></i> 23. Tạo dự án với React + Webpack</span><span class="time">31:15</span></li>
                             <li><span><i class="fa-regular fa-circle-play"></i> 24. Nâng cấp React & ReactDOM lên 18</span><span class="time">04:19</span></li>
                             <li><span><i class="fa-regular fa-circle-play"></i> 25. Tạo dự án với create-react-app</span><span class="time">14:13</span></li>
@@ -160,7 +142,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>6. Hooks</strong>
                             </div>
-                            <span class="lesson-count">22 bài học</span>
+                            <span class="lesson-count">22 bài học | 05h 55m</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 28. Hooks là gì?</span><span class="time">12:31</span></li>
@@ -192,9 +174,9 @@
                         <div class="list_title" onclick="toggleDropdown(this)">
                             <div class="title-text">
                                 <i class="fa-solid fa-plus icon-toggle"></i>
-                                <strong>7. CSS, SCSS và CSS modules</strong>
+                                <strong>7. CSS, SCSS & Modules</strong>
                             </div>
-                            <span class="lesson-count">4 bài học</span>
+                            <span class="lesson-count">4 bài học | 44:43</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 50. Sử dụng CSS</span><span class="time">12:17</span></li>
@@ -210,7 +192,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>8. React Router V6</strong>
                             </div>
-                            <span class="lesson-count">1 bài học</span>
+                            <span class="lesson-count">1 bài học | 15:07</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 54. Cài đặt và tạo router</span><span class="time">15:07</span></li>
@@ -223,7 +205,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>9. Dựng base dự án Tiktok</strong>
                             </div>
-                            <span class="lesson-count">7 bài học</span>
+                            <span class="lesson-count">7 bài học | 01h 40m</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 55. Giới thiệu dự án Tiktok</span><span class="time">04:07</span></li>
@@ -242,7 +224,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>10. Xây dựng phần Header</strong>
                             </div>
-                            <span class="lesson-count">19 bài học</span>
+                            <span class="lesson-count">19 bài học | 10h 19m</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 62. Dựng khung Layout mặc định</span><span class="time">23:02</span></li>
@@ -273,7 +255,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>11. Xây dựng phần Sidebar</strong>
                             </div>
-                            <span class="lesson-count">3 bài học</span>
+                            <span class="lesson-count">3 bài học | 02h 07m</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 81. Xây dựng UI phần sidebar #1</span><span class="time">48:36</span></li>
@@ -288,10 +270,10 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>12. Deploy dự án Tiktok</strong>
                             </div>
-                            <span class="lesson-count">1 bài học</span>
+                            <span class="lesson-count">1 bài học | 10:41</span>
                         </div>
                         <ul class="dropdown">
-                            <li><span><i class="fa-regular fa-circle-play"></i> 84. Deploy dự án lên Vercel</span><span class="time">00:06</span></li>
+                            <li><span><i class="fa-regular fa-circle-play"></i> 84. Deploy dự án lên Vercel</span><span class="time">10:41</span></li>
                         </ul>
                     </div>
 
@@ -301,8 +283,7 @@
             <div class="requirements-section">
                 <h3>Yêu cầu</h3>
                 <ul class="list_req">
-                    <li><i class="fa-solid fa-circle-check"></i> Hiểu biết về mô hình Client-Server.</li>
-                    <li><i class="fa-solid fa-circle-check"></i> Phân biệt rõ ràng được Front-end & Back-end.</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Máy tính kết nối Internet.</li>
                     <li><i class="fa-solid fa-circle-check"></i> Nắm chắc HTML, CSS, đã có sản phẩm tự tay làm.</li>
                     <li><i class="fa-solid fa-circle-check"></i> Nắm chắc Javascript cơ bản và nâng cao.</li>
                 </ul>
@@ -322,10 +303,9 @@
 
                     <ul class="course-features">
                         <li><i class="fa-solid fa-gauge-high"></i> Trình độ cơ bản</li>
-                        <li><i class="fa-solid fa-film"></i> Tổng số 85 bài học</li>
-                        <li><i class="fa-solid fa-clock"></i> Thời lượng 24h 05p</li>
+                        <li><i class="fa-solid fa-film"></i> Tổng số 84 bài học</li>
+                        <li><i class="fa-solid fa-clock"></i> Thời lượng 27h 41p</li>
                         <li><i class="fa-solid fa-battery-full"></i> Học mọi lúc, mọi nơi</li>
-                        <li><i class="fa-solid fa-certificate"></i> Cấp chứng chỉ khi hoàn thành</li>
                     </ul>
                 </div>
             </div>

@@ -47,7 +47,7 @@
                 <div class="course-stats">
                     <span><strong>25</strong> bài học</span>
                     <span>•</span>
-                    <span><strong>11 giờ</strong> thời lượng</span>
+                    <span><strong>11 giờ 02 phút</strong> thời lượng</span>
                 </div>
 
                 <div class="list_dropdown">
@@ -57,22 +57,19 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>1. Giới thiệu</strong>
                             </div>
-                            <span class="lesson-count">3 bài học</span>
+                            <span class="lesson-count">3 bài học | 28:40</span>
                         </div>
                         <ul class="dropdown">
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 1. Giới thiệu về khóa học lập trình C - Lợi ích khi học lập trình C
-                                </span>
+                                <span><i class="fa-regular fa-circle-play"></i> 1. Giới thiệu về khóa học lập trình C - Lợi ích khi học lập trình C</span>
                                 <span class="time">4:12</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 2. Cài đặt và cấu hình Dev-C++ để lập trình C và C++
-                                </span>
+                                <span><i class="fa-regular fa-circle-play"></i> 2. Cài đặt và cấu hình Dev-C++ để lập trình C và C++</span>
                                 <span class="time">18:37</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 3. Cấu hình dev C++ thuận tiện hơn khi lập trình - Sinh code mặc định khi tạo ra file code mới
-                                </span>
+                                <span><i class="fa-regular fa-circle-play"></i> 3. Cấu hình dev C++ thuận tiện hơn khi lập trình - Sinh code mặc định</span>
                                 <span class="time">5:51</span>
                             </li>
                         </ul>
@@ -84,11 +81,11 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>2. Biến & Kiểu dữ liệu</strong>
                             </div>
-                            <span class="lesson-count">3 bài học</span>
+                            <span class="lesson-count">3 bài học | 1h 33m</span>
                         </div>
                         <ul class="dropdown">
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 4. Làm quen với lập trình C và Dev-C++ qua một số ví dụ đơn giản</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 4. Làm quen với lập trình C và Dev-C++ qua ví dụ đơn giản</span>
                                 <span class="time">30:14</span>
                             </li>
                             <li>
@@ -96,18 +93,19 @@
                                 <span class="time">30:10</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 6. Một số bài tập tính toán số học đơn giản để làm quen với ngôn ngữ lập trình C</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 6. Bài tập tính toán số học đơn giản để làm quen với C</span>
                                 <span class="time">33:31</span>
                             </li>
                         </ul>
                     </div>
+
                     <div class="accordion-item">
                         <div class="list_title" onclick="toggleDropdown(this)">
                             <div class="title-text">
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>3. Nhập xuất</strong>
                             </div>
-                            <span class="lesson-count">2 bài học</span>
+                            <span class="lesson-count">2 bài học | 1h 19m</span>
                         </div>
                         <ul class="dropdown">
                             <li>
@@ -115,19 +113,19 @@
                                 <span class="time">40:14</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 8. Chữa một số bài tập về nhập xuất cơ bản trong ngôn ngữ lập trình C</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 8. Chữa bài tập về nhập xuất cơ bản trong ngôn ngữ C</span>
                                 <span class="time">39:12</span>
                             </li>
-
                         </ul>
                     </div>
+
                     <div class="accordion-item">
                         <div class="list_title" onclick="toggleDropdown(this)">
                             <div class="title-text">
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>4. Cấu trúc rẽ nhánh</strong>
                             </div>
-                            <span class="lesson-count">4 bài học</span>
+                            <span class="lesson-count">4 bài học | 1h 53m</span>
                         </div>
                         <ul class="dropdown">
                             <li>
@@ -148,13 +146,14 @@
                             </li>
                         </ul>
                     </div>
+
                     <div class="accordion-item">
                         <div class="list_title" onclick="toggleDropdown(this)">
                             <div class="title-text">
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>5. Vòng lặp</strong>
                             </div>
-                            <span class="lesson-count">2 bài học</span>
+                            <span class="lesson-count">2 bài học | 34:48</span>
                         </div>
                         <ul class="dropdown">
                             <li>
@@ -162,39 +161,39 @@
                                 <span class="time">13:19</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 14. Cấu trúc lặp while và do ... while trong ngôn ngữ lập trình C</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 14. Cấu trúc lặp while và do ... while trong ngôn ngữ C</span>
                                 <span class="time">21:29</span>
                             </li>
-
                         </ul>
                     </div>
+
                     <div class="accordion-item">
                         <div class="list_title" onclick="toggleDropdown(this)">
                             <div class="title-text">
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>6. Hàm</strong>
                             </div>
-                            <span class="lesson-count">2 bài học</span>
+                            <span class="lesson-count">2 bài học | 56:18</span>
                         </div>
                         <ul class="dropdown">
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 15. Xây dựng hàm (chương trình con) trong ngôn ngữ lập trình C</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 15. Xây dựng hàm (chương trình con) trong C</span>
                                 <span class="time">28:14</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 16. Xây dựng hàm (chương trình con) trong ngôn ngữ lập trình C (Phần 2)</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 16. Xây dựng hàm (chương trình con) trong C (Phần 2)</span>
                                 <span class="time">28:04</span>
                             </li>
-
                         </ul>
                     </div>
+
                     <div class="accordion-item">
                         <div class="list_title" onclick="toggleDropdown(this)">
                             <div class="title-text">
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>7. Mảng & Chuỗi</strong>
                             </div>
-                            <span class="lesson-count">3 bài học</span>
+                            <span class="lesson-count">3 bài học | 1h 27m</span>
                         </div>
                         <ul class="dropdown">
                             <li>
@@ -211,63 +210,64 @@
                             </li>
                         </ul>
                     </div>
+
                     <div class="accordion-item">
                         <div class="list_title" onclick="toggleDropdown(this)">
                             <div class="title-text">
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>8. Con trỏ</strong>
                             </div>
-                            <span class="lesson-count">3 bài học</span>
+                            <span class="lesson-count">3 bài học | 1h 37m</span>
                         </div>
                         <ul class="dropdown">
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 20. Sử dụng con trỏ (biến con trỏ) trong ngôn ngữ lập trình C (phần 1)</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 20. Sử dụng con trỏ (biến con trỏ) trong C (phần 1)</span>
                                 <span class="time">30:52</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 21. Sử dụng con trỏ (biến con trỏ) trong ngôn ngữ lập trình C (phần 2)</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 21. Sử dụng con trỏ (biến con trỏ) trong C (phần 2)</span>
                                 <span class="time">31:57</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 22. Sử dụng con trỏ (biến con trỏ) trong ngôn ngữ lập trình C (phần 3)</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 22. Sử dụng con trỏ (biến con trỏ) trong C (phần 3)</span>
                                 <span class="time">34:25</span>
                             </li>
                         </ul>
                     </div>
+
                     <div class="accordion-item">
                         <div class="list_title" onclick="toggleDropdown(this)">
                             <div class="title-text">
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>9. Kiểu dữ liệu cấu trúc - Struct</strong>
                             </div>
-                            <span class="lesson-count">2 bài học</span>
+                            <span class="lesson-count">2 bài học | 47:14</span>
                         </div>
                         <ul class="dropdown">
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 23. Kiểu dữ liệu tự định nghĩa struct trong C - học ngôn ngữ lập trình C (Phần 1)</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 23. Kiểu dữ liệu struct trong C (Phần 1)</span>
                                 <span class="time">23:57</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 24. Kiểu dữ liệu tự định nghĩa struct trong C - học ngôn ngữ lập trình C (Phần 2)</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 24. Kiểu dữ liệu struct trong C (Phần 2)</span>
                                 <span class="time">23:17</span>
                             </li>
-
                         </ul>
                     </div>
+
                     <div class="accordion-item">
                         <div class="list_title" onclick="toggleDropdown(this)">
                             <div class="title-text">
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>10. Kiểu dữ liệu liệt kê - Enum</strong>
                             </div>
-                            <span class="lesson-count">1 bài học</span>
+                            <span class="lesson-count">1 bài học | 23:17</span>
                         </div>
                         <ul class="dropdown">
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 25. Kiểu enum (kiểu liệt kê) trong C - học ngôn ngữ lập trình C</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 25. Kiểu enum (kiểu liệt kê) trong C</span>
                                 <span class="time">23:17</span>
                             </li>
-
                         </ul>
                     </div>
                 </div>
@@ -298,9 +298,8 @@
                     <ul class="course-features">
                         <li><i class="fa-solid fa-gauge-high"></i> Trình độ cơ bản</li>
                         <li><i class="fa-solid fa-film"></i> Tổng số 25 bài học</li>
-                        <li><i class="fa-solid fa-clock"></i> Thời lượng 11h</li>
+                        <li><i class="fa-solid fa-clock"></i> Thời lượng 11h 02p</li>
                         <li><i class="fa-solid fa-battery-full"></i> Học mọi lúc, mọi nơi</li>
-                        <li><i class="fa-solid fa-certificate"></i> Cấp chứng chỉ khi hoàn thành</li>
                     </ul>
                 </div>
             </div>

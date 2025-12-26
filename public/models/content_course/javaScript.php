@@ -18,7 +18,6 @@
 </head>
 
 <body>
-
     <div class="container_content_inside_card">
         <div class="left_content_inside">
             <div class="course-header">
@@ -50,7 +49,7 @@
                 <div class="course-stats">
                     <span><strong>112</strong> bài học</span>
                     <span>•</span>
-                    <span><strong>23 giờ 52 phút</strong> thời lượng</span>
+                    <span><strong>23 giờ 54 phút</strong> thời lượng</span>
                 </div>
 
                 <div class="list_dropdown">
@@ -59,9 +58,9 @@
                         <div class="list_title" onclick="toggleDropdown(this)">
                             <div class="title-text">
                                 <i class="fa-solid fa-plus icon-toggle"></i>
-                                <strong>1.Giới thiệu</strong>
+                                <strong>1. Giới thiệu</strong>
                             </div>
-                            <span class="lesson-count">2 bài học</span>
+                            <span class="lesson-count">2 bài học | 06:28</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 1. Lời khuyên trước khóa học</span><span class="time">04:20</span></li>
@@ -75,7 +74,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>2. Biến, comments, built-in</strong>
                             </div>
-                            <span class="lesson-count">4 bài học</span>
+                            <span class="lesson-count">4 bài học | 22:02</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 3. Sử dụng JavaScript với HTML</span><span class="time">04:33</span></li>
@@ -91,7 +90,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>3. Toán tử, kiểu dữ liệu</strong>
                             </div>
-                            <span class="lesson-count">12 bài học</span>
+                            <span class="lesson-count">12 bài học | 01h 30m</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 7. Làm quen với toán tử</span><span class="time">05:24</span></li>
@@ -115,7 +114,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>4. Làm việc với hàm</strong>
                             </div>
-                            <span class="lesson-count">5 bài học</span>
+                            <span class="lesson-count">5 bài học | 41:21</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 19. Khái niệm hàm (function)</span><span class="time">07:10</span></li>
@@ -132,7 +131,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>5. Làm việc với chuỗi</strong>
                             </div>
-                            <span class="lesson-count">2 bài học</span>
+                            <span class="lesson-count">2 bài học | 29:29</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 24. Kiểu dữ liệu chuỗi (string)</span><span class="time">10:49</span></li>
@@ -146,7 +145,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>6. Làm việc với số</strong>
                             </div>
-                            <span class="lesson-count">1 bài học</span>
+                            <span class="lesson-count">1 bài học | 10:18</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 26. Số và làm việc với số</span><span class="time">10:18</span></li>
@@ -159,7 +158,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>7. Làm việc với mảng</strong>
                             </div>
-                            <span class="lesson-count">2 bài học</span>
+                            <span class="lesson-count">2 bài học | 28:11</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 27. Mảng (array)</span><span class="time">10:08</span></li>
@@ -173,7 +172,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>8. Làm việc với object</strong>
                             </div>
-                            <span class="lesson-count">5 bài học</span>
+                            <span class="lesson-count">5 bài học | 47:32</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 29. Object là gì?</span><span class="time">11:38</span></li>
@@ -190,7 +189,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>9. Lệnh rẽ nhánh, toán tử 3 ngôi</strong>
                             </div>
-                            <span class="lesson-count">3 bài học</span>
+                            <span class="lesson-count">3 bài học | 19:33</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 34. Lệnh rẽ nhánh If else</span><span class="time">04:48</span></li>
@@ -205,7 +204,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>10. Vòng lặp</strong>
                             </div>
-                            <span class="lesson-count">12 bài học</span>
+                            <span class="lesson-count">12 bài học | 01h 12m</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 37. Giới thiệu vòng lặp</span><span class="time">02:29</span></li>
@@ -229,7 +228,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>11. Làm việc với mảng II</strong>
                             </div>
-                            <span class="lesson-count">6 bài học</span>
+                            <span class="lesson-count">6 bài học | 01h 27m</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 49. Làm việc với mảng - Phần 2</span><span class="time">14:34</span></li>
@@ -247,7 +246,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>12. Callback</strong>
                             </div>
-                            <span class="lesson-count">7 bài học</span>
+                            <span class="lesson-count">7 bài học | 01h 00m</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 55. Callback?</span><span class="time">05:11</span></li>
@@ -266,7 +265,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>13. HTML DOM</strong>
                             </div>
-                            <span class="lesson-count">17 bài học</span>
+                            <span class="lesson-count">17 bài học | 04h 23m</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 62. HTML DOM là gì?</span><span class="time">16:17</span></li>
@@ -296,7 +295,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>14. JSON, Fetch, Postman</strong>
                             </div>
-                            <span class="lesson-count">11 bài học</span>
+                            <span class="lesson-count">11 bài học | 02h 48m</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 79. JSON là gì?</span><span class="time">17:15</span></li>
@@ -319,7 +318,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>15. ECMAScript 6+</strong>
                             </div>
-                            <span class="lesson-count">12 bài học</span>
+                            <span class="lesson-count">12 bài học | 01h 50m</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 90. ECMAScript 6 là gì?</span><span class="time">02:54</span></li>
@@ -343,7 +342,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>16. Các bài thực hành</strong>
                             </div>
-                            <span class="lesson-count">3 bài học</span>
+                            <span class="lesson-count">3 bài học | 02h 41m</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 102. Xây dựng Tabs UI</span><span class="time">13:45</span></li>
@@ -358,7 +357,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>17. Form validation I</strong>
                             </div>
-                            <span class="lesson-count">5 bài học</span>
+                            <span class="lesson-count">5 bài học | 02h 14m</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 105. Xử lý báo lỗi cơ bản</span><span class="time">41:18</span></li>
@@ -375,7 +374,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>18. Form validation II</strong>
                             </div>
-                            <span class="lesson-count">2 bài học</span>
+                            <span class="lesson-count">2 bài học | 01h 10m</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 110. Phân tích cách triển khai logic</span><span class="time">01:01:27</span></li>
@@ -389,7 +388,7 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>19. Tham khảo thêm</strong>
                             </div>
-                            <span class="lesson-count">1 bài học</span>
+                            <span class="lesson-count">1 bài học | 07:21</span>
                         </div>
                         <ul class="dropdown">
                             <li><span><i class="fa-regular fa-circle-play"></i> 112. Polyfill là gì? Khi nào cần sử dụng?</span><span class="time">07:21</span></li>
@@ -418,24 +417,19 @@
                 </div>
 
                 <div class="card-body">
-                    <div class="price-tag">Khoá học JavaScript</div>
+                    <div class="price-tag">Miễn phí</div>
                     <a class="btn_buy" href="./models/course/js_video.php">Xem ngay</a>
 
                     <ul class="course-features">
                         <li><i class="fa-solid fa-gauge-high"></i> Trình độ cơ bản</li>
                         <li><i class="fa-solid fa-film"></i> Tổng số 112 bài học</li>
-                        <li><i class="fa-solid fa-clock"></i> Thời lượng 23h 52p</li>
+                        <li><i class="fa-solid fa-clock"></i> Thời lượng 23h 54p</li>
                         <li><i class="fa-solid fa-battery-full"></i> Học mọi lúc, mọi nơi</li>
-                        <li><i class="fa-solid fa-certificate"></i> Cấp chứng chỉ khi hoàn thành</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-
-
-
-    <script src="dropdown.js"></script>
 </body>
 
 </html>

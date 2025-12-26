@@ -1,7 +1,7 @@
 <?php
 $db_server   = "localhost";
 $db_username = "root";
-$db_password = "loc.1005";
+$db_password = "";
 $db_name     = "cgv";
 $db_port     = 3306;
 

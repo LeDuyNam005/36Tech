@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chi tiết khóa học Lập trình C</title>
+    <title>Chi tiết khóa học Git và GitHub</title>
 
     <link rel="stylesheet" href="../../assets/css/index.css">
 
@@ -21,7 +21,7 @@
     <div class="container_content_inside_card">
         <div class="left_content_inside">
             <div class="course-header">
-                <h1>Ứng dụng Git và github</h1>
+                <h1>Ứng dụng Git và GitHub</h1>
                 <p class="course-desc">Khóa học cung cấp kiến thức nền tảng vững chắc, giúp bạn tư duy logic
                     và sẵn sàng cho con đường lập trình chuyên nghiệp.</p>
             </div>
@@ -47,7 +47,7 @@
                 <div class="course-stats">
                     <span><strong>8</strong> bài học</span>
                     <span>•</span>
-                    <span><strong>1 giờ 30 phút</strong> thời lượng</span>
+                    <span><strong>2 giờ 29 phút</strong> thời lượng</span>
                 </div>
 
                 <div class="list_dropdown">
@@ -57,13 +57,12 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>1. Giới thiệu</strong>
                             </div>
-                            <span class="lesson-count">1 bài học</span>
+                            <span class="lesson-count">1 bài học | 21:55</span>
                         </div>
                         <ul class="dropdown">
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 1. Giới thiệu về Git và
-                                    GitHub</span>
-                                <span class="time">10:41</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 1. Giới thiệu về Git và GitHub</span>
+                                <span class="time">21:55</span>
                             </li>
                         </ul>
                     </div>
@@ -74,23 +73,20 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>2. Sử dụng Git</strong>
                             </div>
-                            <span class="lesson-count">3 bài học</span>
+                            <span class="lesson-count">3 bài học | 1h 07m</span>
                         </div>
                         <ul class="dropdown">
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 2. Tạo Project với
-                                    GitHub</span>
-                                <span class="time">08:00</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 2. Tạo Project với GitHub</span>
+                                <span class="time">34:11</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 3. Https và SSH - Tạo Key
-                                    SSH cho Git</span>
-                                <span class="time">12:30</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 3. Https và SSH - Tạo Key SSH cho Git</span>
+                                <span class="time">15:25</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 4. Các câu lệnh thường
-                                    dùng</span>
-                                <span class="time">08:00</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 4. Các câu lệnh thường dùng</span>
+                                <span class="time">18:08</span>
                             </li>
                         </ul>
                     </div>
@@ -101,27 +97,24 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>3. Ứng dụng trong làm việc nhóm</strong>
                             </div>
-                            <span class="lesson-count">4 bài học</span>
+                            <span class="lesson-count">4 bài học | 59:39</span>
                         </div>
                         <ul class="dropdown">
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 5. Làm việc nhóm với
-                                    GitHub</span>
-                                <span class="time">12:30</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 5. Làm việc nhóm với GitHub</span>
+                                <span class="time">18:45</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 6. Resolve Conflict - Giải
-                                    quyết xung đột</span>
-                                <span class="time">12:30</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 6. Resolve Conflict - Giải quyết xung đột</span>
+                                <span class="time">14:27</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i> 7. Backup và khôi phục dữ
-                                    liệu</span>
-                                <span class="time">12:30</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 7. Backup và khôi phục dữ liệu</span>
+                                <span class="time">13:55</span>
                             </li>
                             <li>
                                 <span><i class="fa-regular fa-circle-play"></i> 8. Mov to GitLab</span>
-                                <span class="time">12:30</span>
+                                <span class="time">12:32</span>
                             </li>
                         </ul>
                     </div>
@@ -152,16 +145,14 @@
 
                     <ul class="course-features">
                         <li><i class="fa-solid fa-gauge-high"></i> Trình độ cơ bản</li>
-                        <li><i class="fa-solid fa-film"></i> Tổng số 22 bài học</li>
-                        <li><i class="fa-solid fa-clock"></i> Thời lượng 11h</li>
+                        <li><i class="fa-solid fa-film"></i> Tổng số 8 bài học</li>
+                        <li><i class="fa-solid fa-clock"></i> Thời lượng 02h 29p</li>
                         <li><i class="fa-solid fa-battery-full"></i> Học mọi lúc, mọi nơi</li>
-                        <li><i class="fa-solid fa-certificate"></i> Cấp chứng chỉ khi hoàn thành</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-
 
     <script src="dropdown.js"></script>
 </body>

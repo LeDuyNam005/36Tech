@@ -34,8 +34,8 @@
                     </div>
 
                     <div class="video-info">
-                        <h1 class="video-title" id="noi_dung_video">Javascript có thể làm được gì? Học lập trình Javascript cơ bản</h1>
-                        <p class="video-desc">Khóa học JavaScript Cơ bản</p>
+                        <h1 class="video-title" id="noi_dung_video">1. Lời khuyên trước khóa học</h1>
+                        <p class="video-desc">Cập nhật tháng 12 năm 2025</p>
                     </div>
                 </div>
 
@@ -43,7 +43,7 @@
                     <div class="curriculum-header">
                         <h3>Nội dung khóa học</h3>
                         <div class="course-stats">
-                            <span><strong>~90</strong> bài học</span> • <span><strong>~12h</strong></span>
+                            <span><strong>112</strong> bài học</span> • <span><strong>23h 54m</strong></span>
                         </div>
                     </div>
 
@@ -53,13 +53,13 @@
                             <div class="list_title active-chapter" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">1. Giới thiệu</strong>
-                                    <span class="lesson-count">0/2 | 06:28</span>
+                                    <span class="lesson-count">2 bài học | 06:28</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-down icon-toggle"></i>
                             </div>
                             <ul class="dropdown" style="display: block;">
                                 <li class="lesson-item active"
-                                    onclick="changeVideo(this, '-jV06pqjUUc', '1. Lời khuyên trước khóa học')">
+                                    onclick="changeVideo(this, '-jV06pqjUUc?si=AyFK7j8GItFb0YaX', '1. Lời khuyên trước khóa học')">
                                     <div class="lesson-info">
                                         <i class="fa-solid fa-circle-play status-icon"></i>
                                         <div class="lesson-text">
@@ -85,7 +85,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">2. Biến, comments, built-in</strong>
-                                    <span class="lesson-count">0/4 | 22:02</span>
+                                    <span class="lesson-count">4 bài học | 22:02</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -133,7 +133,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">3. Toán tử, kiểu dữ liệu</strong>
-                                    <span class="lesson-count">0/12 | 1h 21m 27s</span>
+                                    <span class="lesson-count">12 bài học | 01h 30m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -253,7 +253,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">4. Làm việc với hàm</strong>
-                                    <span class="lesson-count">0/5 | 41:21</span>
+                                    <span class="lesson-count">5 bài học | 41:21</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -310,7 +310,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">5. Làm việc với chuỗi</strong>
-                                    <span class="lesson-count">0/2 | 29:29</span>
+                                    <span class="lesson-count">2 bài học | 29:29</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -340,7 +340,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">6. Làm việc với số</strong>
-                                    <span class="lesson-count">0/1 | 10:18</span>
+                                    <span class="lesson-count">1 bài học | 10:18</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -361,7 +361,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">7. Làm việc với mảng</strong>
-                                    <span class="lesson-count">0/2 | 28:11</span>
+                                    <span class="lesson-count">2 bài học | 28:11</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -391,7 +391,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">8. Làm việc với object</strong>
-                                    <span class="lesson-count">0/5 | 47:32</span>
+                                    <span class="lesson-count">5 bài học | 47:32</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -448,7 +448,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">9. Lệnh rẽ nhánh, toán tử 3 ngôi</strong>
-                                    <span class="lesson-count">0/3 | 19:33</span>
+                                    <span class="lesson-count">3 bài học | 19:33</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -487,7 +487,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">10. Vòng lặp</strong>
-                                    <span class="lesson-count">0/12 | 1h 21m 23s</span>
+                                    <span class="lesson-count">12 bài học | 01h 12m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -607,7 +607,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">11. Làm việc với mảng II</strong>
-                                    <span class="lesson-count">0/6 | 1h 28m 43s</span>
+                                    <span class="lesson-count">6 bài học | 01h 27m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -673,7 +673,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">12. Callback</strong>
-                                    <span class="lesson-count">0/7 | 1h 15m 18s</span>
+                                    <span class="lesson-count">7 bài học | 01h 00m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -748,7 +748,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">13. HTML DOM</strong>
-                                    <span class="lesson-count">0/17 | 3h 11m 47s</span>
+                                    <span class="lesson-count">17 bài học | 04h 23m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -909,11 +909,12 @@
                             </ul>
                         </div>
 
+
                         <div class="accordion-item">
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">14. JSON, Fetch, Postman</strong>
-                                    <span class="lesson-count">0/11 | 2h 52m 44s</span>
+                                    <span class="lesson-count">11 bài học | 02h 48m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -1024,7 +1025,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">15. ECMAScript 6+</strong>
-                                    <span class="lesson-count">0/12 | 1h 47m 05s</span>
+                                    <span class="lesson-count">12 bài học | 01h 50m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -1144,7 +1145,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">16. Các bài thực hành</strong>
-                                    <span class="lesson-count">0/3 | 2h 45m 15s</span>
+                                    <span class="lesson-count">3 bài học | 02h 41m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -1183,7 +1184,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">17. Form validation I</strong>
-                                    <span class="lesson-count">0/5 | 1h 54m 35s</span>
+                                    <span class="lesson-count">5 bài học | 02h 14m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -1240,7 +1241,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">18. Form validation II</strong>
-                                    <span class="lesson-count">0/2 | 1h 10m 52s</span>
+                                    <span class="lesson-count">2 bài học | 01h 10m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -1270,7 +1271,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">19. Tham khảo thêm</strong>
-                                    <span class="lesson-count">0/1 | 07:21</span>
+                                    <span class="lesson-count">1 bài học | 07:21</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>

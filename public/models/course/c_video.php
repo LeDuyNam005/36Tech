@@ -43,21 +43,21 @@
                     <div class="curriculum-header">
                         <h3>Nội dung khóa học</h3>
                         <div class="course-stats">
-                            <span><strong>25</strong> bài học</span> • <span><strong>11h</strong></span>
+                            <span><strong>25</strong> bài học</span> • <span><strong>11h 02m</strong></span>
                         </div>
                     </div>
 
                     <div class="curriculum-list scroll-bar">
+
                         <div class="accordion-item">
                             <div class="list_title active-chapter" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">1. Giới thiệu</strong>
-                                    <span class="lesson-count">3/3 | 28:30</span>
+                                    <span class="lesson-count">3 bài học | 28:40</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-down icon-toggle"></i>
                             </div>
                             <ul class="dropdown" style="display: block;">
-
                                 <li class="lesson-item active"
                                     onclick="changeVideo(this, 'yiB5AdEQHPY?si=_ZPrSuGnAd0tihNr', '1. Giới thiệu về khóa học lập trình C - Lợi ích khi học lập trình C')">
                                     <div class="lesson-info">
@@ -68,7 +68,6 @@
                                         </div>
                                     </div>
                                 </li>
-
                                 <li class="lesson-item"
                                     onclick="changeVideo(this, 'FKrukvR62yo?si=bqsyibsRJALR6G09', '2. Cài đặt và cấu hình Dev-C++ để lập trình C và C++')">
                                     <div class="lesson-info">
@@ -96,7 +95,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">2. Biến & Kiểu dữ liệu</strong>
-                                    <span class="lesson-count">3/3 | 1:33:30</span>
+                                    <span class="lesson-count">3 bài học | 1h 33m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -130,11 +129,12 @@
                                 </li>
                             </ul>
                         </div>
+
                         <div class="accordion-item">
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">3. Nhập xuất</strong>
-                                    <span class="lesson-count">2/2 | 1:19:00</span>
+                                    <span class="lesson-count">2 bài học | 1h 19m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -159,11 +159,12 @@
                                 </li>
                             </ul>
                         </div>
+
                         <div class="accordion-item">
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">4. Cấu trúc rẽ nhánh</strong>
-                                    <span class="lesson-count">4/4 | 1:54:00</span>
+                                    <span class="lesson-count">4 bài học | 1h 53m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -206,11 +207,12 @@
                                 </li>
                             </ul>
                         </div>
+
                         <div class="accordion-item">
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">5. Vòng lặp</strong>
-                                    <span class="lesson-count">2/2 | 34:30</span>
+                                    <span class="lesson-count">2 bài học | 34:48</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -235,11 +237,12 @@
                                 </li>
                             </ul>
                         </div>
+
                         <div class="accordion-item">
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">6. Hàm</strong>
-                                    <span class="lesson-count">2/2 | 56:00</span>
+                                    <span class="lesson-count">2 bài học | 56:18</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -264,11 +267,12 @@
                                 </li>
                             </ul>
                         </div>
+
                         <div class="accordion-item">
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">7. Mảng & Chuỗi</strong>
-                                    <span class="lesson-count">3/3 | 1:27:30</span>
+                                    <span class="lesson-count">3 bài học | 1h 27m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -302,11 +306,12 @@
                                 </li>
                             </ul>
                         </div>
+
                         <div class="accordion-item">
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">8. Con trỏ</strong>
-                                    <span class="lesson-count">3/3 | 1:37:30</span>
+                                    <span class="lesson-count">3 bài học | 1h 37m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -340,11 +345,12 @@
                                 </li>
                             </ul>
                         </div>
+
                         <div class="accordion-item">
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">9. Kiểu dữ liệu cấu trúc - Struct</strong>
-                                    <span class="lesson-count">2/2 | 47:00</span>
+                                    <span class="lesson-count">2 bài học | 47:14</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -369,11 +375,12 @@
                                 </li>
                             </ul>
                         </div>
+
                         <div class="accordion-item">
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">10. Kiểu dữ liệu liệt kê - Enum</strong>
-                                    <span class="lesson-count">1/1 | 23:17</span>
+                                    <span class="lesson-count">1 bài học | 23:17</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>

@@ -34,8 +34,8 @@
                             allowfullscreen></iframe>
                     </div>
                     <div class="video-info">
-                        <h1 class="video-title" id="video-title">HTML CSS từ Zero đến Hero</h1>
-                        <p class="video-desc">Khóa học nền tảng cho lập trình web</p>
+                        <h1 class="video-title" id="noi_dung_video">1. Bạn sẽ làm được gì sau khóa học?</h1>
+                        <p class="video-desc">Cập nhật tháng 12 năm 2025</p>
                     </div>
                 </div>
 
@@ -43,7 +43,7 @@
                     <div class="curriculum-header">
                         <h3>Nội dung khóa học</h3>
                         <div class="course-stats">
-                            <span><strong>37</strong> bài học</span> • <span><strong>7h 11m</strong></span>
+                            <span><strong>43</strong> bài học</span> • <span><strong>05h 48m</strong></span>
                         </div>
                     </div>
 
@@ -53,7 +53,7 @@
                             <div class="list_title active-chapter" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">1. Bắt đầu</strong>
-                                    <span class="lesson-count">5 bài học</span>
+                                    <span class="lesson-count">5 bài học | 16:39</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-down icon-toggle"></i>
                             </div>
@@ -115,7 +115,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">2. Làm quen với HTML</strong>
-                                    <span class="lesson-count">5 bài học</span>
+                                    <span class="lesson-count">5 bài học | 32:12</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -177,7 +177,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">3. Làm quen với CSS</strong>
-                                    <span class="lesson-count">10 bài học</span>
+                                    <span class="lesson-count">10 bài học | 01h 20m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -288,7 +288,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">4. Đệm, viền và khoảng lề (Box Model)</strong>
-                                    <span class="lesson-count">4 bài học</span>
+                                    <span class="lesson-count">4 bài học | 23:09</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -340,7 +340,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">5. Thuộc tính tạo nền (Background)</strong>
-                                    <span class="lesson-count">6 bài học</span>
+                                    <span class="lesson-count">6 bài học | 40:23</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -413,7 +413,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">6. Thuộc tính vị trí (Position)</strong>
-                                    <span class="lesson-count">4 bài học</span>
+                                    <span class="lesson-count">4 bài học | 17:49</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -465,7 +465,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">7. Dựng bố cục web với Flexbox</strong>
-                                    <span class="lesson-count">4 bài học</span>
+                                    <span class="lesson-count">4 bài học | 01h 02m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -518,7 +518,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">8. Một số tricks và tips</strong>
-                                    <span class="lesson-count">3 bài học</span>
+                                    <span class="lesson-count">3 bài học | 01h 02m</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>
@@ -560,7 +560,7 @@
                             <div class="list_title" onclick="toggleDropdown(this)">
                                 <div class="title-text">
                                     <strong class="chapter-name">9. Hoàn thành khóa học</strong>
-                                    <span class="lesson-count">2 bài học</span>
+                                    <span class="lesson-count">2 bài học | 13:00</span>
                                 </div>
                                 <i class="fa-solid fa-chevron-up icon-toggle"></i>
                             </div>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chi tiết khóa học Lập trình C</title>
+    <title>Chi tiết khóa học Responsive và Grid System</title>
 
     <link rel="stylesheet" href="../../assets/css/index.css">
 
@@ -45,9 +45,9 @@
             <div class="curriculum-section">
                 <h3>Nội dung khóa học</h3>
                 <div class="course-stats">
-                    <span><strong>36</strong> bài học</span>
+                    <span><strong>22</strong> bài học</span>
                     <span>•</span>
-                    <span><strong>06 giờ 44 phút</strong> thời lượng</span>
+                    <span><strong>03 giờ 56 phút</strong> thời lượng</span>
                 </div>
 
                 <div class="list_dropdown">
@@ -55,22 +55,21 @@
                         <div class="list_title" onclick="toggleDropdown(this)">
                             <div class="title-text">
                                 <i class="fa-solid fa-plus icon-toggle"></i>
-                                <strong>1.Bắt đầu</strong>
+                                <strong>1. Bắt đầu</strong>
                             </div>
-                            <span class="lesson-count">3 bài học</span>
+                            <span class="lesson-count">3 bài học | 13:21</span>
                         </div>
                         <ul class="dropdown">
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>1. Responsive là gì?</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 1. Responsive là gì?</span>
                                 <span class="time">07:28</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>2. Chúng ta sẽ làm gì?</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 2. Chúng ta sẽ làm gì?</span>
                                 <span class="time">01:58</span>
                             </li>
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>3. Chuẩn bị công cụ làm
-                                    việc</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 3. Chuẩn bị công cụ làm việc</span>
                                 <span class="time">03:55</span>
                             </li>
                         </ul>
@@ -82,29 +81,26 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>2. Viewport , @media, breakpoint</strong>
                             </div>
-                            <span class="lesson-count">4 bài học</span>
+                            <span class="lesson-count">4 bài học | 35:10</span>
                         </div>
                         <ul class="dropdown">
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>4. Khái niệm Viewport</span>
-                                <span class="time">05:34</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 4. Khái niệm Viewport</span>
+                                <span class="time">03:11</span>
                             </li>
 
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>5. Media query
-                                    (@media)</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 5. Media query (@media)</span>
                                 <span class="time">18:01</span>
                             </li>
 
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>6. Khái niệm
-                                    Breakpoints?</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 6. Khái niệm Breakpoints?</span>
                                 <span class="time">09:24</span>
                             </li>
 
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>7. Media queries: Px, rem hay
-                                    em?</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 7. Media queries: Px, rem hay em?</span>
                                 <span class="time">04:34</span>
                             </li>
                         </ul>
@@ -117,19 +113,17 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>3. Thực hành nhỏ</strong>
                             </div>
-                            <span class="lesson-count">2 bài học</span>
+                            <span class="lesson-count">2 bài học | 50:45</span>
                         </div>
 
                         <ul class="dropdown">
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>8. Học responsive qua thực
-                                    hành</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 8. Học responsive qua thực hành</span>
                                 <span class="time">23:33</span>
                             </li>
 
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>9. Responsive navigation bar
-                                </span>
+                                <span><i class="fa-regular fa-circle-play"></i> 9. Responsive navigation bar</span>
                                 <span class="time">27:12</span>
                             </li>
                         </ul>
@@ -141,55 +135,47 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>4. Grid System</strong>
                             </div>
-                            <span class="lesson-count">8 bài học</span>
+                            <span class="lesson-count">8 bài học | 01h 33m</span>
                         </div>
 
                         <ul class="dropdown">
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>10. Hệ thống lưới (Grid
-                                    system)</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 10. Hệ thống lưới (Grid system)</span>
                                 <span class="time">18:55</span>
                             </li>
 
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>11. Grid system - Phần 2
-                                </span>
+                                <span><i class="fa-regular fa-circle-play"></i> 11. Grid system - Phần 2</span>
                                 <span class="time">10:46</span>
                             </li>
 
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>12. Tạo thư viện?
-                                </span>
+                                <span><i class="fa-regular fa-circle-play"></i> 12. Tạo thư viện?</span>
                                 <span class="time">02:41</span>
                             </li>
 
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>13. Tạo đối tượng Grid
-                                </span>
+                                <span><i class="fa-regular fa-circle-play"></i> 13. Tạo đối tượng Grid</span>
                                 <span class="time">13:50</span>
                             </li>
 
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>14. Tạo đối tượng Row
-                                </span>
+                                <span><i class="fa-regular fa-circle-play"></i> 14. Tạo đối tượng Row</span>
                                 <span class="time">13:06</span>
                             </li>
 
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>15. Tạo đối tượng Column
-                                </span>
+                                <span><i class="fa-regular fa-circle-play"></i> 15. Tạo đối tượng Column</span>
                                 <span class="time">23:23</span>
                             </li>
 
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>16. Column offset
-                                </span>
+                                <span><i class="fa-regular fa-circle-play"></i> 16. Column offset</span>
                                 <span class="time">08:04</span>
                             </li>
 
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>17. No gutters
-                                </span>
+                                <span><i class="fa-regular fa-circle-play"></i> 17. No gutters</span>
                                 <span class="time">02:31</span>
                             </li>
                         </ul>
@@ -202,37 +188,32 @@
                                 <i class="fa-solid fa-plus icon-toggle"></i>
                                 <strong>5. Áp dụng thực tế</strong>
                             </div>
-                            <span class="lesson-count">6 bài học</span>
+                            <span class="lesson-count">5 bài học | 43:24</span>
                         </div>
 
                         <ul class="dropdown">
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>18. Giới thiệu chương</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 18. Giới thiệu chương</span>
                                 <span class="time">03:31</span>
                             </li>
 
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>19. Sử dụng với các website
-                                    khác
-                                </span>
+                                <span><i class="fa-regular fa-circle-play"></i> 19. Sử dụng với các website khác</span>
                                 <span class="time">08:38</span>
                             </li>
 
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>20. Ví dụ dựng layout - Level
-                                    1</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 20. Ví dụ dựng layout - Level 1</span>
                                 <span class="time">07:39</span>
                             </li>
 
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>21. Ví dụ dựng layout - Level
-                                    2</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 21. Ví dụ dựng layout - Level 2</span>
                                 <span class="time">08:07</span>
                             </li>
 
                             <li>
-                                <span><i class="fa-regular fa-circle-play"></i>22. Ví dụ dựng layout - Level
-                                    3</span>
+                                <span><i class="fa-regular fa-circle-play"></i> 22. Ví dụ dựng layout - Level 3</span>
                                 <span class="time">15:29</span>
                             </li>
                         </ul>
@@ -264,10 +245,9 @@
 
                     <ul class="course-features">
                         <li><i class="fa-solid fa-gauge-high"></i> Trình độ cơ bản</li>
-                        <li><i class="fa-solid fa-film"></i> Tổng số 85 bài học</li>
-                        <li><i class="fa-solid fa-clock"></i> Thời lượng 1h 34p</li>
+                        <li><i class="fa-solid fa-film"></i> Tổng số 22 bài học</li>
+                        <li><i class="fa-solid fa-clock"></i> Thời lượng 03h 56p</li>
                         <li><i class="fa-solid fa-battery-full"></i> Học mọi lúc, mọi nơi</li>
-                        <li><i class="fa-solid fa-certificate"></i> Cấp chứng chỉ khi hoàn thành</li>
                     </ul>
                 </div>
             </div>
